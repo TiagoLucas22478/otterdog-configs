@@ -1,0 +1,46 @@
+{
+  "defaults": {
+    "github": {
+      "config_repo": ".eclipsefdn-private"
+    },
+    "bitwarden": {
+      "api_token_key": "api_token_admin"
+    },
+    "jsonnet": {
+      "base_template": {
+        "repo": "https://github.com/EclipseFdn/otterdog-defaults",
+        "branch": "main",
+        "file": "otterdog-defaults.libsonnet"
+      },
+      "config_dir": "orgs",
+      "create_org": "newOrg",
+      "create_webhook": "newWebhook",
+      "create_repo": "newRepo",
+      "create_branch_protection_rule": "newBranchProtectionRule"
+    }
+  },
+  "organizations": [
+    {
+      "name": "cbi",
+      "github_id": "eclipse-cbi",
+      "credentials": {
+        "provider": "pass",
+        "api_token": "bots/technology.cbi/github.com/otterdog-token",
+        "username": "bots/technology.cbi/github.com/username",
+        "password": "bots/technology.cbi/github.com/password",
+        "2fa_seed": "bots/technology.cbi/github.com/2FA-seed"
+      }
+    },
+    {
+      "name": "adoptium",
+      "github_id": "adoptium",
+      "credentials": {
+        "provider": "pass",
+        "api_token": "bots/adoptium/github.com/otterdog-token",
+        "username": "bots/adoptium/github.com/username",
+        "password": "bots/adoptium/github.com/password",
+        "2fa_seed": "bots/adoptium/github.com/2FA-seed"
+      }
+    }
+  ]
+}
