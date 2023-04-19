@@ -13,10 +13,6 @@
         "file": "otterdog-defaults.libsonnet"
       },
       "config_dir": "orgs",
-      "create_org": "newOrg",
-      "create_webhook": "newWebhook",
-      "create_repo": "newRepo",
-      "create_branch_protection_rule": "newBranchProtectionRule"
     }
   },
   "organizations": [
