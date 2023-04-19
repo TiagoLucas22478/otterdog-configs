@@ -12,7 +12,7 @@
         "branch": "main",
         "file": "otterdog-defaults.libsonnet"
       },
-      "config_dir": "orgs",
+      "config_dir": "orgs"
     }
   },
   "organizations": [
