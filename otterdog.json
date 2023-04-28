@@ -17,7 +17,7 @@
   },
   "organizations": [
     {
-      "name": "cbi",
+      "name": "eclipse-cbi",
       "github_id": "eclipse-cbi",
       "credentials": {
         "provider": "pass",
