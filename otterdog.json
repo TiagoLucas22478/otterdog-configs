@@ -28,6 +28,17 @@
       }
     },
     {
+      "name": "eclipse-tractusx",
+      "github_id": "eclipse-tractusx",
+      "credentials": {
+        "provider": "pass",
+        "api_token": "bots/automotive.tractusx/github.com/otterdog-token",
+        "username": "bots/automotive.tractusx/github.com/username",
+        "password": "bots/automotive.tractusx/github.com/password",
+        "2fa_seed": "bots/automotive.tractusx/github.com/2FA-seed"
+      }
+    },
+    {
       "name": "adoptium",
       "github_id": "adoptium",
       "credentials": {
