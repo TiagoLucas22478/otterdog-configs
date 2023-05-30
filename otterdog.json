@@ -17,6 +17,17 @@
   },
   "organizations": [
     {
+      "name": "adoptium",
+      "github_id": "adoptium",
+      "credentials": {
+        "provider": "pass",
+        "api_token": "bots/adoptium/github.com/otterdog-token",
+        "username": "bots/adoptium/github.com/username",
+        "password": "bots/adoptium/github.com/password",
+        "2fa_seed": "bots/adoptium/github.com/2FA-seed"
+      }
+    },
+    {
       "name": "eclipse-cbi",
       "github_id": "eclipse-cbi",
       "credentials": {
@@ -28,6 +39,17 @@
       }
     },
     {
+      "name": "eclipse-jdt",
+      "github_id": "eclipse-jdt",
+      "credentials": {
+        "provider": "pass",
+        "api_token": "bots/eclipse.jdt/github.com/otterdog-token",
+        "username": "bots/eclipse.jdt/github.com/username",
+        "password": "bots/eclipse.jdt/github.com/password",
+        "2fa_seed": "bots/eclipse.jdt/github.com/2FA-seed"
+      }
+    },    
+    {
       "name": "eclipse-tractusx",
       "github_id": "eclipse-tractusx",
       "credentials": {
@@ -36,17 +58,6 @@
         "username": "bots/automotive.tractusx/github.com/username",
         "password": "bots/automotive.tractusx/github.com/password",
         "2fa_seed": "bots/automotive.tractusx/github.com/2FA-seed"
-      }
-    },
-    {
-      "name": "adoptium",
-      "github_id": "adoptium",
-      "credentials": {
-        "provider": "pass",
-        "api_token": "bots/adoptium/github.com/otterdog-token",
-        "username": "bots/adoptium/github.com/username",
-        "password": "bots/adoptium/github.com/password",
-        "2fa_seed": "bots/adoptium/github.com/2FA-seed"
       }
     }
   ]
