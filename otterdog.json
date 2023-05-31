@@ -48,7 +48,18 @@
         "password": "bots/eclipse.jdt/github.com/password",
         "2fa_seed": "bots/eclipse.jdt/github.com/2FA-seed"
       }
-    },    
+    },
+    {
+      "name": "eclipse-pdt",
+      "github_id": "eclipse-pdt",
+      "credentials": {
+        "provider": "pass",
+        "api_token": "bots/tools.pdt/github.com/otterdog-token",
+        "username": "bots/tools.pdt/github.com/username",
+        "password": "bots/tools.pdt/github.com/password",
+        "2fa_seed": "bots/tools.pdt/github.com/2FA-seed"
+      }
+    },
     {
       "name": "eclipse-tractusx",
       "github_id": "eclipse-tractusx",
