@@ -19,6 +19,7 @@
     {
       "name": "adoptium",
       "github_id": "adoptium",
+      "config_repo": ".eclipsefdn",
       "credentials": {
         "provider": "pass",
         "api_token": "bots/adoptium/github.com/otterdog-token",
