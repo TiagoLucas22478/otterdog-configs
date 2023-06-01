@@ -1,7 +1,7 @@
 {
   "defaults": {
     "github": {
-      "config_repo": ".eclipsefdn-private"
+      "config_repo": ".eclipsefdn"
     },
     "bitwarden": {
       "api_token_key": "api_token_admin"
@@ -19,7 +19,6 @@
     {
       "name": "adoptium",
       "github_id": "adoptium",
-      "config_repo": ".eclipsefdn",
       "credentials": {
         "provider": "pass",
         "api_token": "bots/adoptium/github.com/otterdog-token",
@@ -31,7 +30,6 @@
     {
       "name": "eclipse-cbi",
       "github_id": "eclipse-cbi",
-      "config_repo": ".eclipsefdn",
       "credentials": {
         "provider": "pass",
         "api_token": "bots/technology.cbi/github.com/otterdog-token",
@@ -65,7 +63,6 @@
     {
       "name": "eclipse-tractusx",
       "github_id": "eclipse-tractusx",
-      "config_repo": ".eclipsefdn",
       "credentials": {
         "provider": "pass",
         "api_token": "bots/automotive.tractusx/github.com/otterdog-token",
