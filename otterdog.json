@@ -65,6 +65,7 @@
     {
       "name": "eclipse-tractusx",
       "github_id": "eclipse-tractusx",
+      "config_repo": ".eclipsefdn",
       "credentials": {
         "provider": "pass",
         "api_token": "bots/automotive.tractusx/github.com/otterdog-token",
