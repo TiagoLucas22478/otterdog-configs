@@ -15,122 +15,89 @@
     {
       "name": "adoptium",
       "github_id": "adoptium",
+      "eclipse_project": "adoptium",
       "credentials": {
-        "provider": "pass",
-        "api_token": "bots/adoptium/github.com/otterdog-token",
-        "username": "bots/adoptium/github.com/username",
-        "password": "bots/adoptium/github.com/password",
-        "2fa_seed": "bots/adoptium/github.com/2FA-seed"
+        "provider": "pass"
       }
     },
     {
       "name": "eclipse-cbi",
       "github_id": "eclipse-cbi",
+      "eclipse_project": "technology.cbi",
       "credentials": {
-        "provider": "pass",
-        "api_token": "bots/technology.cbi/github.com/otterdog-token",
-        "username": "bots/technology.cbi/github.com/username",
-        "password": "bots/technology.cbi/github.com/password",
-        "2fa_seed": "bots/technology.cbi/github.com/2FA-seed"
+        "provider": "pass"
       }
     },
     {
       "name": "eclipse-cdt",
       "github_id": "eclipse-cdt",
+      "eclipse_project": "tools.cdt",
       "credentials": {
-        "provider": "pass",
-        "api_token": "bots/tools.cdt/github.com/otterdog-token",
-        "username": "bots/tools.cdt/github.com/username",
-        "password": "bots/tools.cdt/github.com/password",
-        "2fa_seed": "bots/tools.cdt/github.com/2FA-seed"
+        "provider": "pass"
       }
     },
     {
       "name": "eclipse-cdt-cloud",
       "github_id": "eclipse-cdt-cloud",
+      "eclipse_project": "ecd.cdt-cloud",
       "credentials": {
-        "provider": "pass",
-        "api_token": "bots/ecd.cdt-cloud/github.com/otterdog-token",
-        "username": "bots/ecd.cdt-cloud/github.com/username",
-        "password": "bots/ecd.cdt-cloud/github.com/password",
-        "2fa_seed": "bots/ecd.cdt-cloud/github.com/2FA-seed"
+        "provider": "pass"
       }
     },
     {
       "name": "eclipse-jdt",
       "github_id": "eclipse-jdt",
+      "eclipse_project": "eclipse.jdt",
       "credentials": {
-        "provider": "pass",
-        "api_token": "bots/eclipse.jdt/github.com/otterdog-token",
-        "username": "bots/eclipse.jdt/github.com/username",
-        "password": "bots/eclipse.jdt/github.com/password",
-        "2fa_seed": "bots/eclipse.jdt/github.com/2FA-seed"
+        "provider": "pass"
       }
     },
     {
       "name": "eclipse-oomph",
       "github_id": "eclipse-oomph",
+      "eclipse_project": "tools.oomph",
       "credentials": {
-        "provider": "pass",
-        "api_token": "bots/tools.oomph/github.com/otterdog-token",
-        "username": "bots/tools.oomph/github.com/username",
-        "password": "bots/tools.oomph/github.com/password",
-        "2fa_seed": "bots/tools.oomph/github.com/2FA-seed"
+        "provider": "pass"
       }
     },    
     {
       "name": "eclipse-orbit",
       "github_id": "eclipse-orbit",
+      "eclipse_project": "tools.orbit",      
       "credentials": {
-        "provider": "pass",
-        "api_token": "bots/tools.orbit/github.com/otterdog-token",
-        "username": "bots/tools.orbit/github.com/username",
-        "password": "bots/tools.orbit/github.com/password",
-        "2fa_seed": "bots/tools.orbit/github.com/2FA-seed"
+        "provider": "pass"
       }
     },    
     {
       "name": "eclipse-packaging",
       "github_id": "eclipse-packaging",
+      "eclipse_project": "technology.packaging",
       "credentials": {
-        "provider": "pass",
-        "api_token": "bots/technology.packaging/github.com/otterdog-token",
-        "username": "bots/technology.packaging/github.com/username",
-        "password": "bots/technology.packaging/github.com/password",
-        "2fa_seed": "bots/technology.packaging/github.com/2FA-seed"
+        "provider": "pass"
       }
     },
     {
       "name": "eclipse-pdt",
       "github_id": "eclipse-pdt",
+      "eclipse_project": "tools.pdt",
       "credentials": {
-        "provider": "pass",
-        "api_token": "bots/tools.pdt/github.com/otterdog-token",
-        "username": "bots/tools.pdt/github.com/username",
-        "password": "bots/tools.pdt/github.com/password",
-        "2fa_seed": "bots/tools.pdt/github.com/2FA-seed"
+        "provider": "pass"
       }
     },
     {
       "name": "eclipse-tractusx",
       "github_id": "eclipse-tractusx",
+      "eclipse_project": "automotive.tractusx",
       "credentials": {
-        "provider": "pass",
-        "api_token": "bots/automotive.tractusx/github.com/otterdog-token",
-        "username": "bots/automotive.tractusx/github.com/username",
-        "password": "bots/automotive.tractusx/github.com/password",
-        "2fa_seed": "bots/automotive.tractusx/github.com/2FA-seed"
+        "provider": "pass"
       }
     },
     {
       "name": "eclipse-wildwebdeveloper",
       "github_id": "eclipse-wildwebdeveloper",
+      "eclipse_project": "tools.wildwebdeveloper",
       "credentials": {
-        "provider": "pass",
-        "api_token": "bots/tools.wildwebdeveloper/github.com/otterdog-token",
-        "username": "bots/tools.wildwebdeveloper/github.com/username",
-        "password": "bots/tools.wildwebdeveloper/github.com/password",
-        "2fa_seed": "bots/tools.wildwebdeveloper/github.com/2FA-seed"
+        "provider": "pass"
       }
     }    
   ]
