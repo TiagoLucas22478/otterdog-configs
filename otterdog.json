@@ -68,6 +68,17 @@
       }
     },    
     {
+      "name": "eclipse-orbit",
+      "github_id": "eclipse-orbit",
+      "credentials": {
+        "provider": "pass",
+        "api_token": "bots/tools.orbit/github.com/otterdog-token",
+        "username": "bots/tools.orbit/github.com/username",
+        "password": "bots/tools.orbit/github.com/password",
+        "2fa_seed": "bots/tools.orbit/github.com/2FA-seed"
+      }
+    },    
+    {
       "name": "eclipse-packaging",
       "github_id": "eclipse-packaging",
       "credentials": {
