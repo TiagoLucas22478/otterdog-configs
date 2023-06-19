@@ -53,6 +53,14 @@
       }
     },
     {
+      "name": "eclipse-lsp4j",
+      "github_id": "eclipse-lsp4j",
+      "eclipse_project": "technology.lsp4j",
+      "credentials": {
+        "provider": "pass"
+      }
+    },
+    {
       "name": "eclipse-oomph",
       "github_id": "eclipse-oomph",
       "eclipse_project": "tools.oomph",
