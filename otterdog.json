@@ -57,6 +57,17 @@
       }
     },
     {
+      "name": "eclipse-oomph",
+      "github_id": "eclipse-oomph",
+      "credentials": {
+        "provider": "pass",
+        "api_token": "bots/tools.oomph/github.com/otterdog-token",
+        "username": "bots/tools.oomph/github.com/username",
+        "password": "bots/tools.oomph/github.com/password",
+        "2fa_seed": "bots/tools.oomph/github.com/2FA-seed"
+      }
+    },    
+    {
       "name": "eclipse-packaging",
       "github_id": "eclipse-packaging",
       "credentials": {
