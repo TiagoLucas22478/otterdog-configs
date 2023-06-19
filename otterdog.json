@@ -57,6 +57,17 @@
       }
     },
     {
+      "name": "eclipse-packaging",
+      "github_id": "eclipse-packaging",
+      "credentials": {
+        "provider": "pass",
+        "api_token": "bots/technology.packaging/github.com/otterdog-token",
+        "username": "bots/technology.packaging/github.com/username",
+        "password": "bots/technology.packaging/github.com/password",
+        "2fa_seed": "bots/technology.packaging/github.com/2FA-seed"
+      }
+    },
+    {
       "name": "eclipse-pdt",
       "github_id": "eclipse-pdt",
       "credentials": {
