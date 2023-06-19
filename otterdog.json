@@ -35,6 +35,17 @@
       }
     },
     {
+      "name": "eclipse-cdt",
+      "github_id": "eclipse-cdt",
+      "credentials": {
+        "provider": "pass",
+        "api_token": "bots/tools.cdt/github.com/otterdog-token",
+        "username": "bots/tools.cdt/github.com/username",
+        "password": "bots/tools.cdt/github.com/password",
+        "2fa_seed": "bots/tools.cdt/github.com/2FA-seed"
+      }
+    },
+    {
       "name": "eclipse-jdt",
       "github_id": "eclipse-jdt",
       "credentials": {
