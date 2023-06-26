@@ -53,6 +53,14 @@
       }
     },
     {
+      "name": "eclipse-kuksa",
+      "github_id": "eclipse-kuksa",
+      "eclipse_project": "automotive.kuksa",
+      "credentials": {
+        "provider": "pass"
+      }
+    },
+    {
       "name": "eclipse-lsp4j",
       "github_id": "eclipse-lsp4j",
       "eclipse_project": "technology.lsp4j",
