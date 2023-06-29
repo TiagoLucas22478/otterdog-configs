@@ -1,0 +1,54 @@
+name: Build page
+on:
+  push:
+    branches: [ "main" ]
+    paths:
+     - 'otterdog.json'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Create list of projects
+        run: |
+          echo "# List of projects that have otterdog enabled:" > index.md
+          for org in $(jq -r .organizations[].github_id < otterdog.json); do
+            echo "* [${org}](https://github.com/${org})" >> index.md
+          done
+      - name: Commit change
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add index.md
+          git commit -m "Update list" || true
+          git push
+      - name: Setup Pages
+        uses: actions/configure-pages@v3
+      - name: Build with Jekyll
+        uses: actions/jekyll-build-pages@v1
+        with:
+          source: ./
+          destination: ./_site
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v1
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v2
