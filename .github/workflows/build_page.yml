@@ -2,6 +2,8 @@ name: Build page
 on:
   push:
     branches: [ "main" ]
+    paths:
+     - 'otterdog.json'
   workflow_dispatch:
 
 permissions:
