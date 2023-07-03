@@ -101,6 +101,14 @@
       }
     },
     {
+      "name": "eclipse-sirius",
+      "github_id": "eclipse-sirius",
+      "eclipse_project": "modeling.sirius",
+      "credentials": {
+        "provider": "pass"
+      }
+    },
+    {
       "name": "eclipse-tractusx",
       "github_id": "eclipse-tractusx",
       "eclipse_project": "automotive.tractusx",
