@@ -117,6 +117,14 @@
       }
     },
     {
+      "name": "eclipse-velocitas",
+      "github_id": "eclipse-velocitas",
+      "eclipse_project": "automotive.velocitas",
+      "credentials": {
+        "provider": "pass"
+      }
+    },
+    {
       "name": "eclipse-volttron",
       "github_id": "eclipse-volttron",
       "eclipse_project": "iot.volttron",
