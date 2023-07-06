@@ -125,6 +125,14 @@
       }
     },
     {
+      "name": "eclipse-vertx",
+      "github_id": "eclipse-vertx",
+      "eclipse_project": "rt.vertx",
+      "credentials": {
+        "provider": "pass"
+      }
+    },
+    {
       "name": "eclipse-volttron",
       "github_id": "eclipse-volttron",
       "eclipse_project": "iot.volttron",
