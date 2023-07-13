@@ -101,6 +101,14 @@
       }
     },
     {
+      "name": "eclipse-platform",
+      "github_id": "eclipse-platform",
+      "eclipse_project": "eclipse.platform",
+      "credentials": {
+        "provider": "pass"
+      }
+    },
+    {
       "name": "eclipse-set",
       "github_id": "eclipse-set",
       "eclipse_project": "technology.set",
