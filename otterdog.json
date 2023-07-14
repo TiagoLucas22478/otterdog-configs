@@ -45,6 +45,14 @@
       }
     },
     {
+      "name": "eclipse-chariott",
+      "github_id": "eclipse-chariott",
+      "eclipse_project": "automotive.chariott",
+      "credentials": {
+        "provider": "pass"
+      }
+    },
+    {
       "name": "eclipse-jdt",
       "github_id": "eclipse-jdt",
       "eclipse_project": "eclipse.jdt",
