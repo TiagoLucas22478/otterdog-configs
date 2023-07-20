@@ -77,6 +77,14 @@
       }
     },
     {
+      "name": "eclipse-leda",
+      "github_id": "eclipse-leda",
+      "eclipse_project": "automotive.leda",
+      "credentials": {
+        "provider": "pass"
+      }
+    },
+    {
       "name": "eclipse-lsp4j",
       "github_id": "eclipse-lsp4j",
       "eclipse_project": "technology.lsp4j",
