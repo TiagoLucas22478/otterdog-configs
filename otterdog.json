@@ -157,6 +157,14 @@
       }
     },
     {
+      "name": "eclipse-thingweb",
+      "github_id": "eclipse-thingweb",
+      "eclipse_project": "iot.thingweb",
+      "credentials": {
+        "provider": "pass"
+      }
+    },
+    {
       "name": "eclipse-tractusx",
       "github_id": "eclipse-tractusx",
       "eclipse_project": "automotive.tractusx",
