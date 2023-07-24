@@ -4,6 +4,6 @@ hide:
   - toc
 ---
 
-# List of Eclipse projects
+# List of Eclipse projects (total: {{ orgs.count }})
 
 {{ read_csv('./orgs.csv') }}
