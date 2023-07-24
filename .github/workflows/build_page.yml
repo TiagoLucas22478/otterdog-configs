@@ -22,11 +22,10 @@ jobs:
       - uses: actions/checkout@v3
       - name: Create list of projects
         run: |
-          EXTRA_DATA='./docs/extra-data.yaml'
+          EXTRA_DATA='./docs/orgs.yaml'
           NUM_ORGS=$(jq -c '.organizations[]' < otterdog.json | wc -l)
           cat <<EOT > ${EXTRA_DATA}
-          orgs:
-            count: ${NUM_ORGS}
+          count: ${NUM_ORGS}
           EOT
 
           OUTPUT='./docs/orgs.csv'

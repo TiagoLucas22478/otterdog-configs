@@ -19,7 +19,7 @@ watch: []
 plugins:
   - table-reader
   - markdownextradata:
-      data: docs/extra-data.yaml
+      data: docs
 
 extra_javascript:
   - https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js
