@@ -6,4 +6,4 @@ hide:
 
 # List of Eclipse projects
 
-{{ read_csv('./index.csv') }}
+{{ read_csv('./orgs.csv') }}
