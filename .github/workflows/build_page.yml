@@ -2,9 +2,6 @@ name: Build page
 on:
   push:
     branches: [ "main" ]
-    paths:
-     - '.github/workflows/build_page.yml'
-     - 'otterdog.json'
   workflow_dispatch:
 
 permissions:
@@ -21,22 +18,8 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - name: Create list of projects
-        run: |
-          EXTRA_DATA='./docs/orgs.yaml'
-          NUM_ORGS=$(jq -c '.organizations[]' < otterdog.json | wc -l)
-          cat <<EOT > ${EXTRA_DATA}
-          count: ${NUM_ORGS}
-          EOT
-
-          OUTPUT='./docs/orgs.csv'
-          cat <<EOT > ${OUTPUT}
-          Eclipse project,GitHub organization,Otterdog configuration
-          EOT
-          for org in $(jq -c '.organizations[]' < otterdog.json); do
-            GITHUB_ID=$(echo $org | jq -r '.github_id')
-            ECLIPSE_PROJECT=$(echo $org | jq -r '.eclipse_project')
-            echo "[${ECLIPSE_PROJECT}](https://projects.eclipse.org/projects/${ECLIPSE_PROJECT}),[${GITHUB_ID}](https://github.com/${GITHUB_ID}),[${GITHUB_ID}.jsonnet](https://github.com/${GITHUB_ID}/.eclipsefdn/blob/main/otterdog/${GITHUB_ID}.jsonnet)" >> ${OUTPUT}
-          done
+        working-directory: ${{ github.workspace }}
+        run: bash ${{ github.workspace }}/.github/workflows/generate.sh
       - uses: actions/setup-python@v4
         with:
           python-version: 3.x
