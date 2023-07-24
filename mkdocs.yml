@@ -1,0 +1,29 @@
+site_name: Otterdog configurations @ Eclipse Foundation
+site_description: Otterdog configurations @ Eclipse Foundation
+strict: true
+
+site_url: https://eclipsefdn.github.io/otterdog-configs/
+docs_dir: ./docs
+site_dir: ./_site
+
+theme:
+  name: 'material'
+
+nav: []
+
+markdown_extensions:
+- tables
+
+watch: []
+
+plugins:
+  - table-reader
+
+extra_javascript:
+  - https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js
+  - https://unpkg.com/tablefilter@0.7.3/dist/tablefilter/tablefilter.js
+  - javascripts/tablesort.js
+  - javascripts/tablefilter.js
+
+extra:
+  generator: false
