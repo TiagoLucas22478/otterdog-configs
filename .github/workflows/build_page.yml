@@ -41,6 +41,7 @@ jobs:
         with:
           python-version: 3.x
           cache: 'pip'
+      - run: pip install -r requirements.txt
       - name: Build with Mkdocs
         run: mkdocs build
       - name: Setup Pages
