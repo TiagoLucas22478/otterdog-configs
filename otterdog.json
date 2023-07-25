@@ -21,6 +21,14 @@
       }
     },
     {
+      "name": "eclipse-babel",
+      "github_id": "eclipse-babel",
+      "eclipse_project": "technology.babel",
+      "credentials": {
+        "provider": "pass"
+      }
+    },
+    {
       "name": "eclipse-cbi",
       "github_id": "eclipse-cbi",
       "eclipse_project": "technology.cbi",
