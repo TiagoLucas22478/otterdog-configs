@@ -61,6 +61,14 @@
       }
     },
     {
+      "name": "eclipse-esmf",
+      "github_id": "eclipse-esmf",
+      "eclipse_project": "dt.esmf",
+      "credentials": {
+        "provider": "pass"
+      }
+    },
+    {
       "name": "eclipse-glsp",
       "github_id": "eclipse-glsp",
       "eclipse_project": "ecd.glsp",
