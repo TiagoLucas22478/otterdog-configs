@@ -61,6 +61,14 @@
       }
     },
     {
+      "name": "eclipse-datatools",
+      "github_id": "eclipse-datatools",
+      "eclipse_project": "tools.datatools",
+      "credentials": {
+        "provider": "pass"
+      }
+    },
+    {
       "name": "eclipse-emf",
       "github_id": "eclipse-emf",
       "eclipse_project": "modeling.emf",
