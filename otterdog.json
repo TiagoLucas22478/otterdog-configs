@@ -69,6 +69,14 @@
       }
     },
     {
+      "name": "eclipse-embed-cdt",
+      "github_id": "eclipse-embed-cdt",
+      "eclipse_project": "iot.embed-cdt",
+      "credentials": {
+        "provider": "pass"
+      }
+    },
+    {
       "name": "eclipse-emf",
       "github_id": "eclipse-emf",
       "eclipse_project": "modeling.emf",
