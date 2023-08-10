@@ -259,6 +259,14 @@
       "credentials": {
         "provider": "pass"
       }
-    }    
+    },
+    {
+      "name": "eclipse-xpanse",
+      "github_id": "eclipse-xpanse",
+      "eclipse_project": "technology.xpanse",
+      "credentials": {
+        "provider": "pass"
+      }
+    }
   ]
 }
