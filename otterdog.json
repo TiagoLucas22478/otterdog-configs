@@ -229,6 +229,14 @@
       }
     },
     {
+      "name": "eclipse-uprotocol",
+      "github_id": "eclipse-uprotocol",
+      "eclipse_project": "automotive.uprotocol",
+      "credentials": {
+        "provider": "pass"
+      }
+    },
+    {
       "name": "eclipse-velocitas",
       "github_id": "eclipse-velocitas",
       "eclipse_project": "automotive.velocitas",
