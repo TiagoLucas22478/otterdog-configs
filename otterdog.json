@@ -283,6 +283,14 @@
       "credentials": {
         "provider": "pass"
       }
+    },
+    {
+      "name": "eclipse-zenoh",
+      "github_id": "eclipse-zenoh",
+      "eclipse_project": "iot.zenoh",
+      "credentials": {
+        "provider": "pass"
+      }
     }
   ]
 }
