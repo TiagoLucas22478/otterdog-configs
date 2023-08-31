@@ -125,6 +125,14 @@
       }
     },
     {
+      "name": "eclipse-kanto",
+      "github_id": "eclipse-kanto",
+      "eclipse_project": "iot.kanto",
+      "credentials": {
+        "provider": "pass"
+      }
+    },
+    {
       "name": "eclipse-keypop",
       "github_id": "eclipse-keypop",
       "eclipse_project": "iot.keypop",
