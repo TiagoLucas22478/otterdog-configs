@@ -1,5 +1,7 @@
 name: Build page
 on:
+  schedule:
+    - cron: '0 */1 * * *'
   push:
     branches: [ "main" ]
   workflow_dispatch:
@@ -17,14 +19,14 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - name: Create list of projects
-        working-directory: ${{ github.workspace }}
-        run: bash ${{ github.workspace }}/.github/workflows/generate.sh
       - uses: actions/setup-python@v4
         with:
           python-version: 3.x
           cache: 'pip'
       - run: pip install -r requirements.txt
+      - name: Create list of projects
+        working-directory: ${{ github.workspace }}
+        run: python ${{ github.workspace }}/.github/workflows/generate.py
       - name: Build with Mkdocs
         run: mkdocs build
       - name: Setup Pages

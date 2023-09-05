@@ -6,4 +6,4 @@ hide:
 
 # List of Eclipse projects (total: {{ orgs.count }})
 
-{{ read_csv('./orgs.csv') }}
+{{ read_raw('./orgs.csv') }}
