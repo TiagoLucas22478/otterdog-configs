@@ -1,12 +1,18 @@
+# *******************************************************************************
+# Copyright (c) 2023 Eclipse Foundation and others.
+# This program and the accompanying materials are made available
+# under the terms of the MIT License
+# which is available at https://spdx.org/licenses/MIT.html
+# SPDX-License-Identifier: MIT
+# *******************************************************************************
+
 import sys
 import json
-
-from typing import Optional
 
 import requests
 
 
-def get_repo_status(token: Optional[str], owner: str, repo: str) -> (int, int):
+def get_repo_status(token: str, owner: str, repo: str) -> (int, int):
     print(f"Checking repository {owner}/{repo}...")
 
     headers = {
@@ -35,7 +41,7 @@ def get_repo_status(token: Optional[str], owner: str, repo: str) -> (int, int):
     return data["issues"]["totalCount"], data["pullRequests"]["totalCount"]
 
 
-def generate(token: Optional[str]):
+def generate(token: str):
 
     with open("otterdog.json") as f:
         config = json.load(f)
@@ -69,5 +75,10 @@ def generate(token: Optional[str]):
 
 if __name__ == "__main__":
     args = sys.argv[1:]
-    arg_token = args[0] if len(args) > 0 else None
-    generate(arg_token)
+
+    if len(args) == 0:
+        print("Error: no token provided.")
+        exit(1)
+
+    generate(args[0])
+    exit(0)
