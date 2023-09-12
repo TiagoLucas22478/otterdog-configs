@@ -38,7 +38,10 @@ def get_repo_status(token: str, owner: str, repo: str) -> (int, int):
     response = requests.post("https://api.github.com/graphql", headers=headers, json={"query": query, "variables": variables})
 
     data = response.json()["data"]["repository"]
-    return data["issues"]["totalCount"], data["pullRequests"]["totalCount"]
+    if data is not None:
+        return data["issues"]["totalCount"], data["pullRequests"]["totalCount"]
+    else:
+        return 0, 0
 
 
 def generate(token: str):
