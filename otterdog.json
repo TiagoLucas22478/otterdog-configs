@@ -205,6 +205,14 @@
       }
     },
     {
+      "name": "eclipse-pass",
+      "github_id": "eclipse-pass",
+      "eclipse_project": "technology.pass",
+      "credentials": {
+        "provider": "pass"
+      }
+    },
+    {
       "name": "eclipse-pdt",
       "github_id": "eclipse-pdt",
       "eclipse_project": "tools.pdt",
