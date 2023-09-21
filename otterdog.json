@@ -237,6 +237,14 @@
       }
     },
     {
+      "name": "eclipse-simrel",
+      "github_id": "eclipse-simrel",
+      "eclipse_project": "foundation-internal.simrel",
+      "credentials": {
+        "provider": "pass"
+      }
+    },    
+    {
       "name": "eclipse-sirius",
       "github_id": "eclipse-sirius",
       "eclipse_project": "modeling.sirius",
