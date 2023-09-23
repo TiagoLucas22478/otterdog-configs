@@ -7,7 +7,7 @@
       "api_token_key": "api_token_admin"
     },
     "jsonnet": {
-      "base_template": "https://github.com/EclipseFdn/otterdog-defaults#otterdog-defaults.libsonnet@main",
+      "base_template": "https://github.com/EclipseFdn/otterdog-defaults#otterdog-defaults.libsonnet@v0.2.0",
       "config_dir": "orgs"
     }
   },
@@ -195,7 +195,7 @@
       "credentials": {
         "provider": "pass"
       }
-    },    
+    },
     {
       "name": "eclipse-packaging",
       "github_id": "eclipse-packaging",
@@ -243,7 +243,7 @@
       "credentials": {
         "provider": "pass"
       }
-    },    
+    },
     {
       "name": "eclipse-sirius",
       "github_id": "eclipse-sirius",
