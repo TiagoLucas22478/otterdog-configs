@@ -18,7 +18,8 @@
       "eclipse_project": "adoptium",
       "credentials": {
         "provider": "pass"
-      }
+      },
+      "base_template": "https://github.com/EclipseFdn/otterdog-defaults#otterdog-defaults.libsonnet@main"
     },
     {
       "name": "eclipse-babel",
