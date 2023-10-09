@@ -182,6 +182,14 @@
       }
     },
     {
+      "name": "eclipse-oniro4openharmony",
+      "github_id": "eclipse-oniro4openharmony",
+      "eclipse_project": "oniro.oniro4openharmony",
+      "credentials": {
+        "provider": "pass"
+      }
+    },    
+    {
       "name": "eclipse-oomph",
       "github_id": "eclipse-oomph",
       "eclipse_project": "tools.oomph",
