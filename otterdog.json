@@ -182,12 +182,22 @@
       }
     },
     {
+      "name": "eclipse-nattable",
+      "github_id": "eclipse-nattable",
+      "eclipse_project": "technology.nebula.nattable",
+      "credentials": {
+        "provider": "pass"
+      },
+      "base_template": "https://github.com/EclipseFdn/otterdog-defaults#otterdog-defaults.libsonnet@main"
+    },
+    {
       "name": "eclipse-oniro4openharmony",
       "github_id": "eclipse-oniro4openharmony",
       "eclipse_project": "oniro.oniro4openharmony",
       "credentials": {
         "provider": "pass"
-      }
+      },
+      "base_template": "https://github.com/EclipseFdn/otterdog-defaults#otterdog-defaults.libsonnet@main"
     },    
     {
       "name": "eclipse-oomph",
