@@ -350,6 +350,14 @@
       "credentials": {
         "provider": "pass"
       }
+    },
+    {
+      "name": "jetty",
+      "github_id": "jetty",
+      "eclipse_project": "rt.jetty",
+      "credentials": {
+        "provider": "pass"
+      }
     }
   ]
 }
