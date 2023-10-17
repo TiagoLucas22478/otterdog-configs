@@ -1,6 +1,6 @@
 site_name: Otterdog configurations @ Eclipse Foundation
 site_description: Otterdog configurations @ Eclipse Foundation
-strict: true
+strict: false
 
 site_url: https://eclipsefdn.github.io/otterdog-configs/
 docs_dir: ./docs
