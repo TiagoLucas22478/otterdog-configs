@@ -78,6 +78,14 @@
       }
     },
     {
+      "name": "eclipse-egit",
+      "github_id": "eclipse-egit",
+      "eclipse_project": "technology.egit",
+      "credentials": {
+        "provider": "pass"
+      }
+    },
+    {
       "name": "eclipse-embed-cdt",
       "github_id": "eclipse-embed-cdt",
       "eclipse_project": "iot.embed-cdt",
