@@ -134,6 +134,14 @@
       }
     },
     {
+      "name": "eclipse-jgit",
+      "github_id": "eclipse-jgit",
+      "eclipse_project": "technology.jgit",
+      "credentials": {
+        "provider": "pass"
+      }
+    },
+    {
       "name": "eclipse-justj",
       "github_id": "eclipse-justj",
       "eclipse_project": "technology.justj",
