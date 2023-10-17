@@ -110,6 +110,14 @@
       }
     },
     {
+      "name": "eclipse-gemini",
+      "github_id": "eclipse-gemini",
+      "eclipse_project": "rt.gemini",
+      "credentials": {
+        "provider": "pass"
+      }
+    },    
+    {
       "name": "eclipse-glsp",
       "github_id": "eclipse-glsp",
       "eclipse_project": "ecd.glsp",
