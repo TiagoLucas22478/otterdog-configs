@@ -22,6 +22,14 @@
       "base_template": "https://github.com/EclipseFdn/otterdog-defaults#otterdog-defaults.libsonnet@main"
     },
     {
+      "name": "eclipse-ankaios",
+      "github_id": "eclipse-ankaios",
+      "eclipse_project": "automotive.ankaios",
+      "credentials": {
+        "provider": "pass"
+      }
+    },
+    {
       "name": "eclipse-babel",
       "github_id": "eclipse-babel",
       "eclipse_project": "technology.babel",
