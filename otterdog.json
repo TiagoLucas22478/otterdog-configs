@@ -7,7 +7,7 @@
       "api_token_key": "api_token_admin"
     },
     "jsonnet": {
-      "base_template": "https://github.com/EclipseFdn/otterdog-defaults#otterdog-defaults.libsonnet@v0.2.0",
+      "base_template": "https://github.com/EclipseFdn/otterdog-defaults#otterdog-defaults.libsonnet@v0.3.0",
       "config_dir": "orgs"
     }
   },
@@ -18,8 +18,7 @@
       "eclipse_project": "adoptium",
       "credentials": {
         "provider": "pass"
-      },
-      "base_template": "https://github.com/EclipseFdn/otterdog-defaults#otterdog-defaults.libsonnet@main"
+      }
     },
     {
       "name": "eclipse-ankaios",
@@ -124,7 +123,7 @@
       "credentials": {
         "provider": "pass"
       }
-    },    
+    },
     {
       "name": "eclipse-glsp",
       "github_id": "eclipse-glsp",
@@ -220,7 +219,6 @@
       "credentials": {
         "provider": "pass"
       },
-      "base_template": "https://github.com/EclipseFdn/otterdog-defaults#otterdog-defaults.libsonnet@main"
     },
     {
       "name": "eclipse-oniro4openharmony",
@@ -229,8 +227,7 @@
       "credentials": {
         "provider": "pass"
       },
-      "base_template": "https://github.com/EclipseFdn/otterdog-defaults#otterdog-defaults.libsonnet@main"
-    },    
+    },
     {
       "name": "eclipse-oomph",
       "github_id": "eclipse-oomph",
@@ -238,11 +235,11 @@
       "credentials": {
         "provider": "pass"
       }
-    },    
+    },
     {
       "name": "eclipse-orbit",
       "github_id": "eclipse-orbit",
-      "eclipse_project": "tools.orbit",      
+      "eclipse_project": "tools.orbit",
       "credentials": {
         "provider": "pass"
       }
