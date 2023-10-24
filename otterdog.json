@@ -218,7 +218,7 @@
       "eclipse_project": "technology.nebula.nattable",
       "credentials": {
         "provider": "pass"
-      },
+      }
     },
     {
       "name": "eclipse-oniro4openharmony",
@@ -226,7 +226,7 @@
       "eclipse_project": "oniro.oniro4openharmony",
       "credentials": {
         "provider": "pass"
-      },
+      }
     },
     {
       "name": "eclipse-oomph",
