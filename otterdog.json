@@ -389,6 +389,14 @@
       }
     },
     {
+      "name": "jakartaee",
+      "github_id": "jakartaee",
+      "eclipse_project": "ee4j.jakartaee-platform",
+      "credentials": {
+        "provider": "pass"
+      }
+    },
+    {
       "name": "jetty",
       "github_id": "jetty",
       "eclipse_project": "rt.jetty",
