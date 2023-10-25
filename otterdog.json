@@ -85,6 +85,14 @@
       }
     },
     {
+      "name": "eclipse-ee4j",
+      "github_id": "eclipse-ee4j",
+      "eclipse_project": "ee4j",
+      "credentials": {
+        "provider": "pass"
+      }
+    },
+    {
       "name": "eclipse-egit",
       "github_id": "eclipse-egit",
       "eclipse_project": "technology.egit",
