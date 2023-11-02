@@ -6,6 +6,9 @@ site_url: https://eclipsefdn.github.io/otterdog-configs/
 docs_dir: ./docs
 site_dir: ./_site
 
+repo_name: EclipseFdn/otterdog-configs
+repo_url: https://github.com/EclipseFdn/otterdog-configs/
+
 theme:
   name: 'material'
 
