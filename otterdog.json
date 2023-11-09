@@ -85,6 +85,14 @@
       }
     },
     {
+      "name": "eclipse-dash",
+      "github_id": "eclipse-dash",
+      "eclipse_project": "technology.dash",
+      "credentials": {
+        "provider": "pass"
+      }
+    },
+    {
       "name": "eclipse-edc",
       "github_id": "eclipse-edc",
       "eclipse_project": "technology.edc",
