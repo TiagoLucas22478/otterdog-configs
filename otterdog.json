@@ -213,6 +213,14 @@
       }
     },
     {
+      "name": "eclipse-langium",
+      "github_id": "eclipse-langium",
+      "eclipse_project": "ecd.langium",
+      "credentials": {
+        "provider": "pass"
+      }
+    },
+    {
       "name": "eclipse-leda",
       "github_id": "eclipse-leda",
       "eclipse_project": "automotive.leda",
