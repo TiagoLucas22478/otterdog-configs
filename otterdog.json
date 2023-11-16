@@ -277,6 +277,14 @@
       }
     },
     {
+      "name": "eclipse-opendut",
+      "github_id": "eclipse-opendut",
+      "eclipse_project": "automotive.opendut",
+      "credentials": {
+        "provider": "pass"
+      }
+    },
+    {
       "name": "eclipse-orbit",
       "github_id": "eclipse-orbit",
       "eclipse_project": "tools.orbit",
