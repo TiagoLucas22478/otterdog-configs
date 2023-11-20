@@ -133,6 +133,14 @@
       }
     },
     {
+      "name": "eclipse-emfservices",
+      "github_id": "eclipse-emfservices",
+      "eclipse_project": "modeling.emfservices",
+      "credentials": {
+        "provider": "pass"
+      }
+    },
+    {
       "name": "eclipse-esmf",
       "github_id": "eclipse-esmf",
       "eclipse_project": "dt.esmf",
