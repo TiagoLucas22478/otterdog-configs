@@ -245,9 +245,9 @@
       }
     },
     {
-      "name": "eclipse-mylyn",
-      "github_id": "eclipse-mylyn",
-      "eclipse_project": "tools.mylyn",
+      "name": "eclipse-muto",
+      "github_id": "eclipse-muto",
+      "eclipse_project": "automotive.muto",
       "credentials": {
         "provider": "pass"
       }
