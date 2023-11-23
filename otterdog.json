@@ -21,6 +21,14 @@
       }
     },
     {
+      "name": "eclipse-aaspe",
+      "github_id": "eclipse-aaspe",
+      "eclipse_project": "dt.aaspe",
+      "credentials": {
+        "provider": "pass"
+      }
+    },
+    {
       "name": "eclipse-ankaios",
       "github_id": "eclipse-ankaios",
       "eclipse_project": "automotive.ankaios",
