@@ -269,6 +269,14 @@
       }
     },
     {
+      "name": "eclipse-mylyn",
+      "github_id": "eclipse-mylyn",
+      "eclipse_project": "tools.mylyn",
+      "credentials": {
+        "provider": "pass"
+      }
+    },
+    {
       "name": "eclipse-nattable",
       "github_id": "eclipse-nattable",
       "eclipse_project": "technology.nebula.nattable",
