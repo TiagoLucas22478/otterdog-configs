@@ -181,6 +181,14 @@
       }
     },
     {
+      "name": "eclipse-iceoryx",
+      "github_id": "eclipse-iceoryx",
+      "eclipse_project": "technology.iceoryx",
+      "credentials": {
+        "provider": "pass"
+      }
+    },
+    {
       "name": "eclipse-jdt",
       "github_id": "eclipse-jdt",
       "eclipse_project": "eclipse.jdt",
