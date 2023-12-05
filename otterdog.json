@@ -7,7 +7,7 @@
       "api_token_key": "api_token_admin"
     },
     "jsonnet": {
-      "base_template": "https://github.com/EclipseFdn/otterdog-defaults#otterdog-defaults.libsonnet@v0.5.0",
+      "base_template": "https://github.com/EclipseFdn/otterdog-defaults#otterdog-defaults.libsonnet@v0.6.0",
       "config_dir": "orgs"
     }
   },
