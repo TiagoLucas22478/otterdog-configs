@@ -48,12 +48,15 @@ def get_repo_status(token: str, owner: str, repo: str) -> (int, int):
 
     response = requests.post("https://api.github.com/graphql", headers=headers, json={"query": query, "variables": variables})
     response_total = requests.post("https://api.github.com/graphql", headers=headers, json={"query": query_total, "variables": variables})
-    
+
     data = response.json()["data"]["repository"]
     data_total = response_total.json()["data"]["repository"]
 
-    return (data.get("issues", {}).get("totalCount", 0), data.get("pullRequests", {}).get("totalCount", 0),
-            data_total.get("issues", {}).get("totalCount", 0), data_total.get("pullRequests", {}).get("totalCount", 0))
+    if data is None:
+        return 0, 0, 0, 0
+    else:
+        return (data.get("issues", {}).get("totalCount", 0), data.get("pullRequests", {}).get("totalCount", 0),
+                data_total.get("issues", {}).get("totalCount", 0), data_total.get("pullRequests", {}).get("totalCount", 0))
 
 
 def generate(token: str):
