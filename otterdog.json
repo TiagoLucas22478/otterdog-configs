@@ -349,6 +349,14 @@
       }
     },
     {
+      "name": "eclipse-pde",
+      "github_id": "eclipse-pde",
+      "eclipse_project": "eclipse.pde",
+      "credentials": {
+        "provider": "pass"
+      }
+    },
+    {
       "name": "eclipse-pdt",
       "github_id": "eclipse-pdt",
       "eclipse_project": "tools.pdt",
