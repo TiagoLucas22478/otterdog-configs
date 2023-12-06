@@ -405,6 +405,14 @@
       }
     },
     {
+      "name": "eclipse-syson",
+      "github_id": "eclipse-syson",
+      "eclipse_project": "modeling.syson",
+      "credentials": {
+        "provider": "pass"
+      }
+    },
+    {
       "name": "eclipse-thingweb",
       "github_id": "eclipse-thingweb",
       "eclipse_project": "iot.thingweb",
