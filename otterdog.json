@@ -429,6 +429,14 @@
       }
     },
     {
+       "name": "eclipse-uml2",
+       "github_id": "eclipse-uml2",
+       "eclipse_project": "modeling.mdt.uml2",
+       "credentials": {
+         "provider": "pass"
+       }
+     },
+     {
       "name": "eclipse-uprotocol",
       "github_id": "eclipse-uprotocol",
       "eclipse_project": "automotive.uprotocol",
