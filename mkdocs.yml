@@ -18,8 +18,8 @@ markdown_extensions:
 - tables
 - attr_list
 - pymdownx.emoji:
-    emoji_index: !!python/name:materialx.emoji.twemoji
-    emoji_generator: !!python/name:materialx.emoji.to_svg
+    emoji_index: !!python/name:material.extensions.emoji.twemoji
+    emoji_generator: !!python/name:material.extensions.emoji.to_svg
 
 watch: []
 
@@ -27,6 +27,9 @@ plugins:
   - table-reader
   - markdownextradata:
       data: docs
+
+extra_css:
+  - stylesheets/extra.css
 
 extra_javascript:
   - https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js
