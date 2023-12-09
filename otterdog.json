@@ -85,17 +85,17 @@
       }
     },
     {
-      "name": "eclipse-datatools",
-      "github_id": "eclipse-datatools",
-      "eclipse_project": "tools.datatools",
+      "name": "eclipse-dash",
+      "github_id": "eclipse-dash",
+      "eclipse_project": "technology.dash",
       "credentials": {
         "provider": "pass"
       }
     },
     {
-      "name": "eclipse-dash",
-      "github_id": "eclipse-dash",
-      "eclipse_project": "technology.dash",
+      "name": "eclipse-datatools",
+      "github_id": "eclipse-datatools",
+      "eclipse_project": "tools.datatools",
       "credentials": {
         "provider": "pass"
       }
@@ -461,14 +461,14 @@
       }
     },
     {
-       "name": "eclipse-uml2",
-       "github_id": "eclipse-uml2",
-       "eclipse_project": "modeling.mdt.uml2",
-       "credentials": {
-         "provider": "pass"
-       }
-     },
-     {
+      "name": "eclipse-uml2",
+      "github_id": "eclipse-uml2",
+      "eclipse_project": "modeling.mdt.uml2",
+      "credentials": {
+        "provider": "pass"
+      }
+    },
+    {
       "name": "eclipse-uprotocol",
       "github_id": "eclipse-uprotocol",
       "eclipse_project": "automotive.uprotocol",

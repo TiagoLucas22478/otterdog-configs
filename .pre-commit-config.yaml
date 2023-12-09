@@ -1,0 +1,11 @@
+default_stages: [commit]
+
+repos:
+-   repo: local
+    hooks:
+    -   id: sort-otterdog-json
+        name: sort-otterdog-json
+        files: otterdog.json
+        entry: hooks/sort-otterdog-json.sh
+        language: script
+        pass_filenames: false
