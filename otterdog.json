@@ -517,6 +517,14 @@
       }
     },
     {
+      "name": "eclipse-windowbuilder",
+      "github_id": "eclipse-windowbuilder",
+      "eclipse_project": "tools.windowbuilder",
+      "credentials": {
+        "provider": "pass"
+      }
+    },
+    {
       "name": "eclipse-xpanse",
       "github_id": "eclipse-xpanse",
       "eclipse_project": "technology.xpanse",
