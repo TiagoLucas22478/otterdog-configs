@@ -45,6 +45,14 @@
       }
     },
     {
+      "name": "eclipse-basyx",
+      "github_id": "eclipse-basyx",
+      "eclipse_project": "dt.basyx",
+      "credentials": {
+        "provider": "pass"
+      }
+    },
+    {
       "name": "eclipse-bluechi",
       "github_id": "eclipse-bluechi",
       "eclipse_project": "automotive.bluechi",
