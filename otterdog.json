@@ -109,6 +109,14 @@
       }
     },
     {
+      "name": "eclipse-eclemma",
+      "github_id": "eclipse-eclemma",
+      "eclipse_project": "technology.eclemma",
+      "credentials": {
+        "provider": "pass"
+      }
+    },
+    {
       "name": "eclipse-edc",
       "github_id": "eclipse-edc",
       "eclipse_project": "technology.edc",
