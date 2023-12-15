@@ -477,6 +477,14 @@
       }
     },
     {
+      "name": "eclipse-tycho",
+      "github_id": "eclipse-tycho",
+      "eclipse_project": "technology.tycho",
+      "credentials": {
+        "provider": "pass"
+      }
+    },
+    {
       "name": "eclipse-uml2",
       "github_id": "eclipse-uml2",
       "eclipse_project": "modeling.mdt.uml2",
