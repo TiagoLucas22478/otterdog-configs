@@ -453,6 +453,14 @@
       }
     },
     {
+      "name": "eclipse-tea",
+      "github_id": "eclipse-tea",
+      "eclipse_project": "technology.tea",
+      "credentials": {
+        "provider": "pass"
+      }
+    },
+    {
       "name": "eclipse-theia",
       "github_id": "eclipse-theia",
       "eclipse_project": "ecd.theia",
