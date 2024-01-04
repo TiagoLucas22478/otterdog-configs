@@ -415,7 +415,7 @@
     {
       "name": "eclipse-simrel",
       "github_id": "eclipse-simrel",
-      "eclipse_project": "foundation-internal.simrel",
+      "eclipse_project": "technology.simrel",
       "credentials": {
         "provider": "pass"
       }
