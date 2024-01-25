@@ -525,6 +525,14 @@
       }
     },
     {
+      "name": "eclipse-tracecompass",
+      "github_id": "eclipse-tracecompass",
+      "eclipse_project": "tools.tracecompass",
+      "credentials": {
+        "provider": "pass"
+      }
+    },
+    {
       "name": "eclipse-tractusx",
       "github_id": "eclipse-tractusx",
       "eclipse_project": "automotive.tractusx",
