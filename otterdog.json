@@ -278,10 +278,6 @@
       "github_id": "eclipse-serializer"
     },
     {
-      "name": "tools.tracecompass",
-      "github_id": "eclipse-tracecompass"
-    },
-    {
       "name": "technology.set",
       "github_id": "eclipse-set"
     },
@@ -328,6 +324,10 @@
     {
       "name": "tools.pdt",
       "github_id": "eclipse-pdt"
+    },
+    {
+      "name": "tools.tracecompass",
+      "github_id": "eclipse-tracecompass"
     },
     {
       "name": "tools.wildwebdeveloper",
