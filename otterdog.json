@@ -1,10 +1,19 @@
 {
   "defaults": {
+    "credentials": {
+      "provider": "pass"
+    },
     "github": {
       "config_repo": ".eclipsefdn"
     },
     "bitwarden": {
       "api_token_key": "api_token_admin"
+    },
+    "pass": {
+      "username_pattern": "bots/{0}/github.com/username",
+      "password_pattern": "bots/{0}/github.com/password",
+      "twofa_seed_pattern": "bots/{0}/github.com/2FA-seed",
+      "api_token_pattern": "bots/{0}/github.com/otterdog-token"
     },
     "jsonnet": {
       "base_template": "https://github.com/EclipseFdn/otterdog-defaults#otterdog-defaults.libsonnet@v0.7.1",
@@ -14,635 +23,319 @@
   "organizations": [
     {
       "name": "adoptium",
-      "github_id": "adoptium",
-      "eclipse_project": "adoptium",
-      "credentials": {
-        "provider": "pass"
-      }
-    },
-    {
-      "name": "eclipse-aaspe",
-      "github_id": "eclipse-aaspe",
-      "eclipse_project": "dt.aaspe",
-      "credentials": {
-        "provider": "pass"
-      }
-    },
-    {
-      "name": "eclipse-ankaios",
-      "github_id": "eclipse-ankaios",
-      "eclipse_project": "automotive.ankaios",
-      "credentials": {
-        "provider": "pass"
-      }
-    },
-    {
-      "name": "eclipse-babel",
-      "github_id": "eclipse-babel",
-      "eclipse_project": "technology.babel",
-      "credentials": {
-        "provider": "pass"
-      }
-    },
-    {
-      "name": "eclipse-basyx",
-      "github_id": "eclipse-basyx",
-      "eclipse_project": "dt.basyx",
-      "credentials": {
-        "provider": "pass"
-      }
-    },
-    {
-      "name": "eclipse-bluechi",
-      "github_id": "eclipse-bluechi",
-      "eclipse_project": "automotive.bluechi",
-      "credentials": {
-        "provider": "pass"
-      }
-    },
-    {
-      "name": "eclipse-cbi",
-      "github_id": "eclipse-cbi",
-      "eclipse_project": "technology.cbi",
-      "credentials": {
-        "provider": "pass"
-      }
-    },
-    {
-      "name": "eclipse-cdt",
-      "github_id": "eclipse-cdt",
-      "eclipse_project": "tools.cdt",
-      "credentials": {
-        "provider": "pass"
-      }
-    },
-    {
-      "name": "eclipse-cdt-cloud",
-      "github_id": "eclipse-cdt-cloud",
-      "eclipse_project": "ecd.cdt-cloud",
-      "credentials": {
-        "provider": "pass"
-      }
-    },
-    {
-      "name": "eclipse-chariott",
-      "github_id": "eclipse-chariott",
-      "eclipse_project": "automotive.chariott",
-      "credentials": {
-        "provider": "pass"
-      }
-    },
-    {
-      "name": "eclipse-corinthian",
-      "github_id": "eclipse-corinthian",
-      "eclipse_project": "technology.corinthian",
-      "credentials": {
-        "provider": "pass"
-      }
-    },
-    {
-      "name": "eclipse-csi",
-      "github_id": "eclipse-csi",
-      "eclipse_project": "technology.csi",
-      "credentials": {
-        "provider": "pass"
-      }
-    },
-    {
-      "name": "eclipse-daanse",
-      "github_id": "eclipse-daanse",
-      "eclipse_project": "technology.daanse",
-      "credentials": {
-        "provider": "pass"
-      }
+      "github_id": "adoptium"
     },
     {
-      "name": "eclipse-dash",
-      "github_id": "eclipse-dash",
-      "eclipse_project": "technology.dash",
-      "credentials": {
-        "provider": "pass"
-      }
+      "name": "automotive.ankaios",
+      "github_id": "eclipse-ankaios"
     },
     {
-      "name": "eclipse-datatools",
-      "github_id": "eclipse-datatools",
-      "eclipse_project": "tools.datatools",
-      "credentials": {
-        "provider": "pass"
-      }
+      "name": "automotive.bluechi",
+      "github_id": "eclipse-bluechi"
     },
     {
-      "name": "eclipse-eclemma",
-      "github_id": "eclipse-eclemma",
-      "eclipse_project": "technology.eclemma",
-      "credentials": {
-        "provider": "pass"
-      }
+      "name": "automotive.chariott",
+      "github_id": "eclipse-chariott"
     },
     {
-      "name": "eclipse-edc",
-      "github_id": "eclipse-edc",
-      "eclipse_project": "technology.edc",
-      "credentials": {
-        "provider": "pass"
-      }
+      "name": "automotive.ibeji",
+      "github_id": "eclipse-ibeji"
     },
     {
-      "name": "eclipse-ee4j",
-      "github_id": "eclipse-ee4j",
-      "eclipse_project": "ee4j",
-      "credentials": {
-        "provider": "pass"
-      }
+      "name": "automotive.kuksa",
+      "github_id": "eclipse-kuksa"
     },
     {
-      "name": "eclipse-egit",
-      "github_id": "eclipse-egit",
-      "eclipse_project": "technology.egit",
-      "credentials": {
-        "provider": "pass"
-      }
+      "name": "automotive.leda",
+      "github_id": "eclipse-leda"
     },
     {
-      "name": "eclipse-embed-cdt",
-      "github_id": "eclipse-embed-cdt",
-      "eclipse_project": "iot.embed-cdt",
-      "credentials": {
-        "provider": "pass"
-      }
+      "name": "automotive.muto",
+      "github_id": "eclipse-muto"
     },
     {
-      "name": "eclipse-emf",
-      "github_id": "eclipse-emf",
-      "eclipse_project": "modeling.emf",
-      "credentials": {
-        "provider": "pass"
-      }
+      "name": "automotive.opendut",
+      "github_id": "eclipse-opendut"
     },
     {
-      "name": "eclipse-emfservices",
-      "github_id": "eclipse-emfservices",
-      "eclipse_project": "modeling.emfservices",
-      "credentials": {
-        "provider": "pass"
-      }
+      "name": "automotive.sdv-blueprints",
+      "github_id": "eclipse-sdv-blueprints"
     },
     {
-      "name": "eclipse-esmf",
-      "github_id": "eclipse-esmf",
-      "eclipse_project": "dt.esmf",
-      "credentials": {
-        "provider": "pass"
-      }
+      "name": "automotive.sumo",
+      "github_id": "eclipse-sumo"
     },
     {
-      "name": "eclipse-gemini",
-      "github_id": "eclipse-gemini",
-      "eclipse_project": "rt.gemini",
-      "credentials": {
-        "provider": "pass"
-      }
+      "name": "automotive.tractusx",
+      "github_id": "eclipse-tractusx"
     },
     {
-      "name": "eclipse-glsp",
-      "github_id": "eclipse-glsp",
-      "eclipse_project": "ecd.glsp",
-      "credentials": {
-        "provider": "pass"
-      }
+      "name": "automotive.uprotocol",
+      "github_id": "eclipse-uprotocol"
     },
     {
-      "name": "eclipse-gmf-runtime",
-      "github_id": "eclipse-gmf-runtime",
-      "eclipse_project": "modeling.gmf-runtime",
-      "credentials": {
-        "provider": "pass"
-      }
+      "name": "automotive.velocitas",
+      "github_id": "eclipse-velocitas"
     },
     {
-      "name": "eclipse-ibeji",
-      "github_id": "eclipse-ibeji",
-      "eclipse_project": "automotive.ibeji",
-      "credentials": {
-        "provider": "pass"
-      }
+      "name": "dt.aaspe",
+      "github_id": "eclipse-aaspe"
     },
     {
-      "name": "eclipse-iceoryx",
-      "github_id": "eclipse-iceoryx",
-      "eclipse_project": "technology.iceoryx",
-      "credentials": {
-        "provider": "pass"
-      }
+      "name": "dt.basyx",
+      "github_id": "eclipse-basyx"
     },
     {
-      "name": "eclipse-jdt",
-      "github_id": "eclipse-jdt",
-      "eclipse_project": "eclipse.jdt",
-      "credentials": {
-        "provider": "pass"
-      }
+      "name": "dt.esmf",
+      "github_id": "eclipse-esmf"
     },
     {
-      "name": "eclipse-jdtls",
-      "github_id": "eclipse-jdtls",
-      "eclipse_project": "eclipse.jdt.ls",
-      "credentials": {
-        "provider": "pass"
-      }
+      "name": "ecd.cdt-cloud",
+      "github_id": "eclipse-cdt-cloud"
     },
     {
-      "name": "eclipse-jgit",
-      "github_id": "eclipse-jgit",
-      "eclipse_project": "technology.jgit",
-      "credentials": {
-        "provider": "pass"
-      }
+      "name": "ecd.glsp",
+      "github_id": "eclipse-glsp"
     },
     {
-      "name": "eclipse-justj",
-      "github_id": "eclipse-justj",
-      "eclipse_project": "technology.justj",
-      "credentials": {
-        "provider": "pass"
-      }
+      "name": "ecd.langium",
+      "github_id": "eclipse-langium"
     },
     {
-      "name": "eclipse-kanto",
-      "github_id": "eclipse-kanto",
-      "eclipse_project": "iot.kanto",
-      "credentials": {
-        "provider": "pass"
-      }
+      "name": "ecd.sprotty",
+      "github_id": "eclipse-sprotty"
     },
     {
-      "name": "eclipse-keyple",
-      "github_id": "eclipse-keyple",
-      "eclipse_project": "iot.keyple",
-      "credentials": {
-        "provider": "pass"
-      }
+      "name": "ecd.theia",
+      "github_id": "eclipse-theia"
     },
     {
-      "name": "eclipse-keypop",
-      "github_id": "eclipse-keypop",
-      "eclipse_project": "iot.keypop",
-      "credentials": {
-        "provider": "pass"
-      }
+      "name": "eclipse.jdt",
+      "github_id": "eclipse-jdt"
     },
     {
-      "name": "eclipse-kuksa",
-      "github_id": "eclipse-kuksa",
-      "eclipse_project": "automotive.kuksa",
-      "credentials": {
-        "provider": "pass"
-      }
+      "name": "eclipse.jdt.ls",
+      "github_id": "eclipse-jdtls"
     },
     {
-      "name": "eclipse-langium",
-      "github_id": "eclipse-langium",
-      "eclipse_project": "ecd.langium",
-      "credentials": {
-        "provider": "pass"
-      }
+      "name": "eclipse.pde",
+      "github_id": "eclipse-pde"
     },
     {
-      "name": "eclipse-leda",
-      "github_id": "eclipse-leda",
-      "eclipse_project": "automotive.leda",
-      "credentials": {
-        "provider": "pass"
-      }
+      "name": "eclipse.platform",
+      "github_id": "eclipse-platform"
     },
     {
-      "name": "eclipse-lsp4j",
-      "github_id": "eclipse-lsp4j",
-      "eclipse_project": "technology.lsp4j",
-      "credentials": {
-        "provider": "pass"
-      }
+      "name": "ee4j",
+      "github_id": "eclipse-ee4j"
     },
     {
-      "name": "eclipse-muto",
-      "github_id": "eclipse-muto",
-      "eclipse_project": "automotive.muto",
-      "credentials": {
-        "provider": "pass"
-      }
+      "name": "ee4j.jakartaee-platform",
+      "github_id": "jakartaee"
     },
     {
-      "name": "eclipse-mylyn",
-      "github_id": "eclipse-mylyn",
-      "eclipse_project": "tools.mylyn",
-      "credentials": {
-        "provider": "pass"
-      }
+      "name": "iot.embed-cdt",
+      "github_id": "eclipse-embed-cdt"
     },
     {
-      "name": "eclipse-nattable",
-      "github_id": "eclipse-nattable",
-      "eclipse_project": "technology.nebula.nattable",
-      "credentials": {
-        "provider": "pass"
-      }
+      "name": "iot.kanto",
+      "github_id": "eclipse-kanto"
     },
     {
-      "name": "eclipse-oniro4openharmony",
-      "github_id": "eclipse-oniro4openharmony",
-      "eclipse_project": "oniro.oniro4openharmony",
-      "credentials": {
-        "provider": "pass"
-      }
+      "name": "iot.keyple",
+      "github_id": "eclipse-keyple"
     },
     {
-      "name": "eclipse-oomph",
-      "github_id": "eclipse-oomph",
-      "eclipse_project": "tools.oomph",
-      "credentials": {
-        "provider": "pass"
-      }
+      "name": "iot.keypop",
+      "github_id": "eclipse-keypop"
     },
     {
-      "name": "eclipse-opendut",
-      "github_id": "eclipse-opendut",
-      "eclipse_project": "automotive.opendut",
-      "credentials": {
-        "provider": "pass"
-      }
+      "name": "iot.symphony",
+      "github_id": "eclipse-symphony"
     },
     {
-      "name": "eclipse-orbit",
-      "github_id": "eclipse-orbit",
-      "eclipse_project": "tools.orbit",
-      "credentials": {
-        "provider": "pass"
-      }
+      "name": "iot.thingweb",
+      "github_id": "eclipse-thingweb"
     },
     {
-      "name": "eclipse-packaging",
-      "github_id": "eclipse-packaging",
-      "eclipse_project": "technology.packaging",
-      "credentials": {
-        "provider": "pass"
-      }
+      "name": "iot.volttron",
+      "github_id": "eclipse-volttron"
     },
     {
-      "name": "eclipse-pass",
-      "github_id": "eclipse-pass",
-      "eclipse_project": "technology.pass",
-      "credentials": {
-        "provider": "pass"
-      }
+      "name": "iot.zenoh",
+      "github_id": "eclipse-zenoh"
     },
     {
-      "name": "eclipse-pde",
-      "github_id": "eclipse-pde",
-      "eclipse_project": "eclipse.pde",
-      "credentials": {
-        "provider": "pass"
-      }
+      "name": "modeling.emf",
+      "github_id": "eclipse-emf"
     },
     {
-      "name": "eclipse-pdt",
-      "github_id": "eclipse-pdt",
-      "eclipse_project": "tools.pdt",
-      "credentials": {
-        "provider": "pass"
-      }
+      "name": "modeling.emfservices",
+      "github_id": "eclipse-emfservices"
     },
     {
-      "name": "eclipse-platform",
-      "github_id": "eclipse-platform",
-      "eclipse_project": "eclipse.platform",
-      "credentials": {
-        "provider": "pass"
-      }
+      "name": "modeling.gmf-runtime",
+      "github_id": "eclipse-gmf-runtime"
     },
     {
-      "name": "eclipse-sdv-blueprints",
-      "github_id": "eclipse-sdv-blueprints",
-      "eclipse_project": "automotive.sdv-blueprints",
-      "credentials": {
-        "provider": "pass"
-      }
+      "name": "modeling.mdt.uml2",
+      "github_id": "eclipse-uml2"
     },
     {
-      "name": "eclipse-serializer",
-      "github_id": "eclipse-serializer",
-      "eclipse_project": "technology.serializer",
-      "credentials": {
-        "provider": "pass"
-      }
+      "name": "modeling.sirius",
+      "github_id": "eclipse-sirius"
     },
     {
-      "name": "eclipse-set",
-      "github_id": "eclipse-set",
-      "eclipse_project": "technology.set",
-      "credentials": {
-        "provider": "pass"
-      }
+      "name": "modeling.syson",
+      "github_id": "eclipse-syson"
     },
     {
-      "name": "eclipse-simrel",
-      "github_id": "eclipse-simrel",
-      "eclipse_project": "technology.simrel",
-      "credentials": {
-        "provider": "pass"
-      }
+      "name": "oniro.oniro4openharmony",
+      "github_id": "eclipse-oniro4openharmony"
     },
     {
-      "name": "eclipse-sirius",
-      "github_id": "eclipse-sirius",
-      "eclipse_project": "modeling.sirius",
-      "credentials": {
-        "provider": "pass"
-      }
+      "name": "rt.gemini",
+      "github_id": "eclipse-gemini"
     },
     {
-      "name": "eclipse-sprotty",
-      "github_id": "eclipse-sprotty",
-      "eclipse_project": "ecd.sprotty",
-      "credentials": {
-        "provider": "pass"
-      }
+      "name": "rt.jetty",
+      "github_id": "jetty"
     },
     {
-      "name": "eclipse-store",
-      "github_id": "eclipse-store",
-      "eclipse_project": "technology.store",
-      "credentials": {
-        "provider": "pass"
-      }
+      "name": "rt.vertx",
+      "github_id": "eclipse-vertx"
     },
     {
-      "name": "eclipse-sumo",
-      "github_id": "eclipse-sumo",
-      "eclipse_project": "automotive.sumo",
-      "credentials": {
-        "provider": "pass"
-      }
+      "name": "rt.virgo",
+      "github_id": "eclipse-virgo"
     },
     {
-      "name": "eclipse-symphony",
-      "github_id": "eclipse-symphony",
-      "eclipse_project": "iot.symphony",
-      "credentials": {
-        "provider": "pass"
-      }
+      "name": "technology.babel",
+      "github_id": "eclipse-babel"
     },
     {
-      "name": "eclipse-syson",
-      "github_id": "eclipse-syson",
-      "eclipse_project": "modeling.syson",
-      "credentials": {
-        "provider": "pass"
-      }
+      "name": "technology.cbi",
+      "github_id": "eclipse-cbi"
     },
     {
-      "name": "eclipse-tea",
-      "github_id": "eclipse-tea",
-      "eclipse_project": "technology.tea",
-      "credentials": {
-        "provider": "pass"
-      }
+      "name": "technology.corinthian",
+      "github_id": "eclipse-corinthian"
     },
     {
-      "name": "eclipse-theia",
-      "github_id": "eclipse-theia",
-      "eclipse_project": "ecd.theia",
-      "credentials": {
-        "provider": "pass"
-      }
+      "name": "technology.csi",
+      "github_id": "eclipse-csi"
     },
     {
-      "name": "eclipse-thingweb",
-      "github_id": "eclipse-thingweb",
-      "eclipse_project": "iot.thingweb",
-      "credentials": {
-        "provider": "pass"
-      }
+      "name": "technology.daanse",
+      "github_id": "eclipse-daanse"
     },
     {
-      "name": "eclipse-tracecompass",
-      "github_id": "eclipse-tracecompass",
-      "eclipse_project": "tools.tracecompass",
-      "credentials": {
-        "provider": "pass"
-      }
+      "name": "technology.dash",
+      "github_id": "eclipse-dash"
     },
     {
-      "name": "eclipse-tractusx",
-      "github_id": "eclipse-tractusx",
-      "eclipse_project": "automotive.tractusx",
-      "credentials": {
-        "provider": "pass"
-      }
+      "name": "technology.eclemma",
+      "github_id": "eclipse-eclemma"
     },
     {
-      "name": "eclipse-tycho",
-      "github_id": "eclipse-tycho",
-      "eclipse_project": "technology.tycho",
-      "credentials": {
-        "provider": "pass"
-      }
-    },
-    {
-      "name": "eclipse-uml2",
-      "github_id": "eclipse-uml2",
-      "eclipse_project": "modeling.mdt.uml2",
-      "credentials": {
-        "provider": "pass"
-      }
-    },
-    {
-      "name": "eclipse-uprotocol",
-      "github_id": "eclipse-uprotocol",
-      "eclipse_project": "automotive.uprotocol",
-      "credentials": {
-        "provider": "pass"
-      }
-    },
-    {
-      "name": "eclipse-velocitas",
-      "github_id": "eclipse-velocitas",
-      "eclipse_project": "automotive.velocitas",
-      "credentials": {
-        "provider": "pass"
-      }
-    },
-    {
-      "name": "eclipse-vertx",
-      "github_id": "eclipse-vertx",
-      "eclipse_project": "rt.vertx",
-      "credentials": {
-        "provider": "pass"
-      }
-    },
-    {
-      "name": "eclipse-virgo",
-      "github_id": "eclipse-virgo",
-      "eclipse_project": "rt.virgo",
-      "credentials": {
-        "provider": "pass"
-      }
-    },
-    {
-      "name": "eclipse-volttron",
-      "github_id": "eclipse-volttron",
-      "eclipse_project": "iot.volttron",
-      "credentials": {
-        "provider": "pass"
-      }
-    },
-    {
-      "name": "eclipse-wildwebdeveloper",
-      "github_id": "eclipse-wildwebdeveloper",
-      "eclipse_project": "tools.wildwebdeveloper",
-      "credentials": {
-        "provider": "pass"
-      }
-    },
-    {
-      "name": "eclipse-windowbuilder",
-      "github_id": "eclipse-windowbuilder",
-      "eclipse_project": "tools.windowbuilder",
-      "credentials": {
-        "provider": "pass"
-      }
-    },
-    {
-      "name": "eclipse-xpanse",
-      "github_id": "eclipse-xpanse",
-      "eclipse_project": "technology.xpanse",
-      "credentials": {
-        "provider": "pass"
-      }
-    },
-    {
-      "name": "eclipse-zenoh",
-      "github_id": "eclipse-zenoh",
-      "eclipse_project": "iot.zenoh",
-      "credentials": {
-        "provider": "pass"
-      }
-    },
-    {
-      "name": "jakartaee",
-      "github_id": "jakartaee",
-      "eclipse_project": "ee4j.jakartaee-platform",
-      "credentials": {
-        "provider": "pass"
-      }
-    },
-    {
-      "name": "jetty",
-      "github_id": "jetty",
-      "eclipse_project": "rt.jetty",
-      "credentials": {
-        "provider": "pass"
-      }
+      "name": "technology.edc",
+      "github_id": "eclipse-edc"
+    },
+    {
+      "name": "technology.egit",
+      "github_id": "eclipse-egit"
+    },
+    {
+      "name": "technology.iceoryx",
+      "github_id": "eclipse-iceoryx"
+    },
+    {
+      "name": "technology.jgit",
+      "github_id": "eclipse-jgit"
+    },
+    {
+      "name": "technology.justj",
+      "github_id": "eclipse-justj"
+    },
+    {
+      "name": "technology.lsp4j",
+      "github_id": "eclipse-lsp4j"
+    },
+    {
+      "name": "technology.nebula.nattable",
+      "github_id": "eclipse-nattable"
+    },
+    {
+      "name": "technology.packaging",
+      "github_id": "eclipse-packaging"
+    },
+    {
+      "name": "technology.pass",
+      "github_id": "eclipse-pass"
+    },
+    {
+      "name": "technology.serializer",
+      "github_id": "eclipse-serializer"
+    },
+    {
+      "name": "tools.tracecompass",
+      "github_id": "eclipse-tracecompass"
+    },
+    {
+      "name": "technology.set",
+      "github_id": "eclipse-set"
+    },
+    {
+      "name": "technology.simrel",
+      "github_id": "eclipse-simrel"
+    },
+    {
+      "name": "technology.store",
+      "github_id": "eclipse-store"
+    },
+    {
+      "name": "technology.tea",
+      "github_id": "eclipse-tea"
+    },
+    {
+      "name": "technology.tycho",
+      "github_id": "eclipse-tycho"
+    },
+    {
+      "name": "technology.xpanse",
+      "github_id": "eclipse-xpanse"
+    },
+    {
+      "name": "tools.cdt",
+      "github_id": "eclipse-cdt"
+    },
+    {
+      "name": "tools.datatools",
+      "github_id": "eclipse-datatools"
+    },
+    {
+      "name": "tools.mylyn",
+      "github_id": "eclipse-mylyn"
+    },
+    {
+      "name": "tools.oomph",
+      "github_id": "eclipse-oomph"
+    },
+    {
+      "name": "tools.orbit",
+      "github_id": "eclipse-orbit"
+    },
+    {
+      "name": "tools.pdt",
+      "github_id": "eclipse-pdt"
+    },
+    {
+      "name": "tools.wildwebdeveloper",
+      "github_id": "eclipse-wildwebdeveloper"
+    },
+    {
+      "name": "tools.windowbuilder",
+      "github_id": "eclipse-windowbuilder"
     }
   ]
 }

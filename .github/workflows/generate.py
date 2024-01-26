@@ -83,7 +83,7 @@ def generate(token: str):
 
         for org in organizations:
             github_id = org["github_id"]
-            eclipse_project = org["eclipse_project"]
+            name = org["name"]
 
             issueCount, prCount, totalIssueCount, totalPRCount = get_repo_status(token, github_id, ".eclipsefdn")
 
@@ -91,7 +91,7 @@ def generate(token: str):
             openPrSum += prCount
             totalPrSum += totalPRCount
 
-            out.write(f"| [{eclipse_project}](https://projects.eclipse.org/projects/{eclipse_project}) "
+            out.write(f"| [{name}](https://projects.eclipse.org/projects/{name}) "
                       f"| [{github_id}](https://github.com/{github_id}) "
                       f"| [{github_id}.jsonnet](https://github.com/{github_id}/.eclipsefdn/blob/main/otterdog/{github_id}.jsonnet) "
                       f"| [:link:](https://{github_id}.github.io/.eclipsefdn) "
