@@ -336,6 +336,10 @@
     {
       "name": "tools.windowbuilder",
       "github_id": "eclipse-windowbuilder"
+    },
+    {
+      "name": "webtools.dali",
+      "github_id": "eclipse-dali"
     }
   ]
 }
