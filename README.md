@@ -5,3 +5,4 @@ This repository hosts configurations for GitHub organizations managed and mainta
 List of otterdog enabled GitHub orgs:
 
 https://eclipsefdn.github.io/otterdog-configs/
+
