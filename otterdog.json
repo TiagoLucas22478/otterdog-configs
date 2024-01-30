@@ -224,7 +224,7 @@
     {
       "name": "technology.csi",
       "github_id": "eclipse-csi",
-      "base_template": "https://github.com/EclipseFdn/otterdog-defaults#otterdog-defaults.libsonnet@v0.7.2",
+      "base_template": "https://github.com/EclipseFdn/otterdog-defaults#otterdog-defaults.libsonnet@v0.7.2"
     },
     {
       "name": "technology.daanse",
@@ -344,5 +344,3 @@
     }
   ]
 }
-
-
