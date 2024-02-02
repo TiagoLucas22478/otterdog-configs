@@ -23,7 +23,8 @@
   "organizations": [
     {
       "name": "adoptium",
-      "github_id": "adoptium"
+      "github_id": "adoptium",
+      "base_template": "https://github.com/EclipseFdn/otterdog-defaults#otterdog-defaults.libsonnet@v0.7.2"
     },
     {
       "name": "automotive.ankaios",
