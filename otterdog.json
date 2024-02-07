@@ -159,6 +159,10 @@
       "github_id": "eclipse-thingweb"
     },
     {
+      "name": "iot.threadx",
+      "github_id": "eclipse-threadx"
+    },    
+    {
       "name": "iot.volttron",
       "github_id": "eclipse-volttron"
     },
