@@ -346,6 +346,10 @@
     {
       "name": "webtools.dali",
       "github_id": "eclipse-dali"
+    },
+    {
+      "name": "technology.wattadvisor",
+      "github_id": "eclipse-wattadvisor"
     }
   ]
 }
