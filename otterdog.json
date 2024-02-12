@@ -32,7 +32,8 @@
     },
     {
       "name": "automotive.bluechi",
-      "github_id": "eclipse-bluechi"
+      "github_id": "eclipse-bluechi",
+      "base_template": "https://github.com/EclipseFdn/otterdog-defaults#otterdog-defaults.libsonnet@v0.7.2"
     },
     {
       "name": "automotive.chariott",
