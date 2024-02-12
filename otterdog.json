@@ -354,6 +354,10 @@
     {
       "name": "technology.wattadvisor",
       "github_id": "eclipse-wattadvisor"
+    },
+    {
+      "name": "technology.apoapsis",
+      "github_id": "eclipse-apoapsis"
     }
   ]
 }
