@@ -68,7 +68,8 @@
     },
     {
       "name": "automotive.tractusx",
-      "github_id": "eclipse-tractusx"
+      "github_id": "eclipse-tractusx",
+      "base_template": "https://github.com/EclipseFdn/otterdog-defaults#otterdog-defaults.libsonnet@v0.7.2"
     },
     {
       "name": "automotive.uprotocol",
