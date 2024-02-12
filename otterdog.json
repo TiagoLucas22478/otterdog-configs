@@ -165,7 +165,7 @@
     {
       "name": "iot.threadx",
       "github_id": "eclipse-threadx"
-    },    
+    },
     {
       "name": "iot.volttron",
       "github_id": "eclipse-volttron"
@@ -219,12 +219,17 @@
       "github_id": "eclipse-virgo"
     },
     {
+      "name": "technology.apoapsis",
+      "github_id": "eclipse-apoapsis"
+    },
+    {
       "name": "technology.babel",
       "github_id": "eclipse-babel"
     },
     {
       "name": "technology.cbi",
-      "github_id": "eclipse-cbi"
+      "github_id": "eclipse-cbi",
+      "base_template": "https://github.com/EclipseFdn/otterdog-defaults#otterdog-defaults.libsonnet@v0.7.2"
     },
     {
       "name": "technology.corinthian",
@@ -308,6 +313,10 @@
       "github_id": "eclipse-tycho"
     },
     {
+      "name": "technology.wattadvisor",
+      "github_id": "eclipse-wattadvisor"
+    },
+    {
       "name": "technology.xpanse",
       "github_id": "eclipse-xpanse"
     },
@@ -350,14 +359,6 @@
     {
       "name": "webtools.dali",
       "github_id": "eclipse-dali"
-    },
-    {
-      "name": "technology.wattadvisor",
-      "github_id": "eclipse-wattadvisor"
-    },
-    {
-      "name": "technology.apoapsis",
-      "github_id": "eclipse-apoapsis"
     }
   ]
 }
