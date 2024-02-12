@@ -135,6 +135,10 @@
       "github_id": "jakartaee"
     },
     {
+      "name": "iot.4diac",
+      "github_id": "eclipse-4diac"
+    },
+    {
       "name": "iot.embed-cdt",
       "github_id": "eclipse-embed-cdt"
     },
