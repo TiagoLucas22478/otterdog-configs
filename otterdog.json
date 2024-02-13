@@ -45,7 +45,8 @@
     },
     {
       "name": "automotive.kuksa",
-      "github_id": "eclipse-kuksa"
+      "github_id": "eclipse-kuksa",
+      "base_template": "https://github.com/EclipseFdn/otterdog-defaults#otterdog-defaults.libsonnet@v0.7.2"
     },
     {
       "name": "automotive.leda",
@@ -104,7 +105,8 @@
     },
     {
       "name": "ecd.langium",
-      "github_id": "eclipse-langium"
+      "github_id": "eclipse-langium",
+      "base_template": "https://github.com/EclipseFdn/otterdog-defaults#otterdog-defaults.libsonnet@v0.7.2"
     },
     {
       "name": "ecd.sprotty",
