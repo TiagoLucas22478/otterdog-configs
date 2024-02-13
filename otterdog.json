@@ -154,11 +154,13 @@
     },
     {
       "name": "iot.keyple",
-      "github_id": "eclipse-keyple"
+      "github_id": "eclipse-keyple",
+      "base_template": "https://github.com/EclipseFdn/otterdog-defaults#otterdog-defaults.libsonnet@v0.7.2"
     },
     {
       "name": "iot.keypop",
-      "github_id": "eclipse-keypop"
+      "github_id": "eclipse-keypop",
+      "base_template": "https://github.com/EclipseFdn/otterdog-defaults#otterdog-defaults.libsonnet@v0.7.2"
     },
     {
       "name": "iot.symphony",
