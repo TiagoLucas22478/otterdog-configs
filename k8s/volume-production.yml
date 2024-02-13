@@ -1,0 +1,13 @@
+kind: PersistentVolumeClaim
+apiVersion: v1
+metadata:  
+  name: otterdog-pvc
+  namespace: foundation-internal-security-otterdog
+spec:
+  accessModes:
+    - ReadWriteOnce
+  resources:
+    requests:
+      storage: 10Gi
+  storageClassName: cephfs
+  volumeMode: Filesystem

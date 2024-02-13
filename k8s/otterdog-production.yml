@@ -1,0 +1,124 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: otterdog
+  namespace: foundation-internal-security-otterdog
+  labels:
+    app: otterdog
+    environment: production
+spec:
+  selector:
+    matchLabels:
+      app: otterdog
+      environment: production
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: otterdog
+        environment: production
+    spec:
+      affinity:
+        nodeAffinity:
+          preferredDuringSchedulingIgnoredDuringExecution:
+          - preference:
+              matchExpressions:
+              - key: speed
+                operator: NotIn
+                values:
+                - fast
+            weight: 1
+      containers:
+      - name: app
+        image: ghcr.io/eclipse-csi/otterdog:0.5.0-snapshot
+        args:
+        - ./start-webapp
+        livenessProbe:
+              httpGet:
+                path: /health
+                port: 5000
+              initialDelaySeconds: 10
+              periodSeconds: 15
+        imagePullPolicy: Always
+        ports:
+        - containerPort: 5000
+        resources:
+          limits:
+            cpu: 500m
+            memory: 512Mi
+          requests:
+            cpu: 100m
+            memory: 512Mi
+        volumeMounts:
+        - name: config
+          mountPath: "/app/.env"
+          subPath: ".env"
+          readOnly: true
+        - name: github-app-key
+          mountPath: "/app/work/config"
+          readOnly: true
+        - mountPath: "/app/work"
+          name: work
+      volumes:
+      - name: config
+        configMap:
+          name: otterdog-prod-env
+          items:
+            - key: "env"
+              path: ".env"
+      - name: github-app-key
+        secret:
+          secretName: otterdog-prod-secrets
+      - emptyDir: { }
+        name: work
+---
+apiVersion: "v1"
+kind: "Service"
+metadata:
+  name: otterdog
+  namespace: foundation-internal-security-otterdog
+spec:
+  ports:
+  - name: "http"
+    port: 80
+    protocol: "TCP"
+    targetPort: 5000
+  selector:
+    app: otterdog
+    environment: production
+---
+apiVersion: "route.openshift.io/v1"
+kind: "Route"
+metadata:
+  name: otterdog
+  namespace: foundation-internal-security-otterdog
+  annotations:
+    haproxy.router.openshift.io/timeout: 20s
+    haproxy.router.openshift.io/disable_cookies: "true"
+    haproxy.router.openshift.io/balance: roundrobin
+spec:
+  host: "otterdog.eclipse.org"
+  path: "/"
+  port:
+    targetPort: "http"
+  tls:
+    insecureEdgeTerminationPolicy: "Redirect"
+    termination: "edge"
+  to:
+    kind: "Service"
+    name: otterdog
+    weight: 100
+---
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: init-webapp
+spec:
+  template:
+    spec:
+      containers:
+        - name: init-webapp
+          image: ghcr.io/eclipse-csi/otterdog:0.5.0-snapshot
+          command: [ "/bin/bash", "/app/init-webapp", "otterdog", "80" ]
+      restartPolicy: Never
+  backoffLimit: 4
