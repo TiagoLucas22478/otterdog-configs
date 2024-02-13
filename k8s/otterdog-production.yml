@@ -34,11 +34,11 @@ spec:
         args:
         - ./start-webapp
         livenessProbe:
-              httpGet:
-                path: /health
-                port: 5000
-              initialDelaySeconds: 10
-              periodSeconds: 15
+          httpGet:
+            path: /health
+            port: 5000
+          initialDelaySeconds: 10
+          periodSeconds: 15
         imagePullPolicy: Always
         ports:
         - containerPort: 5000
