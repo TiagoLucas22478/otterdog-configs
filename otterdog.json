@@ -173,7 +173,8 @@
     },
     {
       "name": "iot.volttron",
-      "github_id": "eclipse-volttron"
+      "github_id": "eclipse-volttron",
+      "base_template": "https://github.com/EclipseFdn/otterdog-defaults#otterdog-defaults.libsonnet@v0.7.2"
     },
     {
       "name": "iot.zenoh",
