@@ -95,6 +95,10 @@
       "github_id": "eclipse-esmf"
     },
     {
+      "name": "dt.slm",
+      "github_id": "eclipse-slm"
+    },
+    {
       "name": "ecd.cdt-cloud",
       "github_id": "eclipse-cdt-cloud",
       "base_template": "https://github.com/EclipseFdn/otterdog-defaults#otterdog-defaults.libsonnet@v0.7.2"
