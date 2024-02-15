@@ -44,10 +44,10 @@ spec:
         - containerPort: 5000
         resources:
           limits:
-            cpu: 500m
-            memory: 512Mi
+            cpu: 4000m
+            memory: 2048Mi
           requests:
-            cpu: 100m
+            cpu: 1000m
             memory: 512Mi
         volumeMounts:
         - name: config
