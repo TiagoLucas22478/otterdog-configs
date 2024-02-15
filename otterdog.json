@@ -37,11 +37,13 @@
     },
     {
       "name": "automotive.chariott",
-      "github_id": "eclipse-chariott"
+      "github_id": "eclipse-chariott",
+      "base_template": "https://github.com/EclipseFdn/otterdog-defaults#otterdog-defaults.libsonnet@v0.7.2"
     },
     {
       "name": "automotive.ibeji",
-      "github_id": "eclipse-ibeji"
+      "github_id": "eclipse-ibeji",
+      "base_template": "https://github.com/EclipseFdn/otterdog-defaults#otterdog-defaults.libsonnet@v0.7.2"
     },
     {
       "name": "automotive.kuksa",
@@ -367,6 +369,10 @@
       "github_id": "eclipse-tracecompass"
     },
     {
+      "name": "tools.tracecompass.incubator",
+      "github_id": "eclipse-tracecompass-incubator"
+    },
+    {
       "name": "tools.wildwebdeveloper",
       "github_id": "eclipse-wildwebdeveloper"
     },
@@ -377,10 +383,6 @@
     {
       "name": "webtools.dali",
       "github_id": "eclipse-dali"
-    },
-    {
-      "name": "tools.tracecompass.incubator",
-      "github_id": "eclipse-tracecompass-incubator"
     }
   ]
 }
