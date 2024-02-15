@@ -377,6 +377,10 @@
     {
       "name": "webtools.dali",
       "github_id": "eclipse-dali"
+    },
+    {
+      "name": "tools.tracecompass.incubator",
+      "github_id": "eclipse-tracecompass-incubator"
     }
   ]
 }
