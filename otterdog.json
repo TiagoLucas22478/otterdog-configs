@@ -152,6 +152,10 @@
       "base_template": "https://github.com/EclipseFdn/otterdog-defaults#otterdog-defaults.libsonnet@v0.7.2"
     },
     {
+      "name": "iot.cyclonedds",
+      "github_id": "eclipse-cyclonedds"
+    },
+    {
       "name": "iot.embed-cdt",
       "github_id": "eclipse-embed-cdt"
     },
