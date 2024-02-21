@@ -245,7 +245,8 @@
     },
     {
       "name": "technology.apoapsis",
-      "github_id": "eclipse-apoapsis"
+      "github_id": "eclipse-apoapsis",
+      "base_template": "https://github.com/EclipseFdn/otterdog-defaults#otterdog-defaults.libsonnet@v0.7.2"
     },
     {
       "name": "technology.babel",
