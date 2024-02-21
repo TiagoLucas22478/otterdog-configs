@@ -28,7 +28,8 @@
     },
     {
       "name": "automotive.ankaios",
-      "github_id": "eclipse-ankaios"
+      "github_id": "eclipse-ankaios",
+      "base_template": "https://github.com/EclipseFdn/otterdog-defaults#otterdog-defaults.libsonnet@v0.7.2"
     },
     {
       "name": "automotive.bluechi",
@@ -87,7 +88,8 @@
     },
     {
       "name": "dt.aaspe",
-      "github_id": "eclipse-aaspe"
+      "github_id": "eclipse-aaspe",
+      "base_template": "https://github.com/EclipseFdn/otterdog-defaults#otterdog-defaults.libsonnet@v0.7.2"
     },
     {
       "name": "dt.basyx",
