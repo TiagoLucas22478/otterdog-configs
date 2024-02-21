@@ -82,7 +82,8 @@
     },
     {
       "name": "automotive.velocitas",
-      "github_id": "eclipse-velocitas"
+      "github_id": "eclipse-velocitas",
+      "base_template": "https://github.com/EclipseFdn/otterdog-defaults#otterdog-defaults.libsonnet@v0.7.2"
     },
     {
       "name": "dt.aaspe",
@@ -387,7 +388,8 @@
     },
     {
       "name": "tools.wildwebdeveloper",
-      "github_id": "eclipse-wildwebdeveloper"
+      "github_id": "eclipse-wildwebdeveloper",
+      "base_template": "https://github.com/EclipseFdn/otterdog-defaults#otterdog-defaults.libsonnet@v0.7.2"
     },
     {
       "name": "tools.windowbuilder",
