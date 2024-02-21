@@ -161,7 +161,8 @@
     },
     {
       "name": "iot.kanto",
-      "github_id": "eclipse-kanto"
+      "github_id": "eclipse-kanto",
+      "base_template": "https://github.com/EclipseFdn/otterdog-defaults#otterdog-defaults.libsonnet@v0.7.2"
     },
     {
       "name": "iot.keyple",
