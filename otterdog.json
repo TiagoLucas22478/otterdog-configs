@@ -320,7 +320,8 @@
     },
     {
       "name": "technology.set",
-      "github_id": "eclipse-set"
+      "github_id": "eclipse-set",
+      "base_template": "https://github.com/EclipseFdn/otterdog-defaults#otterdog-defaults.libsonnet@v0.7.2"
     },
     {
       "name": "technology.simrel",
