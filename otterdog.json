@@ -186,7 +186,8 @@
     },
     {
       "name": "iot.threadx",
-      "github_id": "eclipse-threadx"
+      "github_id": "eclipse-threadx",
+      "base_template": "https://github.com/EclipseFdn/otterdog-defaults#otterdog-defaults.libsonnet@v0.7.2"
     },
     {
       "name": "iot.volttron",
@@ -336,11 +337,13 @@
     },
     {
       "name": "technology.tea",
-      "github_id": "eclipse-tea"
+      "github_id": "eclipse-tea",
+      "base_template": "https://github.com/EclipseFdn/otterdog-defaults#otterdog-defaults.libsonnet@v0.7.2"
     },
     {
       "name": "technology.tycho",
-      "github_id": "eclipse-tycho"
+      "github_id": "eclipse-tycho",
+      "base_template": "https://github.com/EclipseFdn/otterdog-defaults#otterdog-defaults.libsonnet@v0.7.2"
     },
     {
       "name": "technology.wattadvisor",
