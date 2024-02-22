@@ -14,3 +14,4 @@ Ticket to keep track of the necessary steps to enable otterdog for the eclipse-<
 - [ ] Created .eclipsefdn repo
 - [ ] Added configuration for eclipse-<PROJECT_SHORT_NAME> to https://github.com/EclipseFdn/otterdog-configs/
 - [ ] Added GitHub organization to PMI
+- [ ] Installed Otterdog GitHub App
