@@ -16,395 +16,408 @@
       "api_token_pattern": "bots/{0}/github.com/otterdog-token"
     },
     "jsonnet": {
-      "base_template": "https://github.com/EclipseFdn/otterdog-defaults#otterdog-defaults.libsonnet@v0.7.1",
+      "base_template": "https://github.com/EclipseFdn/otterdog-defaults#otterdog-defaults.libsonnet@v0.7.2",
       "config_dir": "orgs"
     }
   },
   "organizations": [
     {
       "name": "adoptium",
-      "github_id": "adoptium",
-      "base_template": "https://github.com/EclipseFdn/otterdog-defaults#otterdog-defaults.libsonnet@v0.7.2"
+      "github_id": "adoptium"
     },
     {
       "name": "automotive.ankaios",
-      "github_id": "eclipse-ankaios",
-      "base_template": "https://github.com/EclipseFdn/otterdog-defaults#otterdog-defaults.libsonnet@v0.7.2"
+      "github_id": "eclipse-ankaios"
     },
     {
       "name": "automotive.bluechi",
-      "github_id": "eclipse-bluechi",
-      "base_template": "https://github.com/EclipseFdn/otterdog-defaults#otterdog-defaults.libsonnet@v0.7.2"
+      "github_id": "eclipse-bluechi"
     },
     {
       "name": "automotive.chariott",
-      "github_id": "eclipse-chariott",
-      "base_template": "https://github.com/EclipseFdn/otterdog-defaults#otterdog-defaults.libsonnet@v0.7.2"
+      "github_id": "eclipse-chariott"
     },
     {
       "name": "automotive.ibeji",
-      "github_id": "eclipse-ibeji",
-      "base_template": "https://github.com/EclipseFdn/otterdog-defaults#otterdog-defaults.libsonnet@v0.7.2"
+      "github_id": "eclipse-ibeji"
     },
     {
       "name": "automotive.kuksa",
-      "github_id": "eclipse-kuksa",
-      "base_template": "https://github.com/EclipseFdn/otterdog-defaults#otterdog-defaults.libsonnet@v0.7.2"
+      "github_id": "eclipse-kuksa"
     },
     {
       "name": "automotive.leda",
-      "github_id": "eclipse-leda"
+      "github_id": "eclipse-leda",
+      "base_template": "https://github.com/EclipseFdn/otterdog-defaults#otterdog-defaults.libsonnet@v0.7.1"
     },
     {
       "name": "automotive.muto",
-      "github_id": "eclipse-muto"
+      "github_id": "eclipse-muto",
+      "base_template": "https://github.com/EclipseFdn/otterdog-defaults#otterdog-defaults.libsonnet@v0.7.1"
     },
     {
       "name": "automotive.opendut",
-      "github_id": "eclipse-opendut",
-      "base_template": "https://github.com/EclipseFdn/otterdog-defaults#otterdog-defaults.libsonnet@v0.7.2"
+      "github_id": "eclipse-opendut"
     },
     {
       "name": "automotive.sdv-blueprints",
-      "github_id": "eclipse-sdv-blueprints"
+      "github_id": "eclipse-sdv-blueprints",
+      "base_template": "https://github.com/EclipseFdn/otterdog-defaults#otterdog-defaults.libsonnet@v0.7.1"
     },
     {
       "name": "automotive.sumo",
-      "github_id": "eclipse-sumo"
+      "github_id": "eclipse-sumo",
+      "base_template": "https://github.com/EclipseFdn/otterdog-defaults#otterdog-defaults.libsonnet@v0.7.1"
     },
     {
       "name": "automotive.tractusx",
-      "github_id": "eclipse-tractusx",
-      "base_template": "https://github.com/EclipseFdn/otterdog-defaults#otterdog-defaults.libsonnet@v0.7.2"
+      "github_id": "eclipse-tractusx"
     },
     {
       "name": "automotive.uprotocol",
-      "github_id": "eclipse-uprotocol",
-      "base_template": "https://github.com/EclipseFdn/otterdog-defaults#otterdog-defaults.libsonnet@v0.7.2"
+      "github_id": "eclipse-uprotocol"
     },
     {
       "name": "automotive.velocitas",
-      "github_id": "eclipse-velocitas",
-      "base_template": "https://github.com/EclipseFdn/otterdog-defaults#otterdog-defaults.libsonnet@v0.7.2"
+      "github_id": "eclipse-velocitas"
     },
     {
       "name": "dt.aaspe",
-      "github_id": "eclipse-aaspe",
-      "base_template": "https://github.com/EclipseFdn/otterdog-defaults#otterdog-defaults.libsonnet@v0.7.2"
+      "github_id": "eclipse-aaspe"
     },
     {
       "name": "dt.basyx",
-      "github_id": "eclipse-basyx"
+      "github_id": "eclipse-basyx",
+      "base_template": "https://github.com/EclipseFdn/otterdog-defaults#otterdog-defaults.libsonnet@v0.7.1"
     },
     {
       "name": "dt.esmf",
-      "github_id": "eclipse-esmf"
+      "github_id": "eclipse-esmf",
+      "base_template": "https://github.com/EclipseFdn/otterdog-defaults#otterdog-defaults.libsonnet@v0.7.1"
     },
     {
       "name": "dt.slm",
-      "github_id": "eclipse-slm"
+      "github_id": "eclipse-slm",
+      "base_template": "https://github.com/EclipseFdn/otterdog-defaults#otterdog-defaults.libsonnet@v0.7.1"
     },
     {
       "name": "ecd.cdt-cloud",
-      "github_id": "eclipse-cdt-cloud",
-      "base_template": "https://github.com/EclipseFdn/otterdog-defaults#otterdog-defaults.libsonnet@v0.7.2"
+      "github_id": "eclipse-cdt-cloud"
     },
     {
       "name": "ecd.glsp",
-      "github_id": "eclipse-glsp"
+      "github_id": "eclipse-glsp",
+      "base_template": "https://github.com/EclipseFdn/otterdog-defaults#otterdog-defaults.libsonnet@v0.7.1"
     },
     {
       "name": "ecd.langium",
-      "github_id": "eclipse-langium",
-      "base_template": "https://github.com/EclipseFdn/otterdog-defaults#otterdog-defaults.libsonnet@v0.7.2"
+      "github_id": "eclipse-langium"
     },
     {
       "name": "ecd.sprotty",
-      "github_id": "eclipse-sprotty"
+      "github_id": "eclipse-sprotty",
+      "base_template": "https://github.com/EclipseFdn/otterdog-defaults#otterdog-defaults.libsonnet@v0.7.1"
     },
     {
       "name": "ecd.theia",
-      "github_id": "eclipse-theia"
+      "github_id": "eclipse-theia",
+      "base_template": "https://github.com/EclipseFdn/otterdog-defaults#otterdog-defaults.libsonnet@v0.7.1"
     },
     {
       "name": "eclipse.jdt",
-      "github_id": "eclipse-jdt"
+      "github_id": "eclipse-jdt",
+      "base_template": "https://github.com/EclipseFdn/otterdog-defaults#otterdog-defaults.libsonnet@v0.7.1"
     },
     {
       "name": "eclipse.jdt.ls",
-      "github_id": "eclipse-jdtls"
+      "github_id": "eclipse-jdtls",
+      "base_template": "https://github.com/EclipseFdn/otterdog-defaults#otterdog-defaults.libsonnet@v0.7.1"
     },
     {
       "name": "eclipse.pde",
-      "github_id": "eclipse-pde"
+      "github_id": "eclipse-pde",
+      "base_template": "https://github.com/EclipseFdn/otterdog-defaults#otterdog-defaults.libsonnet@v0.7.1"
     },
     {
       "name": "eclipse.platform",
-      "github_id": "eclipse-platform"
+      "github_id": "eclipse-platform",
+      "base_template": "https://github.com/EclipseFdn/otterdog-defaults#otterdog-defaults.libsonnet@v0.7.1"
     },
     {
       "name": "ee4j",
-      "github_id": "eclipse-ee4j"
+      "github_id": "eclipse-ee4j",
+      "base_template": "https://github.com/EclipseFdn/otterdog-defaults#otterdog-defaults.libsonnet@v0.7.1"
     },
     {
       "name": "ee4j.jakartaee-platform",
-      "github_id": "jakartaee"
+      "github_id": "jakartaee",
+      "base_template": "https://github.com/EclipseFdn/otterdog-defaults#otterdog-defaults.libsonnet@v0.7.1"
     },
     {
       "name": "iot.4diac",
-      "github_id": "eclipse-4diac",
-      "base_template": "https://github.com/EclipseFdn/otterdog-defaults#otterdog-defaults.libsonnet@v0.7.2"
+      "github_id": "eclipse-4diac"
     },
     {
       "name": "iot.cyclonedds",
-      "github_id": "eclipse-cyclonedds"
+      "github_id": "eclipse-cyclonedds",
+      "base_template": "https://github.com/EclipseFdn/otterdog-defaults#otterdog-defaults.libsonnet@v0.7.1"
     },
     {
       "name": "iot.embed-cdt",
-      "github_id": "eclipse-embed-cdt"
+      "github_id": "eclipse-embed-cdt",
+      "base_template": "https://github.com/EclipseFdn/otterdog-defaults#otterdog-defaults.libsonnet@v0.7.1"
     },
     {
       "name": "iot.kanto",
-      "github_id": "eclipse-kanto",
-      "base_template": "https://github.com/EclipseFdn/otterdog-defaults#otterdog-defaults.libsonnet@v0.7.2"
+      "github_id": "eclipse-kanto"
     },
     {
       "name": "iot.keyple",
-      "github_id": "eclipse-keyple",
-      "base_template": "https://github.com/EclipseFdn/otterdog-defaults#otterdog-defaults.libsonnet@v0.7.2"
+      "github_id": "eclipse-keyple"
     },
     {
       "name": "iot.keypop",
-      "github_id": "eclipse-keypop",
-      "base_template": "https://github.com/EclipseFdn/otterdog-defaults#otterdog-defaults.libsonnet@v0.7.2"
+      "github_id": "eclipse-keypop"
     },
     {
       "name": "iot.symphony",
-      "github_id": "eclipse-symphony"
+      "github_id": "eclipse-symphony",
+      "base_template": "https://github.com/EclipseFdn/otterdog-defaults#otterdog-defaults.libsonnet@v0.7.1"
     },
     {
       "name": "iot.thingweb",
-      "github_id": "eclipse-thingweb",
-      "base_template": "https://github.com/EclipseFdn/otterdog-defaults#otterdog-defaults.libsonnet@v0.7.2"
+      "github_id": "eclipse-thingweb"
     },
     {
       "name": "iot.threadx",
-      "github_id": "eclipse-threadx",
-      "base_template": "https://github.com/EclipseFdn/otterdog-defaults#otterdog-defaults.libsonnet@v0.7.2"
+      "github_id": "eclipse-threadx"
     },
     {
       "name": "iot.volttron",
-      "github_id": "eclipse-volttron",
-      "base_template": "https://github.com/EclipseFdn/otterdog-defaults#otterdog-defaults.libsonnet@v0.7.2"
+      "github_id": "eclipse-volttron"
     },
     {
       "name": "iot.zenoh",
-      "github_id": "eclipse-zenoh",
-      "base_template": "https://github.com/EclipseFdn/otterdog-defaults#otterdog-defaults.libsonnet@v0.7.2"
+      "github_id": "eclipse-zenoh"
     },
     {
       "name": "modeling.emf",
-      "github_id": "eclipse-emf"
+      "github_id": "eclipse-emf",
+      "base_template": "https://github.com/EclipseFdn/otterdog-defaults#otterdog-defaults.libsonnet@v0.7.1"
     },
     {
       "name": "modeling.emfservices",
-      "github_id": "eclipse-emfservices"
+      "github_id": "eclipse-emfservices",
+      "base_template": "https://github.com/EclipseFdn/otterdog-defaults#otterdog-defaults.libsonnet@v0.7.1"
     },
     {
       "name": "modeling.gmf-runtime",
-      "github_id": "eclipse-gmf-runtime"
+      "github_id": "eclipse-gmf-runtime",
+      "base_template": "https://github.com/EclipseFdn/otterdog-defaults#otterdog-defaults.libsonnet@v0.7.1"
     },
     {
       "name": "modeling.mdt.uml2",
-      "github_id": "eclipse-uml2"
+      "github_id": "eclipse-uml2",
+      "base_template": "https://github.com/EclipseFdn/otterdog-defaults#otterdog-defaults.libsonnet@v0.7.1"
     },
     {
       "name": "modeling.sirius",
-      "github_id": "eclipse-sirius",
-      "base_template": "https://github.com/EclipseFdn/otterdog-defaults#otterdog-defaults.libsonnet@v0.7.2"
+      "github_id": "eclipse-sirius"
     },
     {
       "name": "modeling.syson",
-      "github_id": "eclipse-syson"
+      "github_id": "eclipse-syson",
+      "base_template": "https://github.com/EclipseFdn/otterdog-defaults#otterdog-defaults.libsonnet@v0.7.1"
     },
     {
       "name": "oniro.oniro4openharmony",
-      "github_id": "eclipse-oniro4openharmony"
+      "github_id": "eclipse-oniro4openharmony",
+      "base_template": "https://github.com/EclipseFdn/otterdog-defaults#otterdog-defaults.libsonnet@v0.7.1"
     },
     {
       "name": "rt.gemini",
-      "github_id": "eclipse-gemini"
+      "github_id": "eclipse-gemini",
+      "base_template": "https://github.com/EclipseFdn/otterdog-defaults#otterdog-defaults.libsonnet@v0.7.1"
     },
     {
       "name": "rt.jetty",
-      "github_id": "jetty",
-      "base_template": "https://github.com/EclipseFdn/otterdog-defaults#otterdog-defaults.libsonnet@v0.7.2"
+      "github_id": "jetty"
     },
     {
       "name": "rt.vertx",
-      "github_id": "eclipse-vertx",
-      "base_template": "https://github.com/EclipseFdn/otterdog-defaults#otterdog-defaults.libsonnet@v0.7.2"
+      "github_id": "eclipse-vertx"
     },
     {
       "name": "rt.virgo",
-      "github_id": "eclipse-virgo"
+      "github_id": "eclipse-virgo",
+      "base_template": "https://github.com/EclipseFdn/otterdog-defaults#otterdog-defaults.libsonnet@v0.7.1"
     },
     {
       "name": "technology.apoapsis",
-      "github_id": "eclipse-apoapsis",
-      "base_template": "https://github.com/EclipseFdn/otterdog-defaults#otterdog-defaults.libsonnet@v0.7.2"
+      "github_id": "eclipse-apoapsis"
     },
     {
       "name": "technology.babel",
-      "github_id": "eclipse-babel"
+      "github_id": "eclipse-babel",
+      "base_template": "https://github.com/EclipseFdn/otterdog-defaults#otterdog-defaults.libsonnet@v0.7.1"
     },
     {
       "name": "technology.cbi",
-      "github_id": "eclipse-cbi",
-      "base_template": "https://github.com/EclipseFdn/otterdog-defaults#otterdog-defaults.libsonnet@v0.7.2"
+      "github_id": "eclipse-cbi"
     },
     {
       "name": "technology.corinthian",
-      "github_id": "eclipse-corinthian"
+      "github_id": "eclipse-corinthian",
+      "base_template": "https://github.com/EclipseFdn/otterdog-defaults#otterdog-defaults.libsonnet@v0.7.1"
     },
     {
       "name": "technology.csi",
-      "github_id": "eclipse-csi",
-      "base_template": "https://github.com/EclipseFdn/otterdog-defaults#otterdog-defaults.libsonnet@v0.7.2"
+      "github_id": "eclipse-csi"
     },
     {
       "name": "technology.daanse",
-      "github_id": "eclipse-daanse"
+      "github_id": "eclipse-daanse",
+      "base_template": "https://github.com/EclipseFdn/otterdog-defaults#otterdog-defaults.libsonnet@v0.7.1"
     },
     {
       "name": "technology.dash",
-      "github_id": "eclipse-dash"
+      "github_id": "eclipse-dash",
+      "base_template": "https://github.com/EclipseFdn/otterdog-defaults#otterdog-defaults.libsonnet@v0.7.1"
     },
     {
       "name": "technology.eclemma",
-      "github_id": "eclipse-eclemma"
+      "github_id": "eclipse-eclemma",
+      "base_template": "https://github.com/EclipseFdn/otterdog-defaults#otterdog-defaults.libsonnet@v0.7.1"
     },
     {
       "name": "technology.edc",
-      "github_id": "eclipse-edc",
-      "base_template": "https://github.com/EclipseFdn/otterdog-defaults#otterdog-defaults.libsonnet@v0.7.2"
+      "github_id": "eclipse-edc"
     },
     {
       "name": "technology.egit",
-      "github_id": "eclipse-egit"
+      "github_id": "eclipse-egit",
+      "base_template": "https://github.com/EclipseFdn/otterdog-defaults#otterdog-defaults.libsonnet@v0.7.1"
     },
     {
       "name": "technology.iceoryx",
-      "github_id": "eclipse-iceoryx"
+      "github_id": "eclipse-iceoryx",
+      "base_template": "https://github.com/EclipseFdn/otterdog-defaults#otterdog-defaults.libsonnet@v0.7.1"
     },
     {
       "name": "technology.jgit",
-      "github_id": "eclipse-jgit"
+      "github_id": "eclipse-jgit",
+      "base_template": "https://github.com/EclipseFdn/otterdog-defaults#otterdog-defaults.libsonnet@v0.7.1"
     },
     {
       "name": "technology.justj",
-      "github_id": "eclipse-justj"
+      "github_id": "eclipse-justj",
+      "base_template": "https://github.com/EclipseFdn/otterdog-defaults#otterdog-defaults.libsonnet@v0.7.1"
     },
     {
       "name": "technology.lsp4j",
-      "github_id": "eclipse-lsp4j"
+      "github_id": "eclipse-lsp4j",
+      "base_template": "https://github.com/EclipseFdn/otterdog-defaults#otterdog-defaults.libsonnet@v0.7.1"
     },
     {
       "name": "technology.nebula.nattable",
-      "github_id": "eclipse-nattable"
+      "github_id": "eclipse-nattable",
+      "base_template": "https://github.com/EclipseFdn/otterdog-defaults#otterdog-defaults.libsonnet@v0.7.1"
     },
     {
       "name": "technology.packaging",
-      "github_id": "eclipse-packaging"
+      "github_id": "eclipse-packaging",
+      "base_template": "https://github.com/EclipseFdn/otterdog-defaults#otterdog-defaults.libsonnet@v0.7.1"
     },
     {
       "name": "technology.pass",
-      "github_id": "eclipse-pass"
+      "github_id": "eclipse-pass",
+      "base_template": "https://github.com/EclipseFdn/otterdog-defaults#otterdog-defaults.libsonnet@v0.7.1"
     },
     {
       "name": "technology.serializer",
-      "github_id": "eclipse-serializer"
+      "github_id": "eclipse-serializer",
+      "base_template": "https://github.com/EclipseFdn/otterdog-defaults#otterdog-defaults.libsonnet@v0.7.1"
     },
     {
       "name": "technology.set",
-      "github_id": "eclipse-set",
-      "base_template": "https://github.com/EclipseFdn/otterdog-defaults#otterdog-defaults.libsonnet@v0.7.2"
+      "github_id": "eclipse-set"
     },
     {
       "name": "technology.simrel",
-      "github_id": "eclipse-simrel"
+      "github_id": "eclipse-simrel",
+      "base_template": "https://github.com/EclipseFdn/otterdog-defaults#otterdog-defaults.libsonnet@v0.7.1"
     },
     {
       "name": "technology.store",
-      "github_id": "eclipse-store"
+      "github_id": "eclipse-store",
+      "base_template": "https://github.com/EclipseFdn/otterdog-defaults#otterdog-defaults.libsonnet@v0.7.1"
     },
     {
       "name": "technology.tea",
-      "github_id": "eclipse-tea",
-      "base_template": "https://github.com/EclipseFdn/otterdog-defaults#otterdog-defaults.libsonnet@v0.7.2"
+      "github_id": "eclipse-tea"
     },
     {
       "name": "technology.tycho",
-      "github_id": "eclipse-tycho",
-      "base_template": "https://github.com/EclipseFdn/otterdog-defaults#otterdog-defaults.libsonnet@v0.7.2"
+      "github_id": "eclipse-tycho"
     },
     {
       "name": "technology.wattadvisor",
-      "github_id": "eclipse-wattadvisor"
+      "github_id": "eclipse-wattadvisor",
+      "base_template": "https://github.com/EclipseFdn/otterdog-defaults#otterdog-defaults.libsonnet@v0.7.1"
     },
     {
       "name": "technology.xpanse",
-      "github_id": "eclipse-xpanse",
-      "base_template": "https://github.com/EclipseFdn/otterdog-defaults#otterdog-defaults.libsonnet@v0.7.2"
+      "github_id": "eclipse-xpanse"
     },
     {
       "name": "tools.cdt",
-      "github_id": "eclipse-cdt",
-      "base_template": "https://github.com/EclipseFdn/otterdog-defaults#otterdog-defaults.libsonnet@v0.7.2"
+      "github_id": "eclipse-cdt"
     },
     {
       "name": "tools.datatools",
-      "github_id": "eclipse-datatools"
+      "github_id": "eclipse-datatools",
+      "base_template": "https://github.com/EclipseFdn/otterdog-defaults#otterdog-defaults.libsonnet@v0.7.1"
     },
     {
       "name": "tools.mylyn",
-      "github_id": "eclipse-mylyn"
+      "github_id": "eclipse-mylyn",
+      "base_template": "https://github.com/EclipseFdn/otterdog-defaults#otterdog-defaults.libsonnet@v0.7.1"
     },
     {
       "name": "tools.oomph",
-      "github_id": "eclipse-oomph"
+      "github_id": "eclipse-oomph",
+      "base_template": "https://github.com/EclipseFdn/otterdog-defaults#otterdog-defaults.libsonnet@v0.7.1"
     },
     {
       "name": "tools.orbit",
-      "github_id": "eclipse-orbit",
-      "base_template": "https://github.com/EclipseFdn/otterdog-defaults#otterdog-defaults.libsonnet@v0.7.2"
+      "github_id": "eclipse-orbit"
     },
     {
       "name": "tools.pdt",
-      "github_id": "eclipse-pdt"
+      "github_id": "eclipse-pdt",
+      "base_template": "https://github.com/EclipseFdn/otterdog-defaults#otterdog-defaults.libsonnet@v0.7.1"
     },
     {
       "name": "tools.tracecompass",
-      "github_id": "eclipse-tracecompass",
-      "base_template": "https://github.com/EclipseFdn/otterdog-defaults#otterdog-defaults.libsonnet@v0.7.2"
+      "github_id": "eclipse-tracecompass"
     },
     {
       "name": "tools.tracecompass.incubator",
-      "github_id": "eclipse-tracecompass-incubator",
-      "base_template": "https://github.com/EclipseFdn/otterdog-defaults#otterdog-defaults.libsonnet@v0.7.2"
+      "github_id": "eclipse-tracecompass-incubator"
     },
     {
       "name": "tools.wildwebdeveloper",
-      "github_id": "eclipse-wildwebdeveloper",
-      "base_template": "https://github.com/EclipseFdn/otterdog-defaults#otterdog-defaults.libsonnet@v0.7.2"
+      "github_id": "eclipse-wildwebdeveloper"
     },
     {
       "name": "tools.windowbuilder",
-      "github_id": "eclipse-windowbuilder"
+      "github_id": "eclipse-windowbuilder",
+      "base_template": "https://github.com/EclipseFdn/otterdog-defaults#otterdog-defaults.libsonnet@v0.7.1"
     },
     {
       "name": "webtools.dali",
-      "github_id": "eclipse-dali"
+      "github_id": "eclipse-dali",
+      "base_template": "https://github.com/EclipseFdn/otterdog-defaults#otterdog-defaults.libsonnet@v0.7.1"
     }
   ]
 }
