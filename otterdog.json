@@ -61,7 +61,8 @@
     },
     {
       "name": "automotive.opendut",
-      "github_id": "eclipse-opendut"
+      "github_id": "eclipse-opendut",
+      "base_template": "https://github.com/EclipseFdn/otterdog-defaults#otterdog-defaults.libsonnet@v0.7.2"
     },
     {
       "name": "automotive.sdv-blueprints",
@@ -358,7 +359,8 @@
     },
     {
       "name": "tools.cdt",
-      "github_id": "eclipse-cdt"
+      "github_id": "eclipse-cdt",
+      "base_template": "https://github.com/EclipseFdn/otterdog-defaults#otterdog-defaults.libsonnet@v0.7.2"
     },
     {
       "name": "tools.datatools",
