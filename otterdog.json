@@ -64,8 +64,7 @@
     },
     {
       "name": "automotive.sumo",
-      "github_id": "eclipse-sumo",
-      "base_template": "https://github.com/EclipseFdn/otterdog-defaults#otterdog-defaults.libsonnet@v0.7.1"
+      "github_id": "eclipse-sumo"
     },
     {
       "name": "automotive.tractusx",
@@ -85,8 +84,7 @@
     },
     {
       "name": "dt.basyx",
-      "github_id": "eclipse-basyx",
-      "base_template": "https://github.com/EclipseFdn/otterdog-defaults#otterdog-defaults.libsonnet@v0.7.1"
+      "github_id": "eclipse-basyx"
     },
     {
       "name": "dt.esmf",
@@ -113,8 +111,7 @@
     },
     {
       "name": "ecd.sprotty",
-      "github_id": "eclipse-sprotty",
-      "base_template": "https://github.com/EclipseFdn/otterdog-defaults#otterdog-defaults.libsonnet@v0.7.1"
+      "github_id": "eclipse-sprotty"
     },
     {
       "name": "ecd.theia",
