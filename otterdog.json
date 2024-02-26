@@ -154,8 +154,7 @@
     },
     {
       "name": "iot.cyclonedds",
-      "github_id": "eclipse-cyclonedds",
-      "base_template": "https://github.com/EclipseFdn/otterdog-defaults#otterdog-defaults.libsonnet@v0.7.1"
+      "github_id": "eclipse-cyclonedds"
     },
     {
       "name": "iot.embed-cdt",
@@ -271,8 +270,7 @@
     },
     {
       "name": "technology.corinthian",
-      "github_id": "eclipse-corinthian",
-      "base_template": "https://github.com/EclipseFdn/otterdog-defaults#otterdog-defaults.libsonnet@v0.7.1"
+      "github_id": "eclipse-corinthian"
     },
     {
       "name": "technology.csi",
@@ -280,8 +278,7 @@
     },
     {
       "name": "technology.daanse",
-      "github_id": "eclipse-daanse",
-      "base_template": "https://github.com/EclipseFdn/otterdog-defaults#otterdog-defaults.libsonnet@v0.7.1"
+      "github_id": "eclipse-daanse"
     },
     {
       "name": "technology.dash",
