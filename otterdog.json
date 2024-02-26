@@ -423,6 +423,11 @@
       "name": "science.texlipse",
       "github_id": "eclipse-texlipse",
       "base_template": "https://github.com/EclipseFdn/otterdog-defaults#otterdog-defaults.libsonnet@v0.7.1"
+    },
+    {
+      "name": "polarsys.capella",
+      "github_id": "eclipse-capella",
+      "base_template": "https://github.com/EclipseFdn/otterdog-defaults#otterdog-defaults.libsonnet@v0.7.1"
     }
   ]
 }
