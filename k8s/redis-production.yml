@@ -16,9 +16,17 @@ spec:
       containers:
       - image: redis:7.2.4-alpine
         name: redis
-        args: ["--loglevel", "warning"]
+        args: ["--save", "\"\"", "--loglevel", "warning"]
         ports:
           - containerPort: 6379
+#        volumeMounts:
+#          - name: "pvol"
+#            mountPath: "/data"
+#            subPath: "cache"
+#      volumes:
+#        - name: "pvol"
+#          persistentVolumeClaim:
+#            claimName: "otterdog-pvc"
 ---
 apiVersion: v1
 kind: Service
