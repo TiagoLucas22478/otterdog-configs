@@ -235,6 +235,11 @@
       "base_template": "https://github.com/EclipseFdn/otterdog-defaults#otterdog-defaults.libsonnet@v0.7.1"
     },
     {
+      "name": "polarsys.capella",
+      "github_id": "eclipse-capella",
+      "base_template": "https://github.com/EclipseFdn/otterdog-defaults#otterdog-defaults.libsonnet@v0.7.1"
+    },
+    {
       "name": "rt.gemini",
       "github_id": "eclipse-gemini",
       "base_template": "https://github.com/EclipseFdn/otterdog-defaults#otterdog-defaults.libsonnet@v0.7.1"
@@ -251,6 +256,10 @@
       "name": "rt.virgo",
       "github_id": "eclipse-virgo",
       "base_template": "https://github.com/EclipseFdn/otterdog-defaults#otterdog-defaults.libsonnet@v0.7.1"
+    },
+    {
+      "name": "science.texlipse",
+      "github_id": "eclipse-texlipse"
     },
     {
       "name": "technology.apoapsis",
@@ -417,16 +426,6 @@
     {
       "name": "webtools.dali",
       "github_id": "eclipse-dali",
-      "base_template": "https://github.com/EclipseFdn/otterdog-defaults#otterdog-defaults.libsonnet@v0.7.1"
-    },
-    {
-      "name": "science.texlipse",
-      "github_id": "eclipse-texlipse",
-      "base_template": "https://github.com/EclipseFdn/otterdog-defaults#otterdog-defaults.libsonnet@v0.7.1"
-    },
-    {
-      "name": "polarsys.capella",
-      "github_id": "eclipse-capella",
       "base_template": "https://github.com/EclipseFdn/otterdog-defaults#otterdog-defaults.libsonnet@v0.7.1"
     }
   ]
