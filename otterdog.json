@@ -209,8 +209,7 @@
     },
     {
       "name": "oniro.oniro4openharmony",
-      "github_id": "eclipse-oniro4openharmony",
-      "base_template": "https://github.com/EclipseFdn/otterdog-defaults#otterdog-defaults.libsonnet@v0.7.1"
+      "github_id": "eclipse-oniro4openharmony"
     },
     {
       "name": "polarsys.capella",
@@ -302,8 +301,7 @@
     },
     {
       "name": "technology.pass",
-      "github_id": "eclipse-pass",
-      "base_template": "https://github.com/EclipseFdn/otterdog-defaults#otterdog-defaults.libsonnet@v0.7.1"
+      "github_id": "eclipse-pass"
     },
     {
       "name": "technology.serializer",
