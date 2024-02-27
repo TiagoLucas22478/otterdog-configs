@@ -59,8 +59,7 @@
     },
     {
       "name": "automotive.sdv-blueprints",
-      "github_id": "eclipse-sdv-blueprints",
-      "base_template": "https://github.com/EclipseFdn/otterdog-defaults#otterdog-defaults.libsonnet@v0.7.1"
+      "github_id": "eclipse-sdv-blueprints"
     },
     {
       "name": "automotive.sumo",
@@ -133,8 +132,7 @@
     },
     {
       "name": "eclipse.platform",
-      "github_id": "eclipse-platform",
-      "base_template": "https://github.com/EclipseFdn/otterdog-defaults#otterdog-defaults.libsonnet@v0.7.1"
+      "github_id": "eclipse-platform"
     },
     {
       "name": "ee4j",
