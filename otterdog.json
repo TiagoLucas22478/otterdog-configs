@@ -87,8 +87,7 @@
     },
     {
       "name": "dt.esmf",
-      "github_id": "eclipse-esmf",
-      "base_template": "https://github.com/EclipseFdn/otterdog-defaults#otterdog-defaults.libsonnet@v0.7.1"
+      "github_id": "eclipse-esmf"
     },
     {
       "name": "dt.slm",
@@ -100,8 +99,7 @@
     },
     {
       "name": "ecd.glsp",
-      "github_id": "eclipse-glsp",
-      "base_template": "https://github.com/EclipseFdn/otterdog-defaults#otterdog-defaults.libsonnet@v0.7.1"
+      "github_id": "eclipse-glsp"
     },
     {
       "name": "ecd.langium",
