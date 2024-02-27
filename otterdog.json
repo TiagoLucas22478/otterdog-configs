@@ -285,8 +285,7 @@
     },
     {
       "name": "technology.eclemma",
-      "github_id": "eclipse-eclemma",
-      "base_template": "https://github.com/EclipseFdn/otterdog-defaults#otterdog-defaults.libsonnet@v0.7.1"
+      "github_id": "eclipse-eclemma"
     },
     {
       "name": "technology.edc",
@@ -374,8 +373,7 @@
     },
     {
       "name": "tools.datatools",
-      "github_id": "eclipse-datatools",
-      "base_template": "https://github.com/EclipseFdn/otterdog-defaults#otterdog-defaults.libsonnet@v0.7.1"
+      "github_id": "eclipse-datatools"
     },
     {
       "name": "tools.mylyn",
@@ -415,8 +413,7 @@
     },
     {
       "name": "webtools.dali",
-      "github_id": "eclipse-dali",
-      "base_template": "https://github.com/EclipseFdn/otterdog-defaults#otterdog-defaults.libsonnet@v0.7.1"
+      "github_id": "eclipse-dali"
     }
   ]
 }
