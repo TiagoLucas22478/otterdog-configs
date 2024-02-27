@@ -92,8 +92,7 @@
     },
     {
       "name": "dt.slm",
-      "github_id": "eclipse-slm",
-      "base_template": "https://github.com/EclipseFdn/otterdog-defaults#otterdog-defaults.libsonnet@v0.7.1"
+      "github_id": "eclipse-slm"
     },
     {
       "name": "ecd.cdt-cloud",
@@ -322,8 +321,7 @@
     },
     {
       "name": "technology.serializer",
-      "github_id": "eclipse-serializer",
-      "base_template": "https://github.com/EclipseFdn/otterdog-defaults#otterdog-defaults.libsonnet@v0.7.1"
+      "github_id": "eclipse-serializer"
     },
     {
       "name": "technology.set",
@@ -331,13 +329,11 @@
     },
     {
       "name": "technology.simrel",
-      "github_id": "eclipse-simrel",
-      "base_template": "https://github.com/EclipseFdn/otterdog-defaults#otterdog-defaults.libsonnet@v0.7.1"
+      "github_id": "eclipse-simrel"
     },
     {
       "name": "technology.store",
-      "github_id": "eclipse-store",
-      "base_template": "https://github.com/EclipseFdn/otterdog-defaults#otterdog-defaults.libsonnet@v0.7.1"
+      "github_id": "eclipse-store"
     },
     {
       "name": "technology.tea",
