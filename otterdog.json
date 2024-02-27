@@ -239,8 +239,7 @@
     },
     {
       "name": "rt.virgo",
-      "github_id": "eclipse-virgo",
-      "base_template": "https://github.com/EclipseFdn/otterdog-defaults#otterdog-defaults.libsonnet@v0.7.1"
+      "github_id": "eclipse-virgo"
     },
     {
       "name": "science.texlipse",
@@ -342,8 +341,7 @@
     },
     {
       "name": "technology.wattadvisor",
-      "github_id": "eclipse-wattadvisor",
-      "base_template": "https://github.com/EclipseFdn/otterdog-defaults#otterdog-defaults.libsonnet@v0.7.1"
+      "github_id": "eclipse-wattadvisor"
     },
     {
       "name": "technology.xpanse",
@@ -388,8 +386,7 @@
     },
     {
       "name": "tools.windowbuilder",
-      "github_id": "eclipse-windowbuilder",
-      "base_template": "https://github.com/EclipseFdn/otterdog-defaults#otterdog-defaults.libsonnet@v0.7.1"
+      "github_id": "eclipse-windowbuilder"
     },
     {
       "name": "webtools.dali",
