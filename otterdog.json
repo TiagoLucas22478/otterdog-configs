@@ -294,8 +294,7 @@
     },
     {
       "name": "technology.iceoryx",
-      "github_id": "eclipse-iceoryx",
-      "base_template": "https://github.com/EclipseFdn/otterdog-defaults#otterdog-defaults.libsonnet@v0.7.1"
+      "github_id": "eclipse-iceoryx"
     },
     {
       "name": "technology.jgit",
@@ -303,8 +302,7 @@
     },
     {
       "name": "technology.justj",
-      "github_id": "eclipse-justj",
-      "base_template": "https://github.com/EclipseFdn/otterdog-defaults#otterdog-defaults.libsonnet@v0.7.1"
+      "github_id": "eclipse-justj"
     },
     {
       "name": "technology.lsp4j",
