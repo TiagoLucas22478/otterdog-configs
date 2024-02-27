@@ -261,8 +261,7 @@
     },
     {
       "name": "technology.babel",
-      "github_id": "eclipse-babel",
-      "base_template": "https://github.com/EclipseFdn/otterdog-defaults#otterdog-defaults.libsonnet@v0.7.1"
+      "github_id": "eclipse-babel"
     },
     {
       "name": "technology.cbi",
@@ -282,8 +281,7 @@
     },
     {
       "name": "technology.dash",
-      "github_id": "eclipse-dash",
-      "base_template": "https://github.com/EclipseFdn/otterdog-defaults#otterdog-defaults.libsonnet@v0.7.1"
+      "github_id": "eclipse-dash"
     },
     {
       "name": "technology.eclemma",
