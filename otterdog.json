@@ -195,8 +195,7 @@
     },
     {
       "name": "modeling.gmf-runtime",
-      "github_id": "eclipse-gmf-runtime",
-      "base_template": "https://github.com/EclipseFdn/otterdog-defaults#otterdog-defaults.libsonnet@v0.7.1"
+      "github_id": "eclipse-gmf-runtime"
     },
     {
       "name": "modeling.mdt.uml2",
@@ -298,8 +297,7 @@
     },
     {
       "name": "technology.nebula.nattable",
-      "github_id": "eclipse-nattable",
-      "base_template": "https://github.com/EclipseFdn/otterdog-defaults#otterdog-defaults.libsonnet@v0.7.1"
+      "github_id": "eclipse-nattable"
     },
     {
       "name": "technology.packaging",
@@ -364,8 +362,7 @@
     },
     {
       "name": "tools.pdt",
-      "github_id": "eclipse-pdt",
-      "base_template": "https://github.com/EclipseFdn/otterdog-defaults#otterdog-defaults.libsonnet@v0.7.1"
+      "github_id": "eclipse-pdt"
     },
     {
       "name": "tools.tracecompass",
