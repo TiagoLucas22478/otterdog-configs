@@ -315,8 +315,7 @@
     },
     {
       "name": "technology.packaging",
-      "github_id": "eclipse-packaging",
-      "base_template": "https://github.com/EclipseFdn/otterdog-defaults#otterdog-defaults.libsonnet@v0.7.1"
+      "github_id": "eclipse-packaging"
     },
     {
       "name": "technology.pass",
@@ -373,8 +372,7 @@
     },
     {
       "name": "tools.oomph",
-      "github_id": "eclipse-oomph",
-      "base_template": "https://github.com/EclipseFdn/otterdog-defaults#otterdog-defaults.libsonnet@v0.7.1"
+      "github_id": "eclipse-oomph"
     },
     {
       "name": "tools.orbit",
