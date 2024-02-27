@@ -131,13 +131,11 @@
     },
     {
       "name": "ee4j",
-      "github_id": "eclipse-ee4j",
-      "base_template": "https://github.com/EclipseFdn/otterdog-defaults#otterdog-defaults.libsonnet@v0.7.1"
+      "github_id": "eclipse-ee4j"
     },
     {
       "name": "ee4j.jakartaee-platform",
-      "github_id": "jakartaee",
-      "base_template": "https://github.com/EclipseFdn/otterdog-defaults#otterdog-defaults.libsonnet@v0.7.1"
+      "github_id": "jakartaee"
     },
     {
       "name": "iot.4diac",
