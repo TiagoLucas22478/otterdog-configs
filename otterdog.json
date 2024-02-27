@@ -187,13 +187,11 @@
     },
     {
       "name": "modeling.emf",
-      "github_id": "eclipse-emf",
-      "base_template": "https://github.com/EclipseFdn/otterdog-defaults#otterdog-defaults.libsonnet@v0.7.1"
+      "github_id": "eclipse-emf"
     },
     {
       "name": "modeling.emfservices",
-      "github_id": "eclipse-emfservices",
-      "base_template": "https://github.com/EclipseFdn/otterdog-defaults#otterdog-defaults.libsonnet@v0.7.1"
+      "github_id": "eclipse-emfservices"
     },
     {
       "name": "modeling.gmf-runtime",
@@ -224,8 +222,7 @@
     },
     {
       "name": "rt.gemini",
-      "github_id": "eclipse-gemini",
-      "base_template": "https://github.com/EclipseFdn/otterdog-defaults#otterdog-defaults.libsonnet@v0.7.1"
+      "github_id": "eclipse-gemini"
     },
     {
       "name": "rt.jetty",
