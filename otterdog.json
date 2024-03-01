@@ -376,6 +376,10 @@
     {
       "name": "webtools.dali",
       "github_id": "eclipse-dali"
+    },
+    {
+      "name": "iot.hawkbit.hara",
+      "github_id": "eclipse-hara"
     }
   ]
 }
