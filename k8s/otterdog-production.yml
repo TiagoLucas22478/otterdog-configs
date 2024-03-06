@@ -30,7 +30,7 @@ spec:
             weight: 1
       containers:
       - name: app
-        image: ghcr.io/eclipse-csi/otterdog:0.5.0-snapshot
+        image: ghcr.io/eclipse-csi/otterdog:0.5.0
         args:
         - ./start-webapp
         livenessProbe:
@@ -106,6 +106,26 @@ metadata:
 spec:
   host: "otterdog.eclipse.org"
   path: "/"
+  port:
+    targetPort: "http"
+  tls:
+    insecureEdgeTerminationPolicy: "Redirect"
+    termination: "edge"
+  to:
+    kind: "Service"
+    name: otterdog
+    weight: 100
+---
+apiVersion: "route.openshift.io/v1"
+kind: "Route"
+metadata:
+  name: otterdog-protect-init
+  namespace: foundation-internal-security-otterdog
+  annotations:
+    haproxy.router.openshift.io/ip_whitelist: 127.0.0.1
+spec:
+  host: "otterdog.eclipse.org"
+  path: "/init"
   port:
     targetPort: "http"
   tls:
