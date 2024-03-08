@@ -1,7 +1,5 @@
 name: Build page
 on:
-  schedule:
-    - cron: '0 */1 * * *'
   push:
     branches: ["main"]
   workflow_dispatch:
@@ -23,7 +21,7 @@ jobs:
       - run: pip install -r requirements.txt
       - name: Create list of projects
         working-directory: ${{ github.workspace }}
-        run: python ${{ github.workspace }}/.github/workflows/generate.py ${{ secrets.GITHUB_TOKEN }}
+        run: python ${{ github.workspace }}/.github/workflows/generate.py
       - name: Build with Mkdocs
         run: mkdocs build
       - name: Setup Pages
