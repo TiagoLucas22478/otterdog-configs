@@ -28,9 +28,6 @@ plugins:
   - markdownextradata:
       data: docs
 
-extra_css:
-  - stylesheets/extra.css
-
 extra_javascript:
   - https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js
   - https://unpkg.com/tablefilter@0.7.3/dist/tablefilter/tablefilter.js
