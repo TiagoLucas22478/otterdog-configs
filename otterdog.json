@@ -16,7 +16,7 @@
       "api_token_pattern": "bots/{0}/github.com/otterdog-token"
     },
     "jsonnet": {
-      "base_template": "https://github.com/EclipseFdn/otterdog-defaults#otterdog-defaults.libsonnet@v0.7.2",
+      "base_template": "https://github.com/EclipseFdn/otterdog-defaults#otterdog-defaults.libsonnet@v0.8.0",
       "config_dir": "orgs"
     }
   },
@@ -148,6 +148,10 @@
     {
       "name": "iot.embed-cdt",
       "github_id": "eclipse-embed-cdt"
+    },
+    {
+      "name": "iot.hawkbit.hara",
+      "github_id": "eclipse-hara"
     },
     {
       "name": "iot.kanto",
@@ -380,10 +384,6 @@
     {
       "name": "webtools.dali",
       "github_id": "eclipse-dali"
-    },
-    {
-      "name": "iot.hawkbit.hara",
-      "github_id": "eclipse-hara"
     }
   ]
 }
