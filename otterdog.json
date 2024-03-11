@@ -206,6 +206,10 @@
       "github_id": "eclipse-syson"
     },
     {
+      "name": "modeling.viatra",
+      "github_id": "eclipse-viatra"
+    },
+    {
       "name": "oniro.oniro4openharmony",
       "github_id": "eclipse-oniro4openharmony"
     },
