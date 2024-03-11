@@ -30,7 +30,7 @@ spec:
             weight: 1
       containers:
       - name: app
-        image: ghcr.io/eclipse-csi/otterdog:0.5.0
+        image: ghcr.io/eclipse-csi/otterdog:0.6.0-SNAPSHOT
         args:
         - ./start-webapp
         livenessProbe:
