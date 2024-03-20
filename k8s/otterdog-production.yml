@@ -140,6 +140,7 @@ apiVersion: batch/v1
 kind: Job
 metadata:
   name: init-webapp
+  namespace: foundation-internal-security-otterdog
 spec:
   template:
     spec:
