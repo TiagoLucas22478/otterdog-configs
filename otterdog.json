@@ -154,6 +154,10 @@
       "github_id": "eclipse-hara"
     },
     {
+      "name": "iot.hono",
+      "github_id": "eclipse-hono"
+    },
+    {
       "name": "iot.kanto",
       "github_id": "eclipse-kanto"
     },
