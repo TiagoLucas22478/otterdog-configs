@@ -388,6 +388,10 @@
     {
       "name": "webtools.dali",
       "github_id": "eclipse-dali"
+    },
+    {
+      "name": "automotive.ecal",
+      "github_id": "eclipse-ecal"
     }
   ]
 }
