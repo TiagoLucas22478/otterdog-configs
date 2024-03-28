@@ -16,7 +16,7 @@
       "api_token_pattern": "bots/{0}/github.com/otterdog-token"
     },
     "jsonnet": {
-      "base_template": "https://github.com/EclipseFdn/otterdog-defaults#otterdog-defaults.libsonnet@v0.8.0",
+      "base_template": "https://github.com/EclipseFdn/otterdog-defaults#otterdog-defaults.libsonnet@v0.8.1",
       "config_dir": "orgs"
     }
   },
@@ -36,6 +36,10 @@
     {
       "name": "automotive.chariott",
       "github_id": "eclipse-chariott"
+    },
+    {
+      "name": "automotive.ecal",
+      "github_id": "eclipse-ecal"
     },
     {
       "name": "automotive.ibeji",
@@ -388,10 +392,6 @@
     {
       "name": "webtools.dali",
       "github_id": "eclipse-dali"
-    },
-    {
-      "name": "automotive.ecal",
-      "github_id": "eclipse-ecal"
     }
   ]
 }
