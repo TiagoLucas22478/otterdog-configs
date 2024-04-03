@@ -396,6 +396,10 @@
     {
       "name": "webtools.dali",
       "github_id": "eclipse-dali"
+    },
+    {
+      "name": "iot.wakaama",
+      "github_id": "eclipse-wakaama"
     }
   ]
 }
