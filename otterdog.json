@@ -16,7 +16,7 @@
       "api_token_pattern": "bots/{0}/github.com/otterdog-token"
     },
     "jsonnet": {
-      "base_template": "https://github.com/EclipseFdn/otterdog-defaults#otterdog-defaults.libsonnet@v0.8.1",
+      "base_template": "https://github.com/EclipseFdn/otterdog-defaults#otterdog-defaults.libsonnet@v0.8.2",
       "config_dir": "orgs"
     }
   },
@@ -188,6 +188,10 @@
     {
       "name": "iot.volttron",
       "github_id": "eclipse-volttron"
+    },
+    {
+      "name": "iot.wakaama",
+      "github_id": "eclipse-wakaama"
     },
     {
       "name": "iot.zenoh",
@@ -396,10 +400,6 @@
     {
       "name": "webtools.dali",
       "github_id": "eclipse-dali"
-    },
-    {
-      "name": "iot.wakaama",
-      "github_id": "eclipse-wakaama"
     }
   ]
 }
