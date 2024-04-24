@@ -3,3 +3,4 @@ _site/
 docs/orgs.*
 orgs/
 .idea/
+/.project

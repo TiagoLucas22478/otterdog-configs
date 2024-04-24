@@ -322,6 +322,10 @@
       "github_id": "eclipse-packaging"
     },
     {
+      "name": "technology.osee",
+      "github_id": "eclipse-osee"
+    },
+    {
       "name": "technology.pass",
       "github_id": "eclipse-pass"
     },
