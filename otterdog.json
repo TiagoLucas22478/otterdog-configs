@@ -198,6 +198,10 @@
       "github_id": "eclipse-zenoh"
     },
     {
+      "name": "iot.zenoh.zenoh-flow",
+      "github_id": "eclipse-zenoh-flow"
+    },
+    {
       "name": "modeling.emf",
       "github_id": "eclipse-emf"
     },
@@ -400,10 +404,6 @@
     {
       "name": "webtools.dali",
       "github_id": "eclipse-dali"
-    },
-    {
-      "name": "iot.zenoh.zenoh-flow",
-      "github_id": "eclipse-zenoh-flow"
     }
   ]
 }
