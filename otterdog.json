@@ -106,6 +106,10 @@
       "github_id": "eclipse-glsp"
     },
     {
+      "name": "ecd.jkube",
+      "github_id": "eclipse-jkube"
+    },
+    {
       "name": "ecd.langium",
       "github_id": "eclipse-langium"
     },
