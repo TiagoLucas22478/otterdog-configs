@@ -82,6 +82,10 @@
       "github_id": "eclipse-velocitas"
     },
     {
+      "name": "automotive.winery",
+      "github_id": "winery"
+    },
+    {
       "name": "dt.aaspe",
       "github_id": "eclipse-aaspe"
     },
@@ -292,7 +296,7 @@
     {
       "name": "technology.dataspacetck",
       "github_id": "eclipse-dataspacetck"
-    },    
+    },
     {
       "name": "technology.eclemma",
       "github_id": "eclipse-eclemma"
@@ -326,12 +330,12 @@
       "github_id": "eclipse-nattable"
     },
     {
-      "name": "technology.packaging",
-      "github_id": "eclipse-packaging"
-    },
-    {
       "name": "technology.osee",
       "github_id": "eclipse-osee"
+    },
+    {
+      "name": "technology.packaging",
+      "github_id": "eclipse-packaging"
     },
     {
       "name": "technology.pass",
@@ -416,10 +420,6 @@
     {
       "name": "webtools.dali",
       "github_id": "eclipse-dali"
-    },
-    {
-      "name": "automotive.winery",
-      "github_id": "winery"
     }
   ]
 }
