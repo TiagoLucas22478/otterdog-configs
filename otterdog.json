@@ -290,6 +290,10 @@
       "github_id": "eclipse-dash"
     },
     {
+      "name": "technology.dataspacetck",
+      "github_id": "eclipse-dataspacetck"
+    },    
+    {
       "name": "technology.eclemma",
       "github_id": "eclipse-eclemma"
     },
