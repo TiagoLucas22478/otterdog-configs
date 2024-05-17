@@ -412,6 +412,10 @@
     {
       "name": "webtools.dali",
       "github_id": "eclipse-dali"
+    },
+    {
+      "name": "automotive.winery",
+      "github_id": "eclipse-winery"
     }
   ]
 }
