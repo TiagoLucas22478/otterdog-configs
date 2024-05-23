@@ -226,6 +226,10 @@
       "github_id": "eclipse-uml2"
     },
     {
+      "name": "modeling.mmt.atl",
+      "github_id": "eclipse-atl"
+    },
+    {
       "name": "modeling.sirius",
       "github_id": "eclipse-sirius"
     },
