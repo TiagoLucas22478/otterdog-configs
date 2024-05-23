@@ -386,6 +386,10 @@
       "github_id": "eclipse-datatools"
     },
     {
+      "name": "tools.mat",
+      "github_id": "eclipse-mat"
+    },
+    {
       "name": "tools.mylyn",
       "github_id": "eclipse-mylyn"
     },
