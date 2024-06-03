@@ -7,6 +7,12 @@ list_all() {
   printf '%s\n' "${ORGS[@]}"
 }
 
+list_all_projects() {
+  local PROJECTS
+  PROJECTS=($(jq -r ".organizations[].name" < otterdog.json | sort))
+  printf '%s\n' "${PROJECTS[@]}"
+}
+
 list_with_customization() {
   local ORGS
   ORGS=($(find -name "*.jsonnet" -exec grep -H "local" {} \; | grep -v "local orgs" | cut -f 1 -d ":" | cut -f 3 -d "/" | uniq | sort))
@@ -29,6 +35,7 @@ Usage: $(basename "${0}") [OPTIONS]
 
 Options:
   -a      list all configured organizations
+  -p      list all configured projects
   -c      list organizations with customizations
   -n      list organizations without customizations
   -h      show this help
@@ -39,10 +46,13 @@ Options:
 
 ACTION=""
 
-while getopts "acn" opt; do
+while getopts "apcn" opt; do
     case "${opt}" in
         a)
             ACTION="list-all"
+            ;;
+        p)
+            ACTION="list-all-projects"
             ;;
         c)
             ACTION="list-with-customization"
@@ -66,6 +76,7 @@ shift $((OPTIND-1))
 
 case $ACTION in
   "list-all") list_all ;;
+  "list-all-projects") list_all_projects ;;
   "list-with-customization") list_with_customization ;;
   "list-without-customization") list_without_customization ;;
    *) exit 1 ;;
