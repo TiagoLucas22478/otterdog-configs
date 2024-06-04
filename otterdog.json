@@ -298,6 +298,10 @@
       "github_id": "eclipse-dash"
     },
     {
+      "name": "technology.dataspace-dcp",
+      "github_id": "eclipse-dataspace-dcp"
+    },
+    {
       "name": "technology.dataspace-protocol-base",
       "github_id": "eclipse-dataspace-protocol-base"
     },
