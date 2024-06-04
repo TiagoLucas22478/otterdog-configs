@@ -440,6 +440,10 @@
     {
       "name": "technology.sisu",
       "github_id": "eclipse-sisu"
+    },
+    {
+      "name": "ecd.emfcloud",
+      "github_id": "eclipse-emfcloud"
     }
   ]
 }
