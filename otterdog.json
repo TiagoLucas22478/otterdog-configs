@@ -306,6 +306,10 @@
       "github_id": "eclipse-dataspace-dcp"
     },
     {
+      "name": "technology.dataspace-cap",
+      "github_id": "eclipse-dataspace-cap"
+    },
+    {
       "name": "technology.dataspace-protocol-base",
       "github_id": "eclipse-dataspace-protocol-base"
     },
