@@ -16,7 +16,7 @@
       "api_token_pattern": "bots/{0}/github.com/otterdog-token"
     },
     "jsonnet": {
-      "base_template": "https://github.com/EclipseFdn/otterdog-defaults#otterdog-defaults.libsonnet@v0.8.3",
+      "base_template": "https://github.com/EclipseFdn/otterdog-defaults#otterdog-defaults.libsonnet@v0.8.4",
       "config_dir": "orgs"
     }
   },
@@ -302,12 +302,12 @@
       "github_id": "eclipse-dash"
     },
     {
-      "name": "technology.dataspace-dcp",
-      "github_id": "eclipse-dataspace-dcp"
-    },
-    {
       "name": "technology.dataspace-cap",
       "github_id": "eclipse-dataspace-cap"
+    },
+    {
+      "name": "technology.dataspace-dcp",
+      "github_id": "eclipse-dataspace-dcp"
     },
     {
       "name": "technology.dataspace-protocol-base",
