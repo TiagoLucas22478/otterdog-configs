@@ -162,6 +162,10 @@
       "github_id": "eclipse-cyclonedds"
     },
     {
+      "name": "iot.ditto",
+      "github_id": "eclipse-ditto"
+    },
+    {
       "name": "iot.embed-cdt",
       "github_id": "eclipse-embed-cdt"
     },
