@@ -98,6 +98,10 @@
       "github_id": "eclipse-esmf"
     },
     {
+      "name": "dt.fa3st",
+      "github_id": "eclipse-fa3st"
+    },
+    {
       "name": "dt.slm",
       "github_id": "eclipse-slm"
     },
