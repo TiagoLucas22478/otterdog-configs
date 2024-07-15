@@ -434,6 +434,10 @@
       "github_id": "eclipse-cdt"
     },
     {
+      "name": "tools.corrosion",
+      "github_id": "eclipse-corrosion"
+    },
+    {
       "name": "tools.datatools",
       "github_id": "eclipse-datatools"
     },
