@@ -86,6 +86,10 @@
       "github_id": "winery"
     },
     {
+      "name": "dt.aas4j",
+      "github_id": "eclipse-aas4j"
+    },
+    {
       "name": "dt.aaspe",
       "github_id": "eclipse-aaspe"
     },
