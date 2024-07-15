@@ -390,6 +390,10 @@
       "github_id": "eclipse-nattable"
     },
     {
+      "name": "technology.openj9",
+      "github_id": "eclipse-openj9"
+    },
+    {
       "name": "technology.osee",
       "github_id": "eclipse-osee"
     },
