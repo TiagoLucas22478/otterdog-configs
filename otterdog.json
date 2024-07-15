@@ -512,6 +512,10 @@
     {
       "name": "webtools.dali",
       "github_id": "eclipse-dali"
+    },
+    {
+      "name": "webtools.webservices",
+      "github_id": "eclipse-webservices"
     }
   ]
 }
