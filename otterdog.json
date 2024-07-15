@@ -466,6 +466,10 @@
       "github_id": "eclipse-xpanse"
     },
     {
+      "name": "tools.aspectj",
+      "github_id": "eclipse-aspectj"
+    },
+    {
       "name": "tools.cdt",
       "github_id": "eclipse-cdt"
     },
