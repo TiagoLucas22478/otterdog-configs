@@ -318,6 +318,10 @@
       "github_id": "eclipse-babel"
     },
     {
+      "name": "technology.birt",
+      "github_id": "eclipse-birt"
+    },
+    {
       "name": "technology.cbi",
       "github_id": "eclipse-cbi"
     },
