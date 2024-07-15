@@ -234,6 +234,10 @@
       "github_id": "eclipse-acceleo"
     },
     {
+      "name": "modeling.capra",
+      "github_id": "eclipse-capra"
+    },
+    {
       "name": "modeling.ecp",
       "github_id": "eclipse-ecp"
     },
