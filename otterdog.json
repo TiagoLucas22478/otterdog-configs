@@ -230,6 +230,10 @@
       "github_id": "eclipse-acceleo"
     },
     {
+      "name": "modeling.ecp",
+      "github_id": "eclipse-ecp"
+    },
+    {
       "name": "modeling.emf",
       "github_id": "eclipse-emf"
     },
