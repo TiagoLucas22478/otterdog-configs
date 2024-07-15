@@ -406,6 +406,10 @@
       "github_id": "eclipse-store"
     },
     {
+      "name": "technology.sw360",
+      "github_id": "eclipse-sw360"
+    },
+    {
       "name": "technology.swtbot",
       "github_id": "eclipse-swtbot"
     },
