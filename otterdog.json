@@ -414,6 +414,10 @@
       "github_id": "eclipse-tycho"
     },
     {
+      "name": "technology.uomo",
+      "github_id": "eclipse-uomo"
+    },
+    {
       "name": "technology.wattadvisor",
       "github_id": "eclipse-wattadvisor"
     },
