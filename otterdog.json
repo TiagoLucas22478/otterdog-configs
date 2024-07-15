@@ -146,6 +146,10 @@
       "github_id": "eclipse-theia"
     },
     {
+      "name": "eclipse.equinox",
+      "github_id": "eclipse-equinox"
+    },
+    {
       "name": "eclipse.jdt",
       "github_id": "eclipse-jdt"
     },
