@@ -198,6 +198,10 @@
       "github_id": "eclipse-keypop"
     },
     {
+      "name": "iot.leshan",
+      "github_id": "eclipse-leshan"
+    },
+    {
       "name": "iot.symphony",
       "github_id": "eclipse-symphony"
     },
