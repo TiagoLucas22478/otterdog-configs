@@ -114,6 +114,10 @@
       "github_id": "eclipse-cdt-cloud"
     },
     {
+      "name": "ecd.che",
+      "github_id": "eclipse-che"
+    },
+    {
       "name": "ecd.emfcloud",
       "github_id": "eclipse-emfcloud"
     },
