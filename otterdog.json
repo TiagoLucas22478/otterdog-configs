@@ -470,6 +470,10 @@
       "github_id": "eclipse-datatools"
     },
     {
+      "name": "tools.linuxtools",
+      "github_id": "eclipse-linuxtools"
+    },
+    {
       "name": "tools.mat",
       "github_id": "eclipse-mat"
     },
