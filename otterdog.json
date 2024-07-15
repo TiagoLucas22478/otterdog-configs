@@ -170,6 +170,10 @@
       "github_id": "eclipse-4diac"
     },
     {
+      "name": "iot.californium",
+      "github_id": "eclipse-californium"
+    },
+    {
       "name": "iot.cyclonedds",
       "github_id": "eclipse-cyclonedds"
     },
