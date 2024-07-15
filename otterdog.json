@@ -134,6 +134,10 @@
       "github_id": "eclipse-langium"
     },
     {
+      "name": "ecd.opensmartclide",
+      "github_id": "eclipse-opensmartclide"
+    },
+    {
       "name": "ecd.sprotty",
       "github_id": "eclipse-sprotty"
     },
