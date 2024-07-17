@@ -430,6 +430,10 @@
       "github_id": "eclipse-lsp4j"
     },
     {
+      "name": "technology.m2e",
+      "github_id": "eclipse-m2e"
+    },
+    {
       "name": "technology.nebula.nattable",
       "github_id": "eclipse-nattable"
     },
