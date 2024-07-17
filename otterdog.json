@@ -470,6 +470,10 @@
       "github_id": "eclipse-scava"
     },
     {
+      "name": "technology.scout",
+      "github_id": "eclipse-scout"
+    },
+    {
       "name": "technology.serializer",
       "github_id": "eclipse-serializer"
     },
