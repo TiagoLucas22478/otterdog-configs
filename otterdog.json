@@ -350,6 +350,10 @@
       "github_id": "eclipse-cbi"
     },
     {
+      "name": "technology.cognicrypt",
+      "github_id": "eclipse-cognicrypt"
+    },
+    {
       "name": "technology.corinthian",
       "github_id": "eclipse-corinthian"
     },
