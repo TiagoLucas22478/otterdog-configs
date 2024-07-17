@@ -450,6 +450,10 @@
       "github_id": "eclipse-pass"
     },
     {
+      "name": "technology.scava",
+      "github_id": "eclipse-scava"
+    },
+    {
       "name": "technology.serializer",
       "github_id": "eclipse-serializer"
     },
