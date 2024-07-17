@@ -278,6 +278,10 @@
       "github_id": "eclipse-edapt"
     },
     {
+      "name": "modeling.eef",
+      "github_id": "eclipse-eef"
+    },
+    {
       "name": "modeling.emf",
       "github_id": "eclipse-emf"
     },
