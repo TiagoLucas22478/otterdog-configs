@@ -202,6 +202,10 @@
       "github_id": "eclipse-hono"
     },
     {
+      "name": "iot.iofog",
+      "github_id": "eclipse-iofog"
+    },
+    {
       "name": "iot.kanto",
       "github_id": "eclipse-kanto"
     },
