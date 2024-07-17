@@ -198,6 +198,10 @@
       "github_id": "eclipse-embed-cdt"
     },
     {
+      "name": "iot.fog05",
+      "github_id": "eclipse-fog05"
+    },
+    {
       "name": "iot.hawkbit.hara",
       "github_id": "eclipse-hara"
     },
