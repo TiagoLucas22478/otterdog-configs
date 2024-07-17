@@ -294,6 +294,10 @@
       "github_id": "eclipse-emfservices"
     },
     {
+      "name": "modeling.emfstore",
+      "github_id": "eclipse-emfstore"
+    },
+    {
       "name": "modeling.gmf-runtime",
       "github_id": "eclipse-gmf-runtime"
     },
