@@ -334,6 +334,10 @@
       "github_id": "jetty"
     },
     {
+      "name": "rt.rap",
+      "github_id": "eclipse-rap"
+    },
+    {
       "name": "rt.vertx",
       "github_id": "eclipse-vertx"
     },
