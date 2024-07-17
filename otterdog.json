@@ -182,6 +182,10 @@
       "github_id": "eclipse-agail"
     },
     {
+      "name": "iot.arrowhead",
+      "github_id": "eclipse-arrowhead"
+    },
+    {
       "name": "iot.californium",
       "github_id": "eclipse-californium"
     },
