@@ -378,6 +378,10 @@
       "github_id": "eclipse-dataspacetck"
     },
     {
+      "name": "technology.dltk",
+      "github_id": "eclipse-dltk"
+    },
+    {
       "name": "technology.eclemma",
       "github_id": "eclipse-eclemma"
     },
