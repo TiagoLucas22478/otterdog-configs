@@ -266,6 +266,10 @@
       "github_id": "eclipse-emf-parsley"
     },
     {
+      "name": "modeling.emf.cdo",
+      "github_id": "eclipse-cdo"
+    },
+    {
       "name": "modeling.emfcompare",
       "github_id": "eclipse-emf-compare"
     },
