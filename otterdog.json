@@ -178,6 +178,10 @@
       "github_id": "eclipse-4diac"
     },
     {
+      "name": "iot.agail",
+      "github_id": "eclipse-agail"
+    },
+    {
       "name": "iot.californium",
       "github_id": "eclipse-californium"
     },
