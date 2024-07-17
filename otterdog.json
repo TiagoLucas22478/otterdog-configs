@@ -454,6 +454,10 @@
       "github_id": "eclipse-pass"
     },
     {
+      "name": "technology.passage",
+      "github_id": "eclipse-passage"
+    },
+    {
       "name": "technology.scava",
       "github_id": "eclipse-scava"
     },
