@@ -262,6 +262,10 @@
       "github_id": "eclipse-emf"
     },
     {
+      "name": "modeling.emf-parsley",
+      "github_id": "eclipse-emf-parsley"
+    },
+    {
       "name": "modeling.emfservices",
       "github_id": "eclipse-emfservices"
     },
