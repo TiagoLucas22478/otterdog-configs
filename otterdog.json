@@ -274,6 +274,10 @@
       "github_id": "eclipse-ecp"
     },
     {
+      "name": "modeling.edapt",
+      "github_id": "eclipse-edapt"
+    },
+    {
       "name": "modeling.emf",
       "github_id": "eclipse-emf"
     },
