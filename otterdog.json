@@ -406,6 +406,10 @@
       "github_id": "eclipse-dataspacetck"
     },
     {
+      "name": "technology.deeplearning4j",
+      "github_id": "deeplearning4j"
+    },
+    {
       "name": "technology.dltk",
       "github_id": "eclipse-dltk"
     },
