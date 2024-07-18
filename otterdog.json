@@ -310,6 +310,10 @@
       "github_id": "eclipse-gmf-runtime"
     },
     {
+      "name": "modeling.mdt.rmf",
+      "github_id": "eclipse-rmf"
+    },
+    {
       "name": "modeling.mdt.uml2",
       "github_id": "eclipse-uml2"
     },
