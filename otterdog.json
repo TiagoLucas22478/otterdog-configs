@@ -502,6 +502,10 @@
       "github_id": "eclipse-passage"
     },
     {
+      "name": "technology.rdf4j",
+      "github_id": "eclipse-rdf4j"
+    },
+    {
       "name": "technology.scava",
       "github_id": "eclipse-scava"
     },
