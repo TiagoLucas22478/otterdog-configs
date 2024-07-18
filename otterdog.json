@@ -270,6 +270,10 @@
       "github_id": "eclipse-capra"
     },
     {
+      "name": "modeling.ecoretools",
+      "github_id": "eclipse-ecoretools"
+    },
+    {
       "name": "modeling.ecp",
       "github_id": "eclipse-ecp"
     },
