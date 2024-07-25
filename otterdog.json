@@ -178,6 +178,10 @@
       "github_id": "jakartaee"
     },
     {
+      "name": "foundation-internal.eclipseide",
+      "github_id": "eclipse-ide"
+    },    
+    {
       "name": "iot.4diac",
       "github_id": "eclipse-4diac"
     },
