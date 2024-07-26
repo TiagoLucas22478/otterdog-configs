@@ -546,6 +546,10 @@
       "github_id": "eclipse-swtbot"
     },
     {
+      "name": "technology.swtimagej",
+      "github_id": "eclipse-swtimagej"
+    },
+    {
       "name": "technology.tea",
       "github_id": "eclipse-tea"
     },
