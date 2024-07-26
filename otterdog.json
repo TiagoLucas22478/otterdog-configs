@@ -179,8 +179,9 @@
     },
     {
       "name": "foundation-internal.eclipseide",
-      "github_id": "eclipse-ide"
-    },    
+      "github_id": "eclipse-ide",
+      "base_template": "https://github.com/EclipseFdn/otterdog-defaults#otterdog-defaults.libsonnet@foundation-internal"
+    },
     {
       "name": "iot.4diac",
       "github_id": "eclipse-4diac"
