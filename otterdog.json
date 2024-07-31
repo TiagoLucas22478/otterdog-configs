@@ -66,6 +66,10 @@
       "github_id": "eclipse-opendut"
     },
     {
+      "name": "automotive.pullpiri",
+      "github_id": "eclipse-pullpiri"
+    },    
+    {
       "name": "automotive.sdv-blueprints",
       "github_id": "eclipse-sdv-blueprints"
     },
