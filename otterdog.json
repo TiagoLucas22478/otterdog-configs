@@ -667,6 +667,10 @@
       "github_id": "eclipse-servertools"
     },
     {
+      "name": "webtools.sourceediting",
+      "github_id": "eclipse-sourceediting"
+    },
+    {
       "name": "webtools.webservices",
       "github_id": "eclipse-webservices"
     }
