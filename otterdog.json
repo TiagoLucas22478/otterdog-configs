@@ -307,6 +307,10 @@
       "github_id": "eclipse-eef"
     },
     {
+      "name": "modeling.efm",
+      "github_id": "eclipse-efm"
+    },
+    {
       "name": "modeling.emf",
       "github_id": "eclipse-emf"
     },
