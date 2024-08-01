@@ -74,6 +74,10 @@
       "github_id": "eclipse-opendut"
     },
     {
+      "name": "automotive.openxilenv",
+      "github_id": "eclipse-openxilenv"
+    },
+    {
       "name": "automotive.pullpiri",
       "github_id": "eclipse-pullpiri"
     },
