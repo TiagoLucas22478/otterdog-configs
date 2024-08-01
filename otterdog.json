@@ -647,6 +647,10 @@
       "github_id": "eclipse-windowbuilder"
     },
     {
+      "name": "webtools.common",
+      "github_id": "eclipse-wtp-common"
+    },
+    {
       "name": "webtools.dali",
       "github_id": "eclipse-dali"
     },
