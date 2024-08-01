@@ -114,6 +114,10 @@
       "github_id": "eclipse-aaspe"
     },
     {
+      "name": "dt.aaswc",
+      "github_id": "eclipse-aaswc"
+    },
+    {
       "name": "dt.basyx",
       "github_id": "eclipse-basyx"
     },
