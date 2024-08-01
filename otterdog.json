@@ -134,6 +134,10 @@
       "github_id": "eclipse-che"
     },
     {
+      "name": "ecd.che.che4z",
+      "github_id": "eclipse-che4z"
+    },
+    {
       "name": "ecd.emfcloud",
       "github_id": "eclipse-emfcloud"
     },
