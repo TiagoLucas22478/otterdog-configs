@@ -327,6 +327,10 @@
       "github_id": "eclipse-emfstore"
     },
     {
+      "name": "modeling.emft.henshin",
+      "github_id": "eclipse-henshin"
+    },
+    {
       "name": "modeling.gmf-runtime",
       "github_id": "eclipse-gmf-runtime"
     },
