@@ -255,6 +255,10 @@
       "github_id": "eclipse-leshan"
     },
     {
+      "name": "iot.sparkplug",
+      "github_id": "eclipse-sparkplug"
+    },
+    {
       "name": "iot.symphony",
       "github_id": "eclipse-symphony"
     },
