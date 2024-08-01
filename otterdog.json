@@ -547,6 +547,10 @@
       "github_id": "eclipse-packaging"
     },
     {
+      "name": "technology.packaging.mpc",
+      "github_id": "eclipse-mpc"
+    },
+    {
       "name": "technology.pass",
       "github_id": "eclipse-pass"
     },
