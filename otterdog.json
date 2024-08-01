@@ -419,6 +419,10 @@
       "github_id": "eclipse-texlipse"
     },
     {
+      "name": "technology.actf",
+      "github_id": "eclipse-actf"
+    },
+    {
       "name": "technology.apoapsis",
       "github_id": "eclipse-apoapsis"
     },
