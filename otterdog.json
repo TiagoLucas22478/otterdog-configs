@@ -671,6 +671,10 @@
       "github_id": "eclipse-jeetools"
     },
     {
+      "name": "webtools.jsf",
+      "github_id": "eclipse-jsf"
+    },
+    {
       "name": "webtools.servertools",
       "github_id": "eclipse-servertools"
     },
