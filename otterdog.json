@@ -655,6 +655,10 @@
       "github_id": "eclipse-dali"
     },
     {
+      "name": "webtools.jeetools",
+      "github_id": "eclipse-jeetools"
+    },
+    {
       "name": "webtools.webservices",
       "github_id": "eclipse-webservices"
     }
