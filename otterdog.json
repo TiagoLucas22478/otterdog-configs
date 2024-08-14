@@ -26,10 +26,6 @@
       "github_id": "adoptium"
     },
     {
-      "name": "adoptium.aqavit",
-      "github_id": "eclipse-aqavit"
-    },
-    {
       "name": "automotive.ankaios",
       "github_id": "eclipse-ankaios"
     },
