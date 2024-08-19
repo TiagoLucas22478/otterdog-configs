@@ -411,6 +411,10 @@
       "github_id": "eclipse-rap"
     },
     {
+      "name": "rt.rap.incubator",
+      "github_id": "eclipse-rap-incubator"
+    },
+    {
       "name": "rt.vertx",
       "github_id": "eclipse-vertx"
     },
