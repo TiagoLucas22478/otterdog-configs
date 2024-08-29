@@ -42,6 +42,10 @@
       "github_id": "eclipse-ecal"
     },
     {
+      "name": "automotive.ecsp",
+      "github_id": "eclipse-ecsp"
+    },
+    {
       "name": "automotive.heimlig",
       "github_id": "eclipse-heimlig"
     },
