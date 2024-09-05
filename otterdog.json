@@ -479,6 +479,10 @@
       "github_id": "eclipse-dataspace-dcp"
     },
     {
+      "name": "technology.dataspace-drp",
+      "github_id": "eclipse-dataspace-drp"
+    },
+    {
       "name": "technology.dataspace-protocol-base",
       "github_id": "eclipse-dataspace-protocol-base"
     },
