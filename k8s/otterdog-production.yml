@@ -64,7 +64,7 @@ spec:
       - name: wait-for-services
         image: busybox
         command: ["/bin/sh", "-c"]
-        args: ["until echo 'Waiting for mongodb...' && nc -vz -w 2 mongodb 27017 && echo 'Waiting for redis...' && nc -vz -w 2 redis 6379; do echo 'Looping forever...'; sleep 2; done;"]
+        args: ["until echo 'Waiting for mongodb...' && nc -vz -w 2 mongodb 27017 && echo 'Waiting for redis...' && nc -vz -w 2 redis 6379 && echo 'Waiting for ghproxy...' && nc -vz -w 2 ghproxy 8888; do echo 'Looping forever...'; sleep 2; done;"]
 
       volumes:
       - name: config
