@@ -499,6 +499,10 @@
       "github_id": "deeplearning4j"
     },
     {
+      "name": "modeling.emf.diffmerge",
+      "github_id": "eclipse-diffmerge"
+    },
+    {
       "name": "technology.dltk",
       "github_id": "eclipse-dltk"
     },
