@@ -16,7 +16,7 @@
       "api_token_pattern": "bots/{0}/github.com/otterdog-token"
     },
     "jsonnet": {
-      "base_template": "https://github.com/EclipseFdn/otterdog-defaults#otterdog-defaults.libsonnet@v0.8.5",
+      "base_template": "https://github.com/EclipseFdn/otterdog-defaults#otterdog-defaults.libsonnet@v0.8.6",
       "config_dir": "orgs"
     }
   },
@@ -255,6 +255,10 @@
       "github_id": "eclipse-kanto"
     },
     {
+      "name": "iot.kanto.canought",
+      "github_id": "eclipse-canought"
+    },
+    {
       "name": "iot.keyple",
       "github_id": "eclipse-keyple"
     },
@@ -341,6 +345,10 @@
     {
       "name": "modeling.emf.cdo",
       "github_id": "eclipse-cdo"
+    },
+    {
+      "name": "modeling.emf.diffmerge",
+      "github_id": "eclipse-diffmerge"
     },
     {
       "name": "modeling.emfcompare",
@@ -447,10 +455,6 @@
       "github_id": "eclipse-birt"
     },
     {
-      "name": "iot.kanto.canought",
-      "github_id": "eclipse-canought"
-    },
-    {
       "name": "technology.cbi",
       "github_id": "eclipse-cbi"
     },
@@ -497,10 +501,6 @@
     {
       "name": "technology.deeplearning4j",
       "github_id": "deeplearning4j"
-    },
-    {
-      "name": "modeling.emf.diffmerge",
-      "github_id": "eclipse-diffmerge"
     },
     {
       "name": "technology.dltk",
