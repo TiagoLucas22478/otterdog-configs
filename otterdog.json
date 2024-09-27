@@ -395,6 +395,10 @@
       "github_id": "eclipse-uml2"
     },
     {
+      "name": "modeling.mmt",
+      "github_id": "eclipse-mmt"
+    },
+    {
       "name": "modeling.mmt.atl",
       "github_id": "eclipse-atl"
     },
