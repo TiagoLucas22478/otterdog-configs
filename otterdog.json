@@ -186,6 +186,10 @@
       "github_id": "eclipse-jdtls"
     },
     {
+      "name": "iot.kura",
+      "github_id": "eclipse-kura"
+    },
+    {
       "name": "eclipse.pde",
       "github_id": "eclipse-pde"
     },
