@@ -535,6 +535,10 @@
       "github_id": "eclipse-iceoryx"
     },
     {
+      "name": "technology.iottestware",
+      "github_id": "eclipse-iottestware"
+    },
+    {
       "name": "technology.jgit",
       "github_id": "eclipse-jgit"
     },
