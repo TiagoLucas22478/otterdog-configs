@@ -186,10 +186,6 @@
       "github_id": "eclipse-jdtls"
     },
     {
-      "name": "iot.kura",
-      "github_id": "eclipse-kura"
-    },
-    {
       "name": "eclipse.pde",
       "github_id": "eclipse-pde"
     },
@@ -269,6 +265,10 @@
     {
       "name": "iot.keypop",
       "github_id": "eclipse-keypop"
+    },
+    {
+      "name": "iot.kura",
+      "github_id": "eclipse-kura"
     },
     {
       "name": "iot.leshan",
@@ -377,6 +377,10 @@
     {
       "name": "modeling.gmf-runtime",
       "github_id": "eclipse-gmf-runtime"
+    },
+    {
+      "name": "modeling.mdt",
+      "github_id": "eclipse-mdt"
     },
     {
       "name": "modeling.mdt.ocl",
