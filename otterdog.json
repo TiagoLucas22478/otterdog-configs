@@ -753,6 +753,10 @@
     {
       "name": "webtools.webservices",
       "github_id": "eclipse-webservices"
+    },
+    {
+      "name": "technology.sensinact",
+      "github_id": "eclipse-sensinact"
     }
   ]
 }
