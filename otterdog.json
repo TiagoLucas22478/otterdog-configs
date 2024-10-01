@@ -451,6 +451,10 @@
       "github_id": "eclipse-virgo"
     },
     {
+      "name": "science.january",
+      "github_id": "eclipse-january"
+    },
+    {
       "name": "science.texlipse",
       "github_id": "eclipse-texlipse"
     },
