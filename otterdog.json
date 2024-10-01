@@ -375,6 +375,10 @@
       "github_id": "eclipse-henshin"
     },
     {
+      "name": "modeling.gemoc",
+      "github_id": "eclipse-gemoc"
+    },
+    {
       "name": "modeling.gmf-runtime",
       "github_id": "eclipse-gmf-runtime"
     },
