@@ -567,6 +567,10 @@
       "github_id": "eclipse-lsp4j"
     },
     {
+      "name": "technology.lyo",
+      "github_id": "eclipse-lyo"
+    },
+    {
       "name": "technology.m2e",
       "github_id": "eclipse-m2e"
     },
