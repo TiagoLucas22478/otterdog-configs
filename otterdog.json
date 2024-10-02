@@ -239,6 +239,10 @@
       "github_id": "eclipse-fog05"
     },
     {
+      "name": "iot.hawkbit",
+      "github_id": "eclipse-hawkbit"
+    },
+    {
       "name": "iot.hawkbit.hara",
       "github_id": "eclipse-hara"
     },
