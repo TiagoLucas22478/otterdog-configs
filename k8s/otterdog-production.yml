@@ -35,7 +35,7 @@ spec:
         - ./start-webapp
         livenessProbe:
           httpGet:
-            path: /health
+            path: /internal/health
             port: 5000
           initialDelaySeconds: 10
           periodSeconds: 15
@@ -125,7 +125,7 @@ metadata:
     haproxy.router.openshift.io/ip_whitelist: 127.0.0.1
 spec:
   host: "otterdog.eclipse.org"
-  path: "/init"
+  path: "/internal/"
   port:
     targetPort: "http"
   tls:
@@ -150,3 +150,26 @@ spec:
           command: [ "/bin/bash", "/app/init-webapp", "otterdog", "80" ]
       restartPolicy: Never
   backoffLimit: 4
+---
+apiVersion: batch/v1
+kind: CronJob
+metadata:
+  name: trigger-policy-check
+  namespace: foundation-internal-security-otterdog
+spec:
+  schedule: "0 */1 * * *"
+  successfulJobsHistoryLimit: 1
+  failedJobsHistoryLimit: 1
+  jobTemplate:
+    spec:
+      template:
+        spec:
+          containers:
+          - name: check
+            image: curlimages/curl:8.10.1
+            imagePullPolicy: IfNotPresent
+            command:
+            - /bin/sh
+            - -c
+            - curl -I http://otterdog:80/internal/check
+          restartPolicy: Never
