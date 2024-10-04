@@ -146,7 +146,7 @@ spec:
     spec:
       containers:
         - name: init-webapp
-          image: ghcr.io/eclipse-csi/otterdog:0.5.0-snapshot
+          image: ghcr.io/eclipse-csi/otterdog:0.8.0-snapshot
           command: [ "/bin/bash", "/app/init-webapp", "otterdog", "80" ]
       restartPolicy: Never
   backoffLimit: 4
