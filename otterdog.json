@@ -16,7 +16,7 @@
       "api_token_pattern": "bots/{0}/github.com/otterdog-token"
     },
     "jsonnet": {
-      "base_template": "https://github.com/EclipseFdn/otterdog-defaults#otterdog-defaults.libsonnet@v0.9.0",
+      "base_template": "https://github.com/EclipseFdn/otterdog-defaults#otterdog-defaults.libsonnet@v0.9.1",
       "config_dir": "orgs"
     }
   },
@@ -631,6 +631,10 @@
       "github_id": "eclipse-scout"
     },
     {
+      "name": "technology.sensinact",
+      "github_id": "eclipse-sensinact"
+    },
+    {
       "name": "technology.serializer",
       "github_id": "eclipse-serializer"
     },
@@ -769,10 +773,6 @@
     {
       "name": "webtools.webservices",
       "github_id": "eclipse-webservices"
-    },
-    {
-      "name": "technology.sensinact",
-      "github_id": "eclipse-sensinact"
     }
   ]
 }
