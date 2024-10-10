@@ -551,6 +551,10 @@
       "github_id": "eclipse-egit"
     },
     {
+      "name": "technology.handly",
+      "github_id": "eclipse-handly"
+    },
+    {
       "name": "technology.iceoryx",
       "github_id": "eclipse-iceoryx"
     },
