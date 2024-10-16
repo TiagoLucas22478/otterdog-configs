@@ -777,6 +777,10 @@
     {
       "name": "webtools.webservices",
       "github_id": "eclipse-webservices"
+    },
+    {
+      "name": "technology.tradista",
+      "github_id": "eclipse-tradista"
     }
   ]
 }
