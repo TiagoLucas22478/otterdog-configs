@@ -16,7 +16,7 @@
       "api_token_pattern": "bots/{0}/github.com/otterdog-token"
     },
     "jsonnet": {
-      "base_template": "https://github.com/EclipseFdn/otterdog-defaults#otterdog-defaults.libsonnet@v0.9.1",
+      "base_template": "https://github.com/EclipseFdn/otterdog-defaults#otterdog-defaults.libsonnet@v0.9.2",
       "config_dir": "orgs"
     }
   },
@@ -675,6 +675,10 @@
       "github_id": "eclipse-tea"
     },
     {
+      "name": "technology.tradista",
+      "github_id": "eclipse-tradista"
+    },
+    {
       "name": "technology.tycho",
       "github_id": "eclipse-tycho"
     },
@@ -777,10 +781,6 @@
     {
       "name": "webtools.webservices",
       "github_id": "eclipse-webservices"
-    },
-    {
-      "name": "technology.tradista",
-      "github_id": "eclipse-tradista"
     }
   ]
 }
