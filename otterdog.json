@@ -781,6 +781,10 @@
     {
       "name": "webtools.webservices",
       "github_id": "eclipse-webservices"
+    },
+    {
+      "name": "iot.mosquitto",
+      "github_id": "eclipse-mosquitto"
     }
   ]
 }
