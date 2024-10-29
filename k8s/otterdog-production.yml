@@ -30,7 +30,7 @@ spec:
             weight: 1
       containers:
       - name: app
-        image: ghcr.io/eclipse-csi/otterdog:0.8.0-SNAPSHOT
+        image: ghcr.io/eclipse-csi/otterdog:0.9.0-SNAPSHOT
         args:
         - ./start-webapp
         livenessProbe:
@@ -146,7 +146,7 @@ spec:
     spec:
       containers:
         - name: init-webapp
-          image: ghcr.io/eclipse-csi/otterdog:0.8.0-snapshot
+          image: ghcr.io/eclipse-csi/otterdog:0.9.0-SNAPSHOT
           command: [ "/bin/bash", "/app/init-webapp", "otterdog", "80" ]
       restartPolicy: Never
   backoffLimit: 4
