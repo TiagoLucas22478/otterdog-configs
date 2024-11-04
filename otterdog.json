@@ -275,6 +275,10 @@
       "github_id": "eclipse-keypop"
     },
     {
+      "name": "iot.kiso-testing",
+      "github_id": "eclipse-kiso-testing"
+    },
+    {
       "name": "iot.kura",
       "github_id": "eclipse-kura"
     },
