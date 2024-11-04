@@ -287,6 +287,10 @@
       "github_id": "eclipse-leshan"
     },
     {
+      "name": "iot.paho",
+      "github_id": "eclipse-paho"
+    },
+    {
       "name": "iot.sparkplug",
       "github_id": "eclipse-sparkplug"
     },
