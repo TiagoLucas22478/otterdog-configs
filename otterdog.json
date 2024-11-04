@@ -571,6 +571,10 @@
       "github_id": "eclipse-justj"
     },
     {
+      "name": "technology.lemminx",
+      "github_id": "eclipse-lemminx"
+    },    
+    {
       "name": "technology.lsp4j",
       "github_id": "eclipse-lsp4j"
     },
