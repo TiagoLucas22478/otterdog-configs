@@ -395,6 +395,10 @@
       "github_id": "eclipse-henshin"
     },
     {
+      "name": "modeling.epsilon",
+      "github_id": "eclipse-epsilon"
+    },
+    {
       "name": "modeling.gemoc",
       "github_id": "eclipse-gemoc"
     },
