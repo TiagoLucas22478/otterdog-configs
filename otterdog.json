@@ -307,6 +307,10 @@
       "github_id": "eclipse-volttron"
     },
     {
+      "name": "iot.vorto",
+      "github_id": "eclipse-vorto"
+    },
+    {
       "name": "iot.wakaama",
       "github_id": "eclipse-wakaama"
     },
