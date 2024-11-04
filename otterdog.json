@@ -675,6 +675,10 @@
       "github_id": "eclipse-tea"
     },
     {
+      "name": "technology.tm4e",
+      "github_id": "eclipse-tm4e"
+    },    
+    {
       "name": "technology.tradista",
       "github_id": "eclipse-tradista"
     },
