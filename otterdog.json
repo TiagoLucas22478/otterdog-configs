@@ -631,6 +631,10 @@
       "github_id": "osgi"
     },
     {
+      "name": "technology.osgi-technology",
+      "github_id": "eclipse-osgi-technology"
+    },
+    {
       "name": "technology.packaging",
       "github_id": "eclipse-packaging"
     },
