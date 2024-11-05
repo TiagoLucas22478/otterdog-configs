@@ -559,6 +559,10 @@
       "github_id": "eclipse-edc"
     },
     {
+      "name": "technology.efbt",
+      "github_id": "eclipse-efbt"
+    },
+    {
       "name": "technology.efxclipse",
       "github_id": "eclipse-efx"
     },
