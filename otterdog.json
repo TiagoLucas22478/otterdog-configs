@@ -269,6 +269,10 @@
     {
       "name": "iot.kanto.canought",
       "github_id": "eclipse-canought"
+    }, 
+    {
+      "name": "iot.keti",
+      "github_id": "eclipse-keti"
     },
     {
       "name": "iot.keyple",
