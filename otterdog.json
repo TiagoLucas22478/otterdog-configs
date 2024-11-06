@@ -347,6 +347,10 @@
       "github_id": "eclipse-zenoh-flow"
     },
     {
+      "name": "modeling",
+      "github_id": "eclipse-modeling"
+    },
+    {
       "name": "modeling.acceleo",
       "github_id": "eclipse-acceleo"
     },
