@@ -799,6 +799,10 @@
       "github_id": "eclipse-pdt"
     },
     {
+      "name": "tools.shellwax",
+      "github_id": "eclipse-shellwax"
+    },
+    {
       "name": "tools.tracecompass",
       "github_id": "eclipse-tracecompass"
     },
@@ -837,10 +841,6 @@
     {
       "name": "webtools.servertools",
       "github_id": "eclipse-servertools"
-    },
-    {
-      "name": "tools.shellwax",
-      "github_id": "eclipse-shellwax"
     },
     {
       "name": "webtools.sourceediting",
