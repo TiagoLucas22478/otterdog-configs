@@ -287,6 +287,10 @@
       "github_id": "eclipse-leshan"
     },
     {
+      "name": "iot.mosquitto",
+      "github_id": "eclipse-mosquitto"
+    },
+    {
       "name": "iot.paho",
       "github_id": "eclipse-paho"
     },
@@ -601,7 +605,7 @@
     {
       "name": "technology.lemminx",
       "github_id": "eclipse-lemminx"
-    },    
+    },
     {
       "name": "technology.lsp4j",
       "github_id": "eclipse-lsp4j"
@@ -713,7 +717,7 @@
     {
       "name": "technology.tm4e",
       "github_id": "eclipse-tm4e"
-    },    
+    },
     {
       "name": "technology.tradista",
       "github_id": "eclipse-tradista"
@@ -749,6 +753,10 @@
     {
       "name": "tools.datatools",
       "github_id": "eclipse-datatools"
+    },
+    {
+      "name": "tools.gef",
+      "github_id": "eclipse-gef"
     },
     {
       "name": "tools.linuxtools",
@@ -821,14 +829,6 @@
     {
       "name": "webtools.webservices",
       "github_id": "eclipse-webservices"
-    },
-    {
-      "name": "iot.mosquitto",
-      "github_id": "eclipse-mosquitto"
-    },
-    {
-      "name": "tools.gef",
-      "github_id": "eclipse-gef"
     }
   ]
 }
