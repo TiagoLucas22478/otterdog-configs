@@ -451,6 +451,10 @@
       "github_id": "eclipse-capella"
     },
     {
+      "name": "polarsys.kitalpha",
+      "github_id": "eclipse-kitalpha"
+    },
+    {
       "name": "rt.gemini",
       "github_id": "eclipse-gemini"
     },
