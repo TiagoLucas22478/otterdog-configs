@@ -751,6 +751,10 @@
       "github_id": "eclipse-wattadvisor"
     },
     {
+      "name": "technology.xfsc",
+      "github_id": "eclipse-xfsc"
+    },
+    {
       "name": "technology.xpanse",
       "github_id": "eclipse-xpanse"
     },
