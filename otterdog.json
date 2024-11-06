@@ -78,6 +78,10 @@
       "github_id": "eclipse-openxilenv"
     },
     {
+      "name": "automotive.p3com",
+      "github_id": "eclipse-p3com"
+    },
+    {
       "name": "automotive.pullpiri",
       "github_id": "eclipse-pullpiri"
     },
