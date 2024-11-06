@@ -295,6 +295,10 @@
       "github_id": "eclipse-leshan"
     },
     {
+      "name": "iot.mita",
+      "github_id": "eclipse-mita"
+    },
+    {
       "name": "iot.mosquitto",
       "github_id": "eclipse-mosquitto"
     },
