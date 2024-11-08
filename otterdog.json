@@ -455,6 +455,10 @@
       "github_id": "eclipse-atl"
     },
     {
+      "name": "modeling.modisco",
+      "github_id": "eclipse-modisco"
+    },
+    {
       "name": "modeling.sirius",
       "github_id": "eclipse-sirius"
     },
