@@ -647,6 +647,10 @@
       "github_id": "eclipse-nattable"
     },
     {
+      "name": "technology.omr",
+      "github_id": "eclipse-omr"
+    },
+    {
       "name": "technology.openj9",
       "github_id": "eclipse-openj9"
     },
