@@ -455,6 +455,10 @@
       "github_id": "eclipse-atl"
     },
     {
+      "name": "modeling.mmt.qvtd",
+      "github_id": "eclipse-qvtd"
+    },
+    {
       "name": "modeling.modisco",
       "github_id": "eclipse-modisco"
     },
