@@ -86,6 +86,10 @@
       "github_id": "eclipse-pullpiri"
     },
     {
+      "name": "automotive.score",
+      "github_id": "eclipse-score"
+    },
+    {
       "name": "automotive.sdv-blueprints",
       "github_id": "eclipse-sdv-blueprints"
     },
