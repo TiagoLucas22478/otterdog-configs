@@ -885,6 +885,10 @@
     {
       "name": "automotive.ankaios.ankaios-dashboard",
       "github_id": "eclipse-ankaios-dashboard"
+    },
+    {
+      "name": "technology.rcptt",
+      "github_id": "eclipse-rcptt"
     }
   ]
 }
