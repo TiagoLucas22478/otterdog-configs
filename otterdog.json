@@ -551,6 +551,10 @@
       "github_id": "eclipse-cognicrypt"
     },
     {
+      "name": "technology.collections",
+      "github_id": "eclipse-collections"
+    },
+    {
       "name": "technology.corinthian",
       "github_id": "eclipse-corinthian"
     },
