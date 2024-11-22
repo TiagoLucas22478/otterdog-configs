@@ -303,6 +303,10 @@
       "github_id": "eclipse-leshan"
     },
     {
+      "name": "iot.milo",
+      "github_id": "eclipse-milo"
+    },
+    {
       "name": "iot.mita",
       "github_id": "eclipse-mita"
     },
