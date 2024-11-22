@@ -881,6 +881,10 @@
     {
       "name": "webtools.webservices",
       "github_id": "eclipse-webservices"
+    },
+    {
+      "name": "automotive.ankaios.ankaios-dashboard",
+      "github_id": "eclipse-ankaios-dashboard"
     }
   ]
 }
