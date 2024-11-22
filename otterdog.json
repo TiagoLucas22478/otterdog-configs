@@ -30,6 +30,10 @@
       "github_id": "eclipse-ankaios"
     },
     {
+      "name": "automotive.ankaios.ankaios-dashboard",
+      "github_id": "eclipse-ankaios-dashboard"
+    },
+    {
       "name": "automotive.bluechi",
       "github_id": "eclipse-bluechi"
     },
@@ -707,8 +711,16 @@
       "github_id": "eclipse-qrisp"
     },
     {
+      "name": "technology.rcptt",
+      "github_id": "eclipse-rcptt"
+    },
+    {
       "name": "technology.rdf4j",
       "github_id": "eclipse-rdf4j"
+    },
+    {
+      "name": "technology.repairnator",
+      "github_id": "eclipse-repairnator"
     },
     {
       "name": "technology.scava",
@@ -881,18 +893,6 @@
     {
       "name": "webtools.webservices",
       "github_id": "eclipse-webservices"
-    },
-    {
-      "name": "automotive.ankaios.ankaios-dashboard",
-      "github_id": "eclipse-ankaios-dashboard"
-    },
-    {
-      "name": "technology.rcptt",
-      "github_id": "eclipse-rcptt"
-    },
-    {
-      "name": "technology.repairnator",
-      "github_id": "eclipse-repairnator"
     }
   ]
 }
