@@ -889,6 +889,10 @@
     {
       "name": "technology.rcptt",
       "github_id": "eclipse-rcptt"
+    },
+    {
+      "name": "technology.repairnator",
+      "github_id": "eclipse-repairnator"
     }
   ]
 }
