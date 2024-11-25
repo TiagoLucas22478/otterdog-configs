@@ -467,6 +467,10 @@
       "github_id": "eclipse-atl"
     },
     {
+      "name": "modeling.mmt.qvt-oml",
+      "github_id": "eclipse-qvto"
+    },
+    {
       "name": "modeling.mmt.qvtd",
       "github_id": "eclipse-qvtd"
     },
