@@ -671,6 +671,10 @@
       "github_id": "eclipse-n4js"
     },
     {
+      "name": "technology.nebula",
+      "github_id": "eclipsenebula"
+    },
+    {
       "name": "technology.nebula.nattable",
       "github_id": "eclipse-nattable"
     },
