@@ -807,6 +807,10 @@
       "github_id": "eclipse-xpanse"
     },
     {
+      "name": "tools.acute",
+      "github_id": "eclipse-acute"
+    },
+    {
       "name": "tools.aspectj",
       "github_id": "eclipse-aspectj"
     },
