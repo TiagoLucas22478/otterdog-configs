@@ -905,6 +905,10 @@
     {
       "name": "webtools.webservices",
       "github_id": "eclipse-webservices"
+    },
+    {
+      "name": "modeling.tmf.xtext",
+      "github_id": "eclipse-xtext"
     }
   ]
 }
