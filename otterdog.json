@@ -435,6 +435,10 @@
       "github_id": "eclipse-epsilon"
     },
     {
+      "name": "modeling.fennec",
+      "github_id": "eclipse-fennec"
+    },
+    {
       "name": "modeling.gemoc",
       "github_id": "eclipse-gemoc"
     },
@@ -697,10 +701,6 @@
     {
       "name": "technology.osgi-technology",
       "github_id": "eclipse-osgi-technology"
-    },
-    {
-      "name": "technology.osgi-technology.fennec",
-      "github_id": "eclipse-fennec"
     },
     {
       "name": "technology.packaging",
