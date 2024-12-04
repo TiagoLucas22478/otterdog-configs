@@ -491,6 +491,10 @@
       "github_id": "eclipse-syson"
     },
     {
+      "name": "modeling.tmf.xtext",
+      "github_id": "eclipse-xtext"
+    },
+    {
       "name": "modeling.viatra",
       "github_id": "eclipse-viatra"
     },
@@ -909,10 +913,6 @@
     {
       "name": "webtools.webservices",
       "github_id": "eclipse-webservices"
-    },
-    {
-      "name": "modeling.tmf.xtext",
-      "github_id": "eclipse-xtext"
     }
   ]
 }
