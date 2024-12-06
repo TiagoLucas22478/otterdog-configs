@@ -823,6 +823,10 @@
       "github_id": "eclipse-aspectj"
     },
     {
+      "name": "tools.buildship",
+      "github_id": "eclipse-buildship"
+    },
+    {
       "name": "tools.cdt",
       "github_id": "eclipse-cdt"
     },
