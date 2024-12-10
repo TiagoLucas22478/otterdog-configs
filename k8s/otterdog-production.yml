@@ -30,7 +30,7 @@ spec:
             weight: 1
       containers:
       - name: app
-        image: ghcr.io/eclipse-csi/otterdog:0.9.0-SNAPSHOT
+        image: ghcr.io/eclipse-csi/otterdog:0.10.0-SNAPSHOT
         args:
         - ./start-webapp
         livenessProbe:
@@ -157,7 +157,7 @@ metadata:
   name: trigger-policy-check
   namespace: foundation-internal-security-otterdog
 spec:
-  schedule: "0 */1 * * *"
+  schedule: "*/5 * * * *"
   successfulJobsHistoryLimit: 1
   failedJobsHistoryLimit: 1
   jobTemplate:
