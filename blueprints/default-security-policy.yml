@@ -1,5 +1,5 @@
 id: default-security-policy
-name: Ensures a default SECURITY.md file exists
+name: Ensures that a default security policy exists
 description: |-
   This will add a default security policy to the `.github` repository of the project. The created PR can be edited as needed to adjust to the project's needs.
   If a repository defines a more specific SECURITY.md file it will take precedence over the one present in the `.github` repo.
