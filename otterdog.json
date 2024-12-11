@@ -663,6 +663,10 @@
       "github_id": "eclipse-lemminx"
     },
     {
+      "name": "technology.lmos",
+      "github_id": "eclipse-lmos"
+    },
+    {
       "name": "technology.lsp4e",
       "github_id": "eclipse-lsp4e"
     },
@@ -921,10 +925,6 @@
     {
       "name": "webtools.webservices",
       "github_id": "eclipse-webservices"
-    },
-    {
-      "name": "technology.lmos",
-      "github_id": "eclipse-lmos"
     }
   ]
 }

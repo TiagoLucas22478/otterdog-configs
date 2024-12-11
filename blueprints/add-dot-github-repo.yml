@@ -19,4 +19,3 @@ config:
     }
   reviewers:
     - "{{project_name}}-project-leads"
-    - "{{project_name}}-committers"
