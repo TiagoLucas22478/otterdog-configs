@@ -921,6 +921,10 @@
     {
       "name": "webtools.webservices",
       "github_id": "eclipse-webservices"
+    },
+    {
+      "name": "technology.lmos",
+      "github_id": "eclipse-lmos"
     }
   ]
 }
