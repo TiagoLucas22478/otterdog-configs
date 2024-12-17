@@ -933,6 +933,10 @@
     {
       "name": "technology.jnosql",
       "github_id": "eclipse-jnosql"
+    },
+    {
+      "name": "science.chemclipse",
+      "github_id": "eclipse-chemclipse"
     }
   ]
 }
