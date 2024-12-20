@@ -412,7 +412,14 @@
     },
     {
       "name": "modeling.emf.emf",
-      "github_id": "eclipse-emf"
+      "github_id": "eclipse-emf",
+      "credentials": {
+        "provider": "pass",
+        "username": "bots/modeling.emf/github.com/username",
+        "password": "bots/modeling.emf/github.com/password",
+        "twofa_seed": "bots/modeling.emf/github.com/2FA-seed",
+        "api_token": "bots/modeling.emf/github.com/otterdog-token"
+      }
     },
     {
       "name": "modeling.emfcompare",
