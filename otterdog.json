@@ -331,6 +331,10 @@
       "github_id": "eclipse-symphony"
     },
     {
+      "name": "iot.tahu",
+      "github_id": "eclipse-tahu"
+    },
+    {
       "name": "iot.thingweb",
       "github_id": "eclipse-thingweb"
     },
@@ -395,10 +399,6 @@
       "github_id": "eclipse-efm"
     },
     {
-      "name": "modeling.emf",
-      "github_id": "eclipse-emf"
-    },
-    {
       "name": "modeling.emf-parsley",
       "github_id": "eclipse-emf-parsley"
     },
@@ -409,6 +409,10 @@
     {
       "name": "modeling.emf.diffmerge",
       "github_id": "eclipse-diffmerge"
+    },
+    {
+      "name": "modeling.emf.emf",
+      "github_id": "eclipse-emf"
     },
     {
       "name": "modeling.emfcompare",
@@ -535,6 +539,10 @@
       "github_id": "eclipse-virgo"
     },
     {
+      "name": "science.chemclipse",
+      "github_id": "eclipse-chemclipse"
+    },
+    {
       "name": "science.january",
       "github_id": "eclipse-january"
     },
@@ -653,6 +661,10 @@
     {
       "name": "technology.jgit",
       "github_id": "eclipse-jgit"
+    },
+    {
+      "name": "technology.jnosql",
+      "github_id": "eclipse-jnosql"
     },
     {
       "name": "technology.justj",
@@ -925,18 +937,6 @@
     {
       "name": "webtools.webservices",
       "github_id": "eclipse-webservices"
-    },
-    {
-      "name": "iot.tahu",
-      "github_id": "eclipse-tahu"
-    },
-    {
-      "name": "technology.jnosql",
-      "github_id": "eclipse-jnosql"
-    },
-    {
-      "name": "science.chemclipse",
-      "github_id": "eclipse-chemclipse"
     }
   ]
 }
