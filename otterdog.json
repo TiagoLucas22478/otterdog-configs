@@ -660,10 +660,6 @@
       "github_id": "eclipse-egit"
     },
     {
-      "name": "technology.jifa",
-      "github_id": "eclipse-jifa"
-    },
-    {
       "name": "technology.handly",
       "github_id": "eclipse-handly"
     },
@@ -678,6 +674,10 @@
     {
       "name": "technology.jgit",
       "github_id": "eclipse-jgit"
+    },
+    {
+      "name": "technology.jifa",
+      "github_id": "eclipse-jifa"
     },
     {
       "name": "technology.jnosql",
