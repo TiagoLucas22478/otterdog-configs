@@ -504,6 +504,10 @@
       "github_id": "eclipse-modisco"
     },
     {
+      "name": "modeling.poosl",
+      "github_id": "eclipse-poosl"
+    },
+    {
       "name": "modeling.sirius",
       "github_id": "eclipse-sirius"
     },
