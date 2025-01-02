@@ -664,6 +664,10 @@
       "github_id": "eclipse-egit"
     },
     {
+      "name": "technology.furo",
+      "github_id": "eclipse-furo"
+    },
+    {
       "name": "technology.handly",
       "github_id": "eclipse-handly"
     },
