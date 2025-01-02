@@ -409,6 +409,10 @@
       "github_id": "eclipse-efm"
     },
     {
+      "name": "modeling.elk",
+      "github_id": "eclipse-elk"
+    },
+    {
       "name": "modeling.emf-parsley",
       "github_id": "eclipse-emf-parsley"
     },
