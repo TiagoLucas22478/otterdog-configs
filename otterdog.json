@@ -660,6 +660,10 @@
       "github_id": "eclipse-egit"
     },
     {
+      "name": "technology.jifa",
+      "github_id": "eclipse-jifa"
+    },
+    {
       "name": "technology.handly",
       "github_id": "eclipse-handly"
     },
