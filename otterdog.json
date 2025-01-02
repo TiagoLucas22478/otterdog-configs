@@ -428,6 +428,10 @@
       }
     },
     {
+      "name": "modeling.emf.mwe",
+      "github_id": "eclipse-mwe"
+    },
+    {
       "name": "modeling.emfcompare",
       "github_id": "eclipse-emf-compare"
     },
