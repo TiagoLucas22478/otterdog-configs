@@ -241,6 +241,10 @@
       "github_id": "eclipse-agail"
     },
     {
+      "name": "iot.amlen",
+      "github_id": "eclipse-amlen"
+    },
+    {
       "name": "iot.arrowhead",
       "github_id": "eclipse-arrowhead"
     },
