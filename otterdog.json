@@ -172,6 +172,10 @@
       "github_id": "eclipse-che4z"
     },
     {
+      "name": "ecd.dirigible",
+      "github_id": "eclipse-dirigible"
+    },
+    {
       "name": "ecd.emfcloud",
       "github_id": "eclipse-emfcloud"
     },
