@@ -864,6 +864,10 @@
       "github_id": "eclipse-uomo"
     },
     {
+      "name": "technology.quneiform",
+      "github_id": "eclipse-quneiform"
+    },
+    {
       "name": "technology.wattadvisor",
       "github_id": "eclipse-wattadvisor"
     },
