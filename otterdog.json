@@ -22,7 +22,7 @@
       "api_token_pattern": "bots/{0}/github.com/otterdog-token"
     },
     "jsonnet": {
-      "base_template": "https://github.com/EclipseFdn/otterdog-defaults#otterdog-defaults.libsonnet@v0.13.0",
+      "base_template": "https://github.com/EclipseFdn/otterdog-defaults#otterdog-defaults.libsonnet@v0.13.1",
       "config_dir": "orgs"
     }
   },
@@ -788,6 +788,10 @@
       "github_id": "eclipse-qrisp"
     },
     {
+      "name": "technology.quneiform",
+      "github_id": "eclipse-quneiform"
+    },
+    {
       "name": "technology.rcptt",
       "github_id": "eclipse-rcptt"
     },
@@ -862,10 +866,6 @@
     {
       "name": "technology.uomo",
       "github_id": "eclipse-uomo"
-    },
-    {
-      "name": "technology.quneiform",
-      "github_id": "eclipse-quneiform"
     },
     {
       "name": "technology.wattadvisor",
