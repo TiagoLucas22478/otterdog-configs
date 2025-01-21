@@ -293,6 +293,10 @@
       "github_id": "eclipse-kanto"
     },
     {
+      "name": "iot.kapua",
+      "github_id": "eclipse-kapua"
+    },
+    {
       "name": "iot.kanto.canought",
       "github_id": "eclipse-canought"
     },
