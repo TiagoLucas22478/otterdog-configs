@@ -982,6 +982,10 @@
     {
       "name": "webtools.webservices",
       "github_id": "eclipse-webservices"
+    },
+    {
+      "name": "automotive.adore",
+      "github_id": "eclipse-adore"
     }
   ]
 }
