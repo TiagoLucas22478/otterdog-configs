@@ -588,6 +588,10 @@
       "github_id": "eclipse-texlipse"
     },
     {
+      "name": "science.xacc",
+      "github_id": "eclipse-xacc"
+    },
+    {
       "name": "technology.actf",
       "github_id": "eclipse-actf"
     },
