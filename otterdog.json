@@ -990,6 +990,10 @@
      {
       "name": "technology.lsp4jakarta",
       "github_id": "eclipse-lsp4jakarta"
+    },
+    {
+      "name": "modeling.agileuml",
+      "github_id": "eclipse-agileuml"
     }
   ]
 }
