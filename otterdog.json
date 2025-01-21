@@ -84,6 +84,10 @@
       "github_id": "eclipse-opendut"
     },
     {
+      "name": "automotive.openmcx",
+      "github_id": "eclipse-openmcx"
+    },
+    {
       "name": "automotive.openxilenv",
       "github_id": "eclipse-openxilenv"
     },
