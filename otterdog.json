@@ -986,6 +986,10 @@
     {
       "name": "automotive.adore",
       "github_id": "eclipse-adore"
+    },
+     {
+      "name": "technology.lsp4jakarta",
+      "github_id": "eclipse-lsp4jakarta"
     }
   ]
 }
