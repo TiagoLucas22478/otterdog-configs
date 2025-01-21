@@ -994,6 +994,10 @@
     {
       "name": "modeling.agileuml",
       "github_id": "eclipse-agileuml"
+    },
+    {
+      "name": "iot.diafanis",
+      "github_id": "eclipse-diafanis"
     }
   ]
 }
