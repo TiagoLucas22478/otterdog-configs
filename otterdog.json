@@ -365,6 +365,10 @@
       "github_id": "eclipse-threadx"
     },
     {
+      "name": "iot.tinydtls",
+      "github_id": "eclipse-tinydtls"
+    },
+    {
       "name": "iot.tocandira",
       "github_id": "eclipse-tocandira"
     },
