@@ -708,6 +708,10 @@
       "github_id": "eclipse-iottestware"
     },
     {
+      "name": "technology.jbom",
+      "github_id": "eclipse-jbom"
+    },
+    {
       "name": "technology.jgit",
       "github_id": "eclipse-jgit"
     },
