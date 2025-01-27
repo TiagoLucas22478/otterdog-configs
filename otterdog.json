@@ -141,6 +141,10 @@
       "github_id": "eclipse-aaspe"
     },
     {
+      "name": "dt.aasportal",
+      "github_id": "eclipse-aasportal"
+    },
+    {
       "name": "dt.aaswc",
       "github_id": "eclipse-aaswc"
     },
