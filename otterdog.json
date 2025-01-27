@@ -1022,6 +1022,10 @@
     {
       "name": "iot.diafanis",
       "github_id": "eclipse-diafanis"
+    },
+    {
+      "name": "technology.imagen",
+      "github_id": "eclipse-imagen"
     }
   ]
 }
