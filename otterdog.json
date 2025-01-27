@@ -553,6 +553,10 @@
       "github_id": "eclipse-viatra"
     },
     {
+      "name": "modeling.xsemantics",
+      "github_id": "eclipse-xsemantics"
+    },
+    {
       "name": "oniro.oniro4openharmony",
       "github_id": "eclipse-oniro4openharmony"
     },
