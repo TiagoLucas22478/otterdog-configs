@@ -1026,6 +1026,10 @@
     {
       "name": "technology.imagen",
       "github_id": "eclipse-imagen"
+    },
+    {
+      "name": "iot.streamsheets",
+      "github_id": "eclipse-streamsheets"
     }
   ]
 }
