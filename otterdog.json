@@ -1043,6 +1043,10 @@
     {
       "name": "iot.streamsheets",
       "github_id": "eclipse-streamsheets"
+    },
+    {
+      "name": "technology.microprofile",
+      "github_id": "microprofile"
     }
   ]
 }
