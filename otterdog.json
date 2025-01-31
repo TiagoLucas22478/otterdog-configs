@@ -1047,6 +1047,10 @@
     {
       "name": "technology.microprofile",
       "github_id": "microprofile"
+    },
+    {
+      "name": "modeling.xsm",
+      "github_id": "eclipse-xsm"
     }
   ]
 }
