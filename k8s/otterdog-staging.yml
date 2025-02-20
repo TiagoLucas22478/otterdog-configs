@@ -1,22 +1,22 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: otterdog
+  name: otterdog-staging
   namespace: foundation-internal-security-otterdog
   labels:
     app: otterdog
-    environment: production
+    environment: staging
 spec:
   selector:
     matchLabels:
       app: otterdog
-      environment: production
+      environment: staging
   replicas: 1
   template:
     metadata:
       labels:
         app: otterdog
-        environment: production
+        environment: staging
     spec:
       affinity:
         nodeAffinity:
@@ -30,7 +30,7 @@ spec:
             weight: 1
       containers:
       - name: app
-        image: ghcr.io/eclipse-csi/otterdog:0.11.0
+        image: ghcr.io/eclipse-csi/otterdog:0.11.0-SNAPSHOT
         args:
         - ./start-webapp
         livenessProbe:
@@ -64,25 +64,25 @@ spec:
       - name: wait-for-services
         image: busybox
         command: ["/bin/sh", "-c"]
-        args: ["until echo 'Waiting for mongodb...' && nc -vz -w 2 mongodb 27017 && echo 'Waiting for redis...' && nc -vz -w 2 redis 6379 && echo 'Waiting for ghproxy...' && nc -vz -w 2 ghproxy 8888; do echo 'Looping forever...'; sleep 2; done;"]
+        args: ["until echo 'Waiting for mongodb...' && nc -vz -w 2 mongodb-staging 27017 && echo 'Waiting for redis...' && nc -vz -w 2 redis-staging 6379 && echo 'Waiting for ghproxy...' && nc -vz -w 2 ghproxy-staging 8888; do echo 'Looping forever...'; sleep 2; done;"]
 
       volumes:
       - name: config
         configMap:
-          name: otterdog-prod-env
+          name: otterdog-staging-env
           items:
             - key: "env"
               path: ".env"
       - name: github-app-key
         secret:
-          secretName: otterdog-prod-secrets
+          secretName: otterdog-staging-secrets
       - emptyDir: { }
         name: work
 ---
 apiVersion: "v1"
 kind: "Service"
 metadata:
-  name: otterdog
+  name: otterdog-staging
   namespace: foundation-internal-security-otterdog
 spec:
   ports:
@@ -92,19 +92,19 @@ spec:
     targetPort: 5000
   selector:
     app: otterdog
-    environment: production
+    environment: staging
 ---
 apiVersion: "route.openshift.io/v1"
 kind: "Route"
 metadata:
-  name: otterdog
+  name: otterdog-staging
   namespace: foundation-internal-security-otterdog
   annotations:
     haproxy.router.openshift.io/timeout: 20s
     haproxy.router.openshift.io/disable_cookies: "true"
     haproxy.router.openshift.io/balance: roundrobin
 spec:
-  host: "otterdog.eclipse.org"
+  host: "otterdog-staging.eclipse.org"
   path: "/"
   port:
     targetPort: "http"
@@ -113,18 +113,18 @@ spec:
     termination: "edge"
   to:
     kind: "Service"
-    name: otterdog
+    name: otterdog-staging
     weight: 100
 ---
 apiVersion: "route.openshift.io/v1"
 kind: "Route"
 metadata:
-  name: otterdog-protect-init
+  name: otterdog-protect-init-staging
   namespace: foundation-internal-security-otterdog
   annotations:
     haproxy.router.openshift.io/ip_whitelist: 127.0.0.1
 spec:
-  host: "otterdog.eclipse.org"
+  host: "otterdog-staging.eclipse.org"
   path: "/internal/"
   port:
     targetPort: "http"
@@ -133,28 +133,28 @@ spec:
     termination: "edge"
   to:
     kind: "Service"
-    name: otterdog
+    name: otterdog-staging
     weight: 100
 ---
 apiVersion: batch/v1
 kind: Job
 metadata:
-  name: init-webapp
+  name: init-webapp-staging
   namespace: foundation-internal-security-otterdog
 spec:
   template:
     spec:
       containers:
-        - name: init-webapp
+        - name: init-webapp-staging
           image: ghcr.io/eclipse-csi/otterdog:0.11.0-SNAPSHOT
-          command: [ "/bin/bash", "/app/init-webapp", "otterdog", "80" ]
+          command: [ "/bin/bash", "/app/init-webapp", "otterdog-staging", "80" ]
       restartPolicy: Never
   backoffLimit: 4
 ---
 apiVersion: batch/v1
 kind: CronJob
 metadata:
-  name: trigger-policy-check
+  name: trigger-policy-check-staging
   namespace: foundation-internal-security-otterdog
 spec:
   schedule: "*/5 * * * *"
@@ -171,5 +171,5 @@ spec:
             command:
             - /bin/sh
             - -c
-            - curl -I http://otterdog:80/internal/check/10
+            - curl -I http://otterdog-staging:80/internal/check/10
           restartPolicy: Never
