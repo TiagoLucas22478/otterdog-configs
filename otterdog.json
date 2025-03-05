@@ -577,6 +577,10 @@
       "github_id": "eclipse-kitalpha"
     },
     {
+      "name": "rt.ecf",
+      "github_id": "eclipse-ecf"
+    },
+    {
       "name": "rt.gemini",
       "github_id": "eclipse-gemini"
     },
