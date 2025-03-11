@@ -1055,6 +1055,10 @@
     {
       "name": "modeling.xsm",
       "github_id": "eclipse-xsm"
+    },
+    {
+      "name": "automotive.mosaic",
+      "github_id": "eclipse-mosaic"
     }
   ]
 }
