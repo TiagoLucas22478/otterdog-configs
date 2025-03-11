@@ -1059,6 +1059,10 @@
     {
       "name": "automotive.mosaic",
       "github_id": "eclipse-mosaic"
+    },
+    {
+      "name": "iot.oneofour",
+      "github_id": "eclipse-oneofour"
     }
   ]
 }
