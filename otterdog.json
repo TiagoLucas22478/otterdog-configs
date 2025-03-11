@@ -1049,6 +1049,10 @@
       "github_id": "eclipse-diafanis"
     },
     {
+      "name": "iot.upm",
+      "github_id": "eclipse-upm"
+    },
+    {
       "name": "technology.imagen",
       "github_id": "eclipse-imagen"
     },
