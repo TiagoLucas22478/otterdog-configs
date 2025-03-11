@@ -613,6 +613,10 @@
       "github_id": "eclipse-january"
     },
     {
+      "name": "science.richbeans",
+      "github_id": "eclipse-richbeans"
+    },
+    {
       "name": "science.texlipse",
       "github_id": "eclipse-texlipse"
     },
