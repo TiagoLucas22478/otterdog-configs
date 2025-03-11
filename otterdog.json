@@ -873,6 +873,10 @@
       "github_id": "eclipse-sisu"
     },
     {
+      "name": "technology.steady",
+      "github_id": "eclipse-steady"
+    },
+    {
       "name": "technology.store",
       "github_id": "eclipse-store"
     },
