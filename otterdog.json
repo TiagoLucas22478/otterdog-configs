@@ -665,6 +665,10 @@
       "github_id": "eclipse-corinthian"
     },
     {
+      "name": "technology.crp",
+      "github_id": "eclipse-crp"
+    },
+    {
       "name": "technology.csi",
       "github_id": "eclipse-csi"
     },
