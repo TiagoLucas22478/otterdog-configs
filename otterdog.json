@@ -109,6 +109,10 @@
       "github_id": "eclipse-sdv-blueprints"
     },
     {
+      "name": "automotive.sdv-lvl",
+      "github_id": "eclipse-sdv-lvl"
+    },
+    {
       "name": "automotive.sommr",
       "github_id": "eclipse-sommr"
     },
