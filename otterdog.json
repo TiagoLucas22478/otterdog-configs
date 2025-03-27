@@ -1091,6 +1091,10 @@
     {
       "name": "iot.oneofour",
       "github_id": "eclipse-oneofour"
+    },
+    {
+      "name": "wg.orcwg",
+      "github_id": "orcwg"
     }
   ]
 }
