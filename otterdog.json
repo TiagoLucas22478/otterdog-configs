@@ -1095,6 +1095,10 @@
     {
       "name": "wg.orcwg",
       "github_id": "orcwg"
+    },
+    {
+      "name": "technology.sealman",
+      "github_id": "eclipse-sealman"
     }
   ]
 }
