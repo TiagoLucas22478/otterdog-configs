@@ -254,6 +254,10 @@
       "base_template": "https://github.com/EclipseFdn/otterdog-defaults#otterdog-defaults.libsonnet@foundation-internal"
     },
     {
+      "name": "foundation-internal.wg.orc",
+      "github_id": "orcwg"
+    },
+    {
       "name": "iot.4diac",
       "github_id": "eclipse-4diac"
     },
@@ -1091,10 +1095,6 @@
     {
       "name": "iot.oneofour",
       "github_id": "eclipse-oneofour"
-    },
-    {
-      "name": "wg.orcwg",
-      "github_id": "orcwg"
     },
     {
       "name": "technology.sealman",
