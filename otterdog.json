@@ -653,6 +653,10 @@
       "github_id": "eclipse-birt"
     },
     {
+      "name": "technology.biscuit",
+      "github_id": "eclipse-biscuit"
+    },
+    {
       "name": "technology.cbi",
       "github_id": "eclipse-cbi"
     },
