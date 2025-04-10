@@ -793,6 +793,10 @@
       "github_id": "eclipse-lsp4j"
     },
     {
+      "name": "technology.lsp4mp",
+      "github_id": "eclipse-lsp4mp"
+    },
+    {
       "name": "technology.lyo",
       "github_id": "eclipse-lyo"
     },
