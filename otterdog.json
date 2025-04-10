@@ -1073,6 +1073,10 @@
       "github_id": "eclipse-agileuml"
     },
     {
+      "name": "modeling.amalgam",
+      "github_id": "eclipse-amalgam"
+    },
+    {
       "name": "iot.diafanis",
       "github_id": "eclipse-diafanis"
     },
