@@ -933,6 +933,10 @@
       "github_id": "eclipse-tradista"
     },
     {
+      "name": "technology.transformer",
+      "github_id": "eclipse-transformer"
+    },
+    {
       "name": "technology.tycho",
       "github_id": "eclipse-tycho"
     },
