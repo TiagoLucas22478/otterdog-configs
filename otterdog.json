@@ -1115,6 +1115,10 @@
     {
       "name": "technology.sealman",
       "github_id": "eclipse-sealman"
+    },
+    {
+      "name": "technology.ers",
+      "github_id": "eclipse-ers"
     }
   ]
 }
