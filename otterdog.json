@@ -1119,6 +1119,10 @@
     {
       "name": "technology.ers",
       "github_id": "eclipse-ers"
+    },
+    {
+      "name": "iot.oscat",
+      "github_id": "eclipse-oscat"
     }
   ]
 }
