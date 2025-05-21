@@ -254,6 +254,10 @@
       "base_template": "https://github.com/EclipseFdn/otterdog-defaults#otterdog-defaults.libsonnet@foundation-internal"
     },
     {
+      "name": "foundation-internal.sig.rust",
+      "github_id": "eclipse-rust"
+    },
+    {
       "name": "foundation-internal.wg.orc",
       "github_id": "orcwg"
     },
