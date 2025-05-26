@@ -1025,6 +1025,10 @@
       "github_id": "eclipse-tracecompass-incubator"
     },
     {
+      "name": "tools.tracecompass.tmll",
+      "github_id": "eclipse-tmll"
+    },
+    {
       "name": "tools.wildwebdeveloper",
       "github_id": "eclipse-wildwebdeveloper"
     },
