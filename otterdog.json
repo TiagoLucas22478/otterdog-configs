@@ -637,6 +637,10 @@
       "github_id": "eclipse-scanning"
     },
     {
+      "name": "science.swtchart",
+      "github_id": "eclipse-swtchart"
+    },
+    {
       "name": "science.texlipse",
       "github_id": "eclipse-texlipse"
     },
