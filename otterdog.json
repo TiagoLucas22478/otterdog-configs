@@ -213,6 +213,10 @@
       "github_id": "eclipse-opensmartclide"
     },
     {
+      "name": "ecd.oct",
+      "github_id": "eclipse-oct"
+    },
+    {
       "name": "ecd.sprotty",
       "github_id": "eclipse-sprotty"
     },
