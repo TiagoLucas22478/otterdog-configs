@@ -701,6 +701,10 @@
       "github_id": "eclipse-dash"
     },
     {
+      "name": "technology.datagrid",
+      "github_id": "eclipse-datagrid"
+    },    
+    {
       "name": "technology.dataspace-cap",
       "github_id": "eclipse-dataspace-cap"
     },
