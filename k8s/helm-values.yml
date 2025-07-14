@@ -155,7 +155,7 @@ autoscaling:
   # targetMemoryUtilizationPercentage: 80
 
 # Additional volumes on the output Deployment definition.
-volumes: []
+volumes:
   - name: app-key
     secret:
       secretName: app-private-key
