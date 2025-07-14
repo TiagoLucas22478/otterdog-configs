@@ -156,16 +156,16 @@ autoscaling:
 
 # Additional volumes on the output Deployment definition.
 volumes: []
-# - name: foo
-#   secret:
-#     secretName: mysecret
-#     optional: false
+  - name: app-key
+    secret:
+      secretName: otterdog-app-key
+      optional: false
 
 # Additional volumeMounts on the output Deployment definition.
-volumeMounts: []
-# - name: foo
-#   mountPath: "/etc/foo"
-#   readOnly: true
+volumeMounts:
+  - name: app-key
+    mountPath: "/run/secrets/app-private-key"
+    readOnly: true
 
 nodeSelector: {}
 
